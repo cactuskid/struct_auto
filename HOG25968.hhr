@@ -3,7 +3,7 @@ Match_columns 1284
 No_of_seqs    30 out of 56
 Neff          2.20344
 Searched_HMMs 739
-Date          Wed Mar  4 09:53:11 2020
+Date          Fri Mar  6 11:06:14 2020
 Command       hhblits -cpu 8 -d /home/cactuskid13/mntpt/HHBLITsdb/pdb70/pdb70 -i ./HOG25968.1.aln -o ./HOG25968.hhr -n 1 -B 2000 -Z 2000 
 
  No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
@@ -32,8 +32,8 @@ Command       hhblits -cpu 8 -d /home/cactuskid13/mntpt/HHBLITsdb/pdb70/pdb70 -i
  23 1UL1_X Flap endonuclease-1/Pro  99.4 1.1E-17 1.5E-21  171.3   0.0  176  364-551     1-187 (379)
  24 3Q8L_A Flap endonuclease 1 (E.  99.4 1.4E-17   2E-21  164.8   0.0  175  364-550     1-186 (341)
  25 3TTC_A Transcriptional regulat  99.4 4.4E-17 5.3E-21  180.5   0.0  270   14-317   303-649 (657)
- 26 4G9I_F Hydrogenase maturation   99.3 1.3E-16 1.6E-20  179.7   0.0  226   82-318   452-758 (772)
- 27 4G9I_A Hydrogenase maturation   99.3 1.3E-16 1.6E-20  179.7   0.0  226   82-318   452-758 (772)
+ 26 4G9I_A Hydrogenase maturation   99.3 1.3E-16 1.6E-20  179.7   0.0  226   82-318   452-758 (772)
+ 27 4G9I_F Hydrogenase maturation   99.3 1.3E-16 1.6E-20  179.7   0.0  226   82-318   452-758 (772)
  28 1UL1_Z Flap endonuclease-1/Pro  99.3 2.1E-16 2.8E-20  161.7   0.0  176  364-551     1-187 (379)
  29 3TTD_A Transcriptional regulat  99.2 4.8E-16 5.8E-20  171.9   0.0  270   14-317   303-649 (658)
  30 4Q0W_B DNA repair protein RAD2  99.2 4.3E-16 5.9E-20  156.1   0.0  171  364-549     1-199 (365)
@@ -51,8 +51,8 @@ Command       hhblits -cpu 8 -d /home/cactuskid13/mntpt/HHBLITsdb/pdb70/pdb70 -i
  42 2IZO_A FLAP STRUCTURE-SPECIFIC  98.6 3.7E-12   5E-16  126.4   0.0  157  382-550    14-178 (346)
  43 1BGX_T TAQ DNA POLYMERASE, TP7  98.5 1.2E-11 1.6E-15  136.1   0.0  139  379-550     5-150 (832)
  44 3R6M_A YeaZ, resuscitation pro  98.4 3.9E-11 4.9E-15  114.6   0.0  121   15-150     3-123 (213)
- 45 3ZDB_A PROTEIN XNI (E.C.3.1.-.  98.3 7.9E-11 1.1E-14  111.2   0.0  126  386-550     3-135 (251)
- 46 3ZD9_A PROTEIN XNI (E.C.3.1.-.  98.3 7.9E-11 1.1E-14  111.2   0.0  126  386-550     3-135 (251)
+ 45 3ZD9_A PROTEIN XNI (E.C.3.1.-.  98.3 7.9E-11 1.1E-14  111.2   0.0  126  386-550     3-135 (251)
+ 46 3ZDB_A PROTEIN XNI (E.C.3.1.-.  98.3 7.9E-11 1.1E-14  111.2   0.0  126  386-550     3-135 (251)
  47 3ZD8_B PROTEIN XNI (E.C.3.1.-.  98.3 8.2E-11 1.1E-14  111.1   0.0  126  386-550     3-135 (251)
  48 5BR9_C Uncharacterized protein  98.2 2.3E-10 2.9E-14  111.2   0.0  106   11-130     7-112 (234)
  49 5BR9_A Uncharacterized protein  98.2 2.3E-10 2.9E-14  111.2   0.0  106   11-130     7-112 (234)
@@ -64,8 +64,8 @@ Command       hhblits -cpu 8 -d /home/cactuskid13/mntpt/HHBLITsdb/pdb70/pdb70 -i
  55 5JIC_A TYPE II PANTOTHENATE KI  97.7 1.7E-08 2.3E-12   96.6   0.0  183   82-290    43-242 (273)
  56 2A6A_B hypothetical protein TM  97.4 1.3E-07 1.5E-11   91.8   0.0  112   21-150    19-130 (218)
  57 3H7I_A Ribonuclease H (E.C.3.1  97.2 2.8E-07 3.5E-11   91.9   0.0  138  383-550    10-163 (305)
- 58 4BGB_B PUTATIVE SUGAR KINASE M  97.1 4.9E-07 5.9E-11   91.5   0.0  253   13-290     4-281 (325)
- 59 4BGA_C PREDICTED MOLECULAR CHA  97.1 4.9E-07 5.9E-11   91.5   0.0  253   13-290     4-281 (325)
+ 58 4BGA_C PREDICTED MOLECULAR CHA  97.1 4.9E-07 5.9E-11   91.5   0.0  253   13-290     4-281 (325)
+ 59 4BGB_B PUTATIVE SUGAR KINASE M  97.1 4.9E-07 5.9E-11   91.5   0.0  253   13-290     4-281 (325)
  60 4EHU_A Activator of 2-hydroxyi  96.4 8.3E-06 1.2E-09   74.6   0.0  225   15-289     2-230 (276)
  61 5E26_B Pantothenate kinase 2,   84.2   0.058 7.3E-06   53.3   0.0  136  138-286   181-332 (365)
  62 2MDT_A Putative uncharacterize  42.4     2.7 0.00026   37.6   0.0   74  457-544    12-89  (119)
@@ -1113,50 +1113,6 @@ Confidence            999998888999999999999999999999887  57788888999999999999876
 
 
 No 26
->4G9I_F Hydrogenase maturation protein HypF; Zinc finger, Hydrogenase maturation, ATP; HET: MSE, ZN; 4.5A {Thermococcus kodakarensis}
-Probab=99.31  E-value=1.3e-16  Score=179.65  Aligned_cols=226  Identities=0%  Similarity=0.000  Sum_probs=174.1  Template_Neff=7.600
-
-Q snap_masked-jc    1 --------------------------------------------------------------------------------    0 (705)
-Q Consensus        82 elda~aytkgpgmgapll~va~vartl~qlwnkpligvnhciahiemgrlitga~sp~~lyvsg---gn-----------  147 (1284)
-                      +.|+||++.+||+...     -.|+.|+..|++|+|+|+|-.||+-.-..=.+-..-+.|+++|   |.           
-T Consensus       452 ~p~~ia~d~hP~y~s~-----~~A~~l~~~~~~pli~VqHh~AH~~s~~aE~~~~p~lgl~~DGtG~G~dg~iwGGe~l~  526 (772)
-T 4G9I_F          452 NLDLIIADLHPAYNTT-----KLAMEMANELDVELLQVQHHYAHIASVMAEKNLDSVIGIALDGVGYGTDGNTWGGEVLY  526 (772)
-T ss_dssp             CSSCEEEESCTTCHHH-----HHHHHHHTTTTCCCCEECSHHHHHHHHHHHSCCCSCEEEEEEEEECCTTTCEEEEEEEE
-T ss_pred             CCCEEEEeCCCCchHH-----HHHHHHHHHcCCcEEEEeHHHHHHHHHHHhcCCCCEEEEEEeccccCCCCCcccceEEE
-Confidence            7899999999999773     6788888889999999999999986544322222334566776   21           
-
-
-Q snap_masked-jc    1 --------------------------------------------------------------------------------    0 (705)
-Q Consensus       148 -----------------------------------------tq~i--------------~f~sgryrifgeti-------  165 (1284)
-                                                               ++..              .+....+++.++++       
-T Consensus       527 ~~~~~~~R~~~l~~~~lpGgd~a~~~p~r~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~l~~~~n~~  606 (772)
-T 4G9I_F          527 LGYEDVERLAHIDYYPLPGGDLASYYPLRALMGILSKVYSIDELEGVINRCCPKAVESLKYGKVEFNVVLNQLAKGINTA  606 (772)
-T ss_dssp             CCSSSCEEEEEECCEEESTTTHHHHSTHHHHHHHHHTTSCTTHHHHHHTTSCCGGGGGTTSCSTTTTTTHHHHHSCCSCE
-T ss_pred             ecccceEEEeecccCCCCCCchhhccHHHHHHHHHHHhcCchhhhhhhhhcCchhHhhccCChHHHHHHHHHHHcCCCCc
-Confidence                                                     2211              11135777888655       
-
-
-Q snap_masked-jc    1 --------------------------------------------------------------------------------    0 (705)
-Q Consensus       166 -dialgnc~drfarivnlsnd----pspgyn~e~la~~gskffelpy~vkgmdvsfaglls~le~r~~~ll~sgeytv~d  240 (1284)
-                       |.+.|.+||..|+++++..+    ..++--+|.+|.++.+.+..|...++.++++..++..+-+.   +   .....+|
-T Consensus       607 ~~sS~GrlfD~vA~lLGl~~~~~yeg~aa~~LE~lA~~~~~~~~~~~~~~~~~~~~~~~i~~l~~~---~---~~~~~~~  680 (772)
-T 4G9I_F          607 YASSTGRVLDAIAVLLNVAYRRHYEGEPAMKLESFAFKGKNDLKFEVPVEGELIRVEELFQSILEA---I---EGASPAD  680 (772)
-T ss_dssp             EEECHHHHHHHHHHSSSSCCSCCSSSSHHHHHHHHHTTCCSCCCCCCCEETTEECHHHHHHHHHHT---T---TTSCHHH
-T ss_pred             ccccHHHHHHHHHHHcCCCcccCCCCcHHHHHHHHHhcCCCCCCCccccCCeEEehHHHHHHHHHH---h---cCCCHHH
-Confidence             67899999999999999854    33446889999998764323444556666655555443332   1   4578999
-
-
-Q snap_masked-jc    1 ------------------------------------------------------------------------------    0 (705)
-Q Consensus       241 lcfs~qet~famvveiteramah~~~~evl~vg~vg~n~rlqemm~~maeerga~lfatderfcidngam~~~~~clm  318 (1284)
-                      +++++|++++.++++++++++.+.+.+.|.+.|||-.|..|.+++.++.+++|.+++-.....|.|||+|+++....+
-T Consensus       681 IAa~f~~ala~~i~~~~~~~~~~~~~~~VvLsGGVf~N~~L~~~l~~~l~~~g~~v~~~~~~p~~D~giaiGqA~~a~  758 (772)
-T 4G9I_F          681 IAYSAHLALARAFAHTAVERAREFGVKNVALSGGVAYNELITKMIRKVVEANGLNFHVTTEVPRGDNGVNVGQAFLGG  758 (772)
-T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTCSCCCCBSGGGSCTTTTTHHHHGGGGSSCCCCCCSSSBSSGGGHHHHHHHHHH
-T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHCCCeEEEeCcHHHHHHHHHHHHHHHHHCCCeEEEcCCCCCCcHHHHHHHHHHHH
-Confidence            999999999999999999999888899999999999999999999999888898998888899999999998876533
-
-
-No 27
 >4G9I_A Hydrogenase maturation protein HypF; Zinc finger, Hydrogenase maturation, ATP; HET: ZN, MSE; 4.5A {Thermococcus kodakarensis}
 Probab=99.31  E-value=1.3e-16  Score=179.65  Aligned_cols=226  Identities=0%  Similarity=0.000  Sum_probs=174.1  Template_Neff=7.600
 
@@ -1196,6 +1152,50 @@ Q Consensus       241 lcfs~qet~famvveiteramah~~~~evl~vg~vg~n~rlqemm~~maeerga~lfa
 T Consensus       681 IAa~f~~ala~~i~~~~~~~~~~~~~~~VvLsGGVf~N~~L~~~l~~~l~~~g~~v~~~~~~p~~D~giaiGqA~~a~  758 (772)
 T 4G9I_A          681 IAYSAHLALARAFAHTAVERAREFGVKNVALSGGVAYNELITKMIRKVVEANGLNFHVTTEVPRGDNGVNVGQAFLGG  758 (772)
 T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTTTCSCCCEESSTTCCHHHHHHHHHHGGGSSCCCCCCTTSCSSGGGHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHCCCeEEEeCcHHHHHHHHHHHHHHHHHCCCeEEEcCCCCCCcHHHHHHHHHHHH
+Confidence            999999999999999999999888899999999999999999999999888898998888899999999998876533
+
+
+No 27
+>4G9I_F Hydrogenase maturation protein HypF; Zinc finger, Hydrogenase maturation, ATP; HET: MSE, ZN; 4.5A {Thermococcus kodakarensis}
+Probab=99.31  E-value=1.3e-16  Score=179.65  Aligned_cols=226  Identities=0%  Similarity=0.000  Sum_probs=174.1  Template_Neff=7.600
+
+Q snap_masked-jc    1 --------------------------------------------------------------------------------    0 (705)
+Q Consensus        82 elda~aytkgpgmgapll~va~vartl~qlwnkpligvnhciahiemgrlitga~sp~~lyvsg---gn-----------  147 (1284)
+                      +.|+||++.+||+...     -.|+.|+..|++|+|+|+|-.||+-.-..=.+-..-+.|+++|   |.           
+T Consensus       452 ~p~~ia~d~hP~y~s~-----~~A~~l~~~~~~pli~VqHh~AH~~s~~aE~~~~p~lgl~~DGtG~G~dg~iwGGe~l~  526 (772)
+T 4G9I_F          452 NLDLIIADLHPAYNTT-----KLAMEMANELDVELLQVQHHYAHIASVMAEKNLDSVIGIALDGVGYGTDGNTWGGEVLY  526 (772)
+T ss_dssp             CSSCEEEESCTTCHHH-----HHHHHHHTTTTCCCCEECSHHHHHHHHHHHSCCCSCEEEEEEEEECCTTTCEEEEEEEE
+T ss_pred             CCCEEEEeCCCCchHH-----HHHHHHHHHcCCcEEEEeHHHHHHHHHHHhcCCCCEEEEEEeccccCCCCCcccceEEE
+Confidence            7899999999999773     6788888889999999999999986544322222334566776   21           
+
+
+Q snap_masked-jc    1 --------------------------------------------------------------------------------    0 (705)
+Q Consensus       148 -----------------------------------------tq~i--------------~f~sgryrifgeti-------  165 (1284)
+                                                               ++..              .+....+++.++++       
+T Consensus       527 ~~~~~~~R~~~l~~~~lpGgd~a~~~p~r~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~l~~~~n~~  606 (772)
+T 4G9I_F          527 LGYEDVERLAHIDYYPLPGGDLASYYPLRALMGILSKVYSIDELEGVINRCCPKAVESLKYGKVEFNVVLNQLAKGINTA  606 (772)
+T ss_dssp             CCSSSCEEEEEECCEEESTTTHHHHSTHHHHHHHHHTTSCTTHHHHHHTTSCCGGGGGTTSCSTTTTTTHHHHHSCCSCE
+T ss_pred             ecccceEEEeecccCCCCCCchhhccHHHHHHHHHHHhcCchhhhhhhhhcCchhHhhccCChHHHHHHHHHHHcCCCCc
+Confidence                                                     2211              11135777888655       
+
+
+Q snap_masked-jc    1 --------------------------------------------------------------------------------    0 (705)
+Q Consensus       166 -dialgnc~drfarivnlsnd----pspgyn~e~la~~gskffelpy~vkgmdvsfaglls~le~r~~~ll~sgeytv~d  240 (1284)
+                       |.+.|.+||..|+++++..+    ..++--+|.+|.++.+.+..|...++.++++..++..+-+.   +   .....+|
+T Consensus       607 ~~sS~GrlfD~vA~lLGl~~~~~yeg~aa~~LE~lA~~~~~~~~~~~~~~~~~~~~~~~i~~l~~~---~---~~~~~~~  680 (772)
+T 4G9I_F          607 YASSTGRVLDAIAVLLNVAYRRHYEGEPAMKLESFAFKGKNDLKFEVPVEGELIRVEELFQSILEA---I---EGASPAD  680 (772)
+T ss_dssp             EEECHHHHHHHHHHSSSSCCSCCSSSSHHHHHHHHHTTCCSCCCCCCCEETTEECHHHHHHHHHHT---T---TTSCHHH
+T ss_pred             ccccHHHHHHHHHHHcCCCcccCCCCcHHHHHHHHHhcCCCCCCCccccCCeEEehHHHHHHHHHH---h---cCCCHHH
+Confidence             67899999999999999854    33446889999998764323444556666655555443332   1   4578999
+
+
+Q snap_masked-jc    1 ------------------------------------------------------------------------------    0 (705)
+Q Consensus       241 lcfs~qet~famvveiteramah~~~~evl~vg~vg~n~rlqemm~~maeerga~lfatderfcidngam~~~~~clm  318 (1284)
+                      +++++|++++.++++++++++.+.+.+.|.+.|||-.|..|.+++.++.+++|.+++-.....|.|||+|+++....+
+T Consensus       681 IAa~f~~ala~~i~~~~~~~~~~~~~~~VvLsGGVf~N~~L~~~l~~~l~~~g~~v~~~~~~p~~D~giaiGqA~~a~  758 (772)
+T 4G9I_F          681 IAYSAHLALARAFAHTAVERAREFGVKNVALSGGVAYNELITKMIRKVVEANGLNFHVTTEVPRGDNGVNVGQAFLGG  758 (772)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTCSCCCCBSGGGSCTTTTTHHHHGGGGSSCCCCCCSSSBSSGGGHHHHHHHHHH
 T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHCCCeEEEeCcHHHHHHHHHHHHHHHHHCCCeEEEcCCCCCCcHHHHHHHHHHHH
 Confidence            999999999999999999999888899999999999999999999999888898998888899999999998876533
 
@@ -1796,40 +1796,6 @@ Confidence            9999999999999999999999999999999887764333 234444344444443
 
 
 No 45
->3ZDB_A PROTEIN XNI (E.C.3.1.-.-); HYDROLASE-DNA COMPLEX, FLAP ENDONUCLEASE, DNA; 1.47A {ESCHERICHIA COLI}
-Probab=98.35  E-value=7.9e-11  Score=111.18  Aligned_cols=126  Identities=20%  Similarity=0.250  Sum_probs=83.2  Template_Neff=9.500
-
-Q snap_masked-jc   24 NTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFLKRLRKCRI-SPIFLFD--------GCHSKEGTKLGNLLKK   94 (705)
-Q Consensus       386 NT~lVIDAeNFI~~~YR~sgLt~~YGGEYMdF~~~Vr~FLK~lrkCRI-sPIFvFD~~~~~~~~GCHskeGtKL~tLLKR  464 (1284)
-                      ++.++|||.|++...|..       +|+.. ...+.+.+++-++++++ .|||+|||..      +....-.++..--|+
-T Consensus         3 ~~~l~IDg~~~l~~~~~~-------~g~~~-~~~~~~~~~~~~~~~~~~~~v~vfDG~~------~~~~~R~~~~~~yk~   68 (251)
-T 3ZDB_A            3 VHLLIVDALNLIRRIHAV-------QGSPC-VETCQHALDQLIMHSQPTHAVAVFDDEN------RSSGWRHQRLPDYKA   68 (251)
-T ss_dssp             CEEEEEEHHHHHHHHHHH-------HCSCC-HHHHHHHHHHHHHHHCCSEEEEEEEC---------CCSHHHHHSTTTTT
-T ss_pred             CeEEEEEchHHHHHHHhc-------CCCCh-HHHHHHHHHHHHHHhCCCeEEEEEeCCC------CCCcchhhccHhHHc
-Confidence            678999999999886543       23322 44466666677777777 8999999211      111111111111122
-
-
-Q snap_masked-jc   95 NRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVPHLTCDG-EADKSTAELAIFL-----DCPV  168 (705)
-Q Consensus       465 Nreri~sLs~~Ln~v~~i~~sd~d~~~~~pDI~P~L~~~v~~~ILrE~~V~YltCEr-EADisvAELAifL-----~CPV  538 (1284)
-                      |+...                        ++.+. -....+.++|++.|++++.+.+ |||.-+|.+|...     .+.|
-T Consensus        69 ~r~~~------------------------~~~~~-~~~~~~~~~l~~~gi~~~~a~~~EADd~ia~l~~~~~~~~~~~~v  123 (251)
-T 3ZDB_A           69 GRPPM------------------------PEELH-DEMPALRAAFEQRGVPCWSTSGNEADDLAATLAVKVTQAGHQATI  123 (251)
-T ss_dssp             TCCCC------------------------CHHHH-HHHHHHHHHHHHHTCCEEEESSSCHHHHHHHHHHHHHHTTCEEEE
-T ss_pred             CCCCC------------------------CHHHH-HHHHHHHHHHHHhCCCEEeCCCCCHHHHHHHHHHHHHHCCCCEEE
-Confidence            22110                        11111 2245678999999999999997 9999999999864     7899
-
-
-Q snap_masked-jc  169 LSNDSDFFLFRS  180 (705)
-Q Consensus       539 lSNDSDFFIFRp  550 (1284)
-                      .|+|+|++.|..
-T Consensus       124 iS~D~D~~~~~~  135 (251)
-T 3ZDB_A          124 VSTDKGYCQLLS  135 (251)
-T ss_dssp             ECSCGGGGGGCB
-T ss_pred             EECCccHHhhcC
-Confidence            999999999964
-
-
-No 46
 >3ZD9_A PROTEIN XNI (E.C.3.1.-.-); HYDROLASE, FLAP ENDONUCLEASE, DNA BINDING; 2.0A {ESCHERICHIA COLI}
 Probab=98.35  E-value=7.9e-11  Score=111.18  Aligned_cols=126  Identities=20%  Similarity=0.250  Sum_probs=83.7  Template_Neff=9.500
 
@@ -1859,6 +1825,40 @@ Q Consensus       539 lSNDSDFFIFRp  550 (1284)
 T Consensus       124 iS~D~D~~~~~~  135 (251)
 T 3ZD9_A          124 VSTDKGYCQLLS  135 (251)
 T ss_dssp             ECSCGGGGGGCC
+T ss_pred             EECCccHHhhcC
+Confidence            999999999964
+
+
+No 46
+>3ZDB_A PROTEIN XNI (E.C.3.1.-.-); HYDROLASE-DNA COMPLEX, FLAP ENDONUCLEASE, DNA; 1.47A {ESCHERICHIA COLI}
+Probab=98.35  E-value=7.9e-11  Score=111.18  Aligned_cols=126  Identities=20%  Similarity=0.250  Sum_probs=83.2  Template_Neff=9.500
+
+Q snap_masked-jc   24 NTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFLKRLRKCRI-SPIFLFD--------GCHSKEGTKLGNLLKK   94 (705)
+Q Consensus       386 NT~lVIDAeNFI~~~YR~sgLt~~YGGEYMdF~~~Vr~FLK~lrkCRI-sPIFvFD~~~~~~~~GCHskeGtKL~tLLKR  464 (1284)
+                      ++.++|||.|++...|..       +|+.. ...+.+.+++-++++++ .|||+|||..      +....-.++..--|+
+T Consensus         3 ~~~l~IDg~~~l~~~~~~-------~g~~~-~~~~~~~~~~~~~~~~~~~~v~vfDG~~------~~~~~R~~~~~~yk~   68 (251)
+T 3ZDB_A            3 VHLLIVDALNLIRRIHAV-------QGSPC-VETCQHALDQLIMHSQPTHAVAVFDDEN------RSSGWRHQRLPDYKA   68 (251)
+T ss_dssp             CEEEEEEHHHHHHHHHHH-------HCSCC-HHHHHHHHHHHHHHHCCSEEEEEEEC---------CCSHHHHHSTTTTT
+T ss_pred             CeEEEEEchHHHHHHHhc-------CCCCh-HHHHHHHHHHHHHHhCCCeEEEEEeCCC------CCCcchhhccHhHHc
+Confidence            678999999999886543       23322 44466666677777777 8999999211      111111111111122
+
+
+Q snap_masked-jc   95 NRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVPHLTCDG-EADKSTAELAIFL-----DCPV  168 (705)
+Q Consensus       465 Nreri~sLs~~Ln~v~~i~~sd~d~~~~~pDI~P~L~~~v~~~ILrE~~V~YltCEr-EADisvAELAifL-----~CPV  538 (1284)
+                      |+...                        ++.+. -....+.++|++.|++++.+.+ |||.-+|.+|...     .+.|
+T Consensus        69 ~r~~~------------------------~~~~~-~~~~~~~~~l~~~gi~~~~a~~~EADd~ia~l~~~~~~~~~~~~v  123 (251)
+T 3ZDB_A           69 GRPPM------------------------PEELH-DEMPALRAAFEQRGVPCWSTSGNEADDLAATLAVKVTQAGHQATI  123 (251)
+T ss_dssp             TCCCC------------------------CHHHH-HHHHHHHHHHHHHTCCEEEESSSCHHHHHHHHHHHHHHTTCEEEE
+T ss_pred             CCCCC------------------------CHHHH-HHHHHHHHHHHHhCCCEEeCCCCCHHHHHHHHHHHHHHCCCCEEE
+Confidence            22110                        11111 2245678999999999999997 9999999999864     7899
+
+
+Q snap_masked-jc  169 LSNDSDFFLFRS  180 (705)
+Q Consensus       539 lSNDSDFFIFRp  550 (1284)
+                      .|+|+|++.|..
+T Consensus       124 iS~D~D~~~~~~  135 (251)
+T 3ZDB_A          124 VSTDKGYCQLLS  135 (251)
+T ss_dssp             ECSCGGGGGGCB
 T ss_pred             EECCccHHhhcC
 Confidence            999999999964
 
@@ -2184,50 +2184,6 @@ Confidence            985     7999999999998875
 
 
 No 58
->4BGB_B PUTATIVE SUGAR KINASE MK0840; TRANSFERASE, PHOSPHOTRANSFER, PSEUDOMUREIN; HET: ADP, GOL; 1.34A {METHANOPYRUS KANDLERI}
-Probab=97.11  E-value=4.9e-07  Score=91.48  Aligned_cols=253  Identities=0%  Similarity=0.000  Sum_probs=147.8  Template_Neff=7.600
-
-Q snap_masked-jc    1 --------------------------------------------------------------------------------    0 (705)
-Q Consensus        13 m~~vlg~egsanklg~g~vrdg---~vl~nprvty~tppgegfqptetar~hq~hii~lv~~a~~ea~~~~~elda~ayt   89 (1284)
-                      +..++|++..+--.-+.++.|+   .++...-..|...|+ +..|-|++++.   +-+.++..++++++...+++ |+-|
-T Consensus         4 ~~~~lGID~Gs~~~k~v~~~~~~~~~i~~~~~~~~~~~~~-~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~i~-i~~T   78 (325)
-T 4BGB_B            4 LTRVLGIQLGNTGTDYCVMNEDGDWEIVAREEGVFGKISC-VFTLEESRRAL---REEIAPRVIERVRRVNPDLA-VVGT   78 (325)
-T ss_dssp             CCEEEEEEECSSEEEEEEEETTCCEEEEEEEECCTTTSCT-TSCHHHHHHHC---CCCCHHHHHHHHHHHCCSEE-EEEE
-T ss_pred             eeeEEEEEEccceeeEEEEeCCCCeEEEEeeecccceeeC-CCCHHHHHHHH---HHHHHHHHHHHHhccCCCeE-EEEE
-Confidence            4678899987777777777765   344322111223344 44676777532   22233335666777777899 9999
-
-
-Q snap_masked-jc    1 --------------------------------------------------------------------------------    0 (705)
-Q Consensus        90 kgpgmgapll~va~vartl~qlwnkpli---gvnhciahie-mgrlitga~--sp~~lyvsggntq~i~f~sgryri-fg  162 (1284)
-                      -|+|.|.-.      ++.|++.-+.|++   -++|-.||.| +|...--.+  .|.++.--||. .+|.+..++ ++ |+
-T Consensus        79 ~~~G~g~~~------~~~la~~~~i~~v~d~~~~Ei~a~~~~~Ga~~l~~~~~~~~~ivniGG~-~~i~~~~~~-~~~~~  150 (325)
-T 4BGB_B           79 IVDELGLIL------GPMIHEKTGVPTLAVYGDPWGAPDGDAVGAPYCVAEEYPNCVHVDVGAM-AVVTPIRDG-RPDFG  150 (325)
-T ss_dssp             SSHHHHHHH------HHHHHHHHCCCEEEECSCTTSSCCGGGTHHHHHHHTTCSSEEEEEESSE-EEEEEEETT-EECTT
-T ss_pred             ecCCCcccc------HHHHHHHHCCCEEeecCCCCccCCcccccchhcCCCCCCCeEEEEeCCc-eeEEEccCC-CCCcC
-Confidence            888877111      3445566666765   3688888884 454332222  13433334555 788887654 33 32
-
-
-Q snap_masked-jc    1 --------------------------------------------------------------------------------    0 (705)
-Q Consensus       163 etidialgn-c~drfari-vnlsndpspgyn~e~la~~gs-kffelpy~v-----kgmdvsfag----lls~l---e~r~  227 (1284)
-                      . --+|-|| .+|.+||. .+++-|     ....+|.+|. +...+-...     ++ +| |+-    |..-.   |...
-T Consensus       151 ~-~~cg~Gt~fld~~a~~~lg~~~d-----e~g~lA~~g~~~~~~l~~~c~~d~~~~-~v-f~~~~~~l~~~~~~~es~~  222 (325)
-T 4BGB_B          151 D-AVVSVGTFPLDLAARELLGKEYD-----EGGKKAAEGEVDENFRRELRSVDVDGK-PV-FGRVRGSLAPVPPEQERVL  222 (325)
-T ss_dssp             T-CEEEECSHHHHHHCCCCCSCSSC-----GGGHHHHTSCCCHHHHHHHHTCEETTE-ES-SSSCSSSBCCCHHHHHHHH
-T ss_pred             C-CeeecCcHHHHHHHHHHhCCCcc-----cccchhhcCCCCHHHHHHHhcCCcCCC-cc-ccccCCCCCCCChHHHHHH
-Confidence            2 2267799 68999998 664433     3456676665 222221111     12 11 220    00000   1112
-
-
-Q snap_masked-jc    1 ---------------------------------------------------------------    0 (705)
-Q Consensus       228 ~~ll~sgeytv~dlcfs~qet~famvveiteramah~~~~evl~vg~vg~n~rlqemm~~mae  290 (1284)
-                      -.+++...++.+|++.++.+.+...+.+.+.++    ..++|+++||+..|..+.++++++.+
-T Consensus       223 ~~~i~~~g~~~eDI~a~l~~~ia~~I~~~~~~~----~~~~ivl~GG~a~n~~l~~~l~~~l~  281 (325)
-T 4BGB_B          223 RDHIRDAGAPAEDVLRTLVELVAETIVINAAQY----DMDLLVLSGGGVKNELLKRRVSELWE  281 (325)
-T ss_dssp             HHHHHHCCSCHHHHHHHHHHHHHHHHHHHHGGG----CCSEEEEESGGGGSHHHHHHHHHHCS
-T ss_pred             HHHHHhcCCCHHHHHHHHHHHHHHHHHHHHHhC----CCCEEEEECcHHhCHHHHHHHHHHcC
-Confidence            223332478999999999997777777776665    57999999999999888877776543
-
-
-No 59
 >4BGA_C PREDICTED MOLECULAR CHAPERONE DISTANTLY RELATED; TRANSFERASE, ASKHA SUPERFAMILY, PHOSPHOTRANSFER, PSEUDOMUREIN; HET: BGC, SUC, ADP; 2.6A {METHANOPYRUS KANDLERI}
 Probab=97.11  E-value=4.9e-07  Score=91.48  Aligned_cols=253  Identities=0%  Similarity=0.000  Sum_probs=147.8  Template_Neff=7.600
 
@@ -2267,6 +2223,50 @@ Q Consensus       228 ~~ll~sgeytv~dlcfs~qet~famvveiteramah~~~~evl~vg~vg~n~rlqemm
 T Consensus       223 ~~~i~~~g~~~eDI~a~l~~~ia~~I~~~~~~~----~~~~ivl~GG~a~n~~l~~~l~~~l~  281 (325)
 T 4BGA_C          223 RDHIRDAGAPAEDVLRTLVELVAETIVINAAQY----DMDLLVLSGGGVKNELLKRRVSELWE  281 (325)
 T ss_dssp             HHHHHTCCSCHHHHHHHHHHHHHHHHHHHHTTS----CCSEEEEESGGGGSHHHHHHHHHHCS
+T ss_pred             HHHHHhcCCCHHHHHHHHHHHHHHHHHHHHHhC----CCCEEEEECcHHhCHHHHHHHHHHcC
+Confidence            223332478999999999997777777776665    57999999999999888877776543
+
+
+No 59
+>4BGB_B PUTATIVE SUGAR KINASE MK0840; TRANSFERASE, PHOSPHOTRANSFER, PSEUDOMUREIN; HET: ADP, GOL; 1.34A {METHANOPYRUS KANDLERI}
+Probab=97.11  E-value=4.9e-07  Score=91.48  Aligned_cols=253  Identities=0%  Similarity=0.000  Sum_probs=147.8  Template_Neff=7.600
+
+Q snap_masked-jc    1 --------------------------------------------------------------------------------    0 (705)
+Q Consensus        13 m~~vlg~egsanklg~g~vrdg---~vl~nprvty~tppgegfqptetar~hq~hii~lv~~a~~ea~~~~~elda~ayt   89 (1284)
+                      +..++|++..+--.-+.++.|+   .++...-..|...|+ +..|-|++++.   +-+.++..++++++...+++ |+-|
+T Consensus         4 ~~~~lGID~Gs~~~k~v~~~~~~~~~i~~~~~~~~~~~~~-~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~i~-i~~T   78 (325)
+T 4BGB_B            4 LTRVLGIQLGNTGTDYCVMNEDGDWEIVAREEGVFGKISC-VFTLEESRRAL---REEIAPRVIERVRRVNPDLA-VVGT   78 (325)
+T ss_dssp             CCEEEEEEECSSEEEEEEEETTCCEEEEEEEECCTTTSCT-TSCHHHHHHHC---CCCCHHHHHHHHHHHCCSEE-EEEE
+T ss_pred             eeeEEEEEEccceeeEEEEeCCCCeEEEEeeecccceeeC-CCCHHHHHHHH---HHHHHHHHHHHHhccCCCeE-EEEE
+Confidence            4678899987777777777765   344322111223344 44676777532   22233335666777777899 9999
+
+
+Q snap_masked-jc    1 --------------------------------------------------------------------------------    0 (705)
+Q Consensus        90 kgpgmgapll~va~vartl~qlwnkpli---gvnhciahie-mgrlitga~--sp~~lyvsggntq~i~f~sgryri-fg  162 (1284)
+                      -|+|.|.-.      ++.|++.-+.|++   -++|-.||.| +|...--.+  .|.++.--||. .+|.+..++ ++ |+
+T Consensus        79 ~~~G~g~~~------~~~la~~~~i~~v~d~~~~Ei~a~~~~~Ga~~l~~~~~~~~~ivniGG~-~~i~~~~~~-~~~~~  150 (325)
+T 4BGB_B           79 IVDELGLIL------GPMIHEKTGVPTLAVYGDPWGAPDGDAVGAPYCVAEEYPNCVHVDVGAM-AVVTPIRDG-RPDFG  150 (325)
+T ss_dssp             SSHHHHHHH------HHHHHHHHCCCEEEECSCTTSSCCGGGTHHHHHHHTTCSSEEEEEESSE-EEEEEEETT-EECTT
+T ss_pred             ecCCCcccc------HHHHHHHHCCCEEeecCCCCccCCcccccchhcCCCCCCCeEEEEeCCc-eeEEEccCC-CCCcC
+Confidence            888877111      3445566666765   3688888884 454332222  13433334555 788887654 33 32
+
+
+Q snap_masked-jc    1 --------------------------------------------------------------------------------    0 (705)
+Q Consensus       163 etidialgn-c~drfari-vnlsndpspgyn~e~la~~gs-kffelpy~v-----kgmdvsfag----lls~l---e~r~  227 (1284)
+                      . --+|-|| .+|.+||. .+++-|     ....+|.+|. +...+-...     ++ +| |+-    |..-.   |...
+T Consensus       151 ~-~~cg~Gt~fld~~a~~~lg~~~d-----e~g~lA~~g~~~~~~l~~~c~~d~~~~-~v-f~~~~~~l~~~~~~~es~~  222 (325)
+T 4BGB_B          151 D-AVVSVGTFPLDLAARELLGKEYD-----EGGKKAAEGEVDENFRRELRSVDVDGK-PV-FGRVRGSLAPVPPEQERVL  222 (325)
+T ss_dssp             T-CEEEECSHHHHHHCCCCCSCSSC-----GGGHHHHTSCCCHHHHHHHHTCEETTE-ES-SSSCSSSBCCCHHHHHHHH
+T ss_pred             C-CeeecCcHHHHHHHHHHhCCCcc-----cccchhhcCCCCHHHHHHHhcCCcCCC-cc-ccccCCCCCCCChHHHHHH
+Confidence            2 2267799 68999998 664433     3456676665 222221111     12 11 220    00000   1112
+
+
+Q snap_masked-jc    1 ---------------------------------------------------------------    0 (705)
+Q Consensus       228 ~~ll~sgeytv~dlcfs~qet~famvveiteramah~~~~evl~vg~vg~n~rlqemm~~mae  290 (1284)
+                      -.+++...++.+|++.++.+.+...+.+.+.++    ..++|+++||+..|..+.++++++.+
+T Consensus       223 ~~~i~~~g~~~eDI~a~l~~~ia~~I~~~~~~~----~~~~ivl~GG~a~n~~l~~~l~~~l~  281 (325)
+T 4BGB_B          223 RDHIRDAGAPAEDVLRTLVELVAETIVINAAQY----DMDLLVLSGGGVKNELLKRRVSELWE  281 (325)
+T ss_dssp             HHHHHHCCSCHHHHHHHHHHHHHHHHHHHHGGG----CCSEEEEESGGGGSHHHHHHHHHHCS
 T ss_pred             HHHHHhcCCCHHHHHHHHHHHHHHHHHHHHHhC----CCCEEEEECcHHhCHHHHHHHHHHcC
 Confidence            223332478999999999997777777776665    57999999999999888877776543
 

@@ -206,9 +206,7 @@ class Grid:
 
         for col in cols:
             for row in range(self._grid_height):
-
-
-                if self.get_seq_end(row) and self.get_seq_end(row) and col >= self.get_seq_start(row) and col < self.get_seq_end(row):
+                if self.get_seq_start(row) and self.get_seq_end(row) and col >= self.get_seq_start(row) and col < self.get_seq_end(row):
                     self._cells[row].insert(col, GAP)
                 else:
                     self._cells[row].insert(col, EMPTY)
@@ -662,10 +660,8 @@ def derive_global_seq(processed_query_grid, query_name, query_chain):
     global_seq = list()
 
     for col in range(processed_query_grid.get_grid_width()):
-        try:
-            global_seq.append(processed_query_grid.get_col_residue(col))
-        except:
-            print(col)
+        global_seq.append(processed_query_grid.get_col_residue(col))
+
     # this is the query entry
     header = '>P1;{q}\nsequence:{q}:1    :{c}:{l}  :{c}::::\n'.format(
         q = query_name,
@@ -722,28 +718,24 @@ def compare_with_cifs(template_grid, folder, output_path, convert, threshold):
     # if the cif does not contain any residue of the por alignment we delete it
     del_row = list()
 
-
     for row in range(template_grid.get_grid_height()):
         # get the pdb code and strand id from the current template
         pdb_code = template_grid._pdb_code[row]
         chain = template_grid._chain[row]  # hhr users pdb chain ID
 
 
-        print(cif_paths)
-        print( cif_edits
-        )
         # load mmCif file accordingly
         if pdb_code in cif_edits.keys():
             block = cif_edits[pdb_code]
         else:
-            try:
-                block = open_cif(cif_paths[pdb_code])
-            except KeyError:
-                del_row.append(row)
-                print ('! Did not find the mmCIF file for {pdb}. Removing it from the alignment.'.format(
-                    pdb = pdb_code))
-                continue
-                
+
+            block = open_cif(cif_paths[pdb_code])
+            #except :
+            #    print( cif_paths[pdb_code])
+            #    del_row.append(row)
+            #    print ('! Did not find the mmCIF file for {pdb}. Removing it from the alignment.'.format(
+            #        pdb = pdb_code))
+            #    continue
 
         # Create a mapping of the atom site
         atom_site = block.getObj('atom_site')
