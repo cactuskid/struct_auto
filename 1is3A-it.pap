@@ -1,0 +1,142 @@
+ _aln.pos         10        20        30        40        50        60
+2IVN      ----------------MLALGIEGTAHTLGIGIVS-----EDKVLANVFD--------TLTTEKGGIH 
+2IVP      ----------------MLALGIEGTAHTLGIGIVS-----EDKVLANVFD--------TLTTEKGGIH 
+2VWB      ----------------MICLGLEGTAEKTGVGIVTS----DGEVLFNKTI--------M--------- 
+3EN9      -------------------LGLEGTAEKTGVGIVTS----DGEVLFNKTI--------MYKPPKQGIN 
+3TTC      PANPLQHLLLQELQCPLVMTSG------------------------NLSGK----------------- 
+3TTD      PANPLQHLLLQELQCPLVMTSG------------------------NLSGK----------------- 
+3VEN      -----------------------RDFHDASAALLVD-----GRIAAFAEEERLTRKKHGYN------- 
+3VTH      ----------------V--------------------------------------------------- 
+4K25      ----------------YKVLAIETSCDDTCVSVLDRFSKSAAPNVLANLK--------DTLDS----- 
+5JMV      ------------------CLGLEGTAEKTGVGIVTS----DGEVLFNKTI--------MYKPN----- 
+ _consrvd
+
+ _aln.p   70        80        90       100       110       120       130
+2IVN      PKEAAEHHARLMKPLLRKALSEAGVSLD------DIDVIAFSQGPGLGP------ALRVVATAARALA 
+2IVP      PKEAAEHHARLMKPLLRKALSEAGVSLD------DIDVIAFSQGPGLGP------ALRVVATAARALA 
+2VWB      --EAADHHAETFPKLIKEAFE--VVDKN------EIDLIAFSQGPGLGP------SLRVTATVARTLS 
+3EN9      PREAADHHAETFPKLIKEAFE--VVDKN------EIDLIAFSQGPGLGP------SLRVTATVARTLS 
+3TTC      -------PPAISNEQALEDLQGIADGFLIHNRDI-----------------------VQRM------- 
+3TTD      -------PPAISNEQALEDLQGIADGFLIHNRDI-----------------------VQRM------- 
+3VEN      ---------TAPVQAAAFCLAQAGLTVD------DLDAVAFGWDLPAMYRERLGGWPHSDSEALDILL 
+3VTH      ----------------------------------DPEVVAHDMH-----------KGYLSTQYAKSL- 
+4K25      -TKAHIHHQARIGPLTERALIE-SNARE------GIDLICVTRGPG-PG------SLSGGLDFAKGLA 
+5JMV      PREAADHHAETFPKLIKEAFE--VVDKN------EIDLIAFSQGPGLGP------SLRVTATVARTLS 
+ _consrvd
+
+ _aln.pos  140       150       160       170       180       190       200
+2IVN      ------VKYRKPIVGVN----------------------------------HCIAHVEITKMF---GV 
+2IVP      ------VKYRKPIVGVN----------------------------------HCIAHVEITKMF---GV 
+2VWB      ------LTLKKPIIGVN----------------------------------HCIAHIEIGKLTT--EA 
+3EN9      ------LTLKKPIIGVN----------------------------------HCIAHIEIGKLTT--EA 
+3TTC      ------------DDSVVRESGEMLRRSRGYVPDALALPPGFKNVPPVLCLG----------------- 
+3TTD      ------------DDSVVRESGEMLRRSRGYVPDALALPPGFKNVPPVLCLG----------------- 
+3VEN      PRDVFPRRTDPPLHFVQ----------------------------------HHLAHAASAYYFS--GE 
+3VTH      ---------DLPKIEVQ----------------------------------HHHAHIASCMAEH--NL 
+4K25      ------VAWNKPLIGVH----------------------------------H-LGHLLIPRGTNGKVP 
+5JMV      ------LTLKKPIIGVN----------------------------------HCIAHIEIGKLTT--EA 
+ _consrvd                *
+
+ _aln.pos    210       220       230       240       250       260       270
+2IVN      KD-PVGLYVSGG--------------------------------------------------NTQVLA 
+2IVP      KD-PVGLYVSGG--------------------------------------------------NTQVLA 
+2VWB      ED-PLTLYVSGG--------------------------------------------------NTQVIA 
+3EN9      ED-PLTLYVSGG--------------------------------------------------NTQVIA 
+3TTC      ---------ADLKNTFCLVRGEQVVLSQHLGDLSDDGIQTQWREALRLMQNIYNFT------------ 
+3TTD      ---------ADLKNTFCLVRGEQVVLSQHLGDLSDDGIQTQWREALRLMQNIYNFT------------ 
+3VEN      DR-GAVLIVDGQG----------------------------------------------EEECVTLAH 
+3VTH      DEKVIGIAYDGTGYG-----------------------------------------TDGNVWGAEILV 
+4K25      QFPFVSLLVSGG--------------------------------------------------HTTFVL 
+5JMV      ED-PLTLYVSGG--------------------------------------------------NTQVIA 
+ _consrvd
+
+ _aln.pos      280       290       300       310       320       330       340
+2IVN      LEG-GRYRVFGETLD----------------------------------------------------- 
+2IVP      LEG-GRYRVFGETLD----------------------------------------------------- 
+2VWB      YVS-KKYRVFGETLD----------------------------------------------------- 
+3EN9      YVS-KKYRVFGETLD----------------------------------------------------- 
+3TTC      ----------------------------------------------------------------PQYV 
+3TTD      ----------------------------------------------------------------PQYV 
+3VEN      AEGGKITVLDTVPGA----------------------------------------------------- 
+3VTH      CD-LKSFERIAHLKYKPLPGNELAIKKIYRTALGFIFDNISFYKNFVEQVDSRELDIILKQIDRKINT 
+4K25      SRAIDDHEILCDTID----------------------------------------------------- 
+5JMV      YVS-KKYRVFGETLD----------------------------------------------------- 
+ _consrvd
+
+ _aln.pos        350       360       370       380       390       400
+2IVN      ---IGIGNAIDV---------------------------------------FARELGLG------FPG 
+2IVP      ---IGIGNAIDV---------------------------------------FARELGLG------FPG 
+2VWB      ---IAVGNCLDQ---------------------------------------FARYVNLP------HPG 
+3EN9      ---IAVGNCLDQ---------------------------------------FARYVNLP------HPG 
+3TTC      VHDA----HPGYVSCQWASEMNLPTQTVLHHHAHAAACLAEHQWPLDGGDV----------------- 
+3TTD      VHDA----HPGYVSCQWASEMNLPTQTVLHHHAHAAACLAEHQWPLDGGDV----------------- 
+3VEN      ---WSLGFFYEH---------------------------------------VSEYTGLG------GDN 
+3VTH      AYVSSMGRFFDA---------------------------------------VAALIGVRKEVLFEGQA 
+4K25      ---IAVGDSLDK---------------------------------------CGRELGFK------GTI 
+5JMV      ---IAVGNCLDQ---------------------------------------FARYVNLP------HPG 
+ _consrvd
+
+ _aln.p  410       420       430       440       450       460       470
+2IVN      GPKVEKLAEKGE------KYIELP---YAVKG---MD---LSFSG--------------------LLT 
+2IVP      GPKVEKLAEKGE------KYIELP---YAVKG---MD---LSFSG--------------------LLT 
+2VWB      GPYIEELARKGK------KLVDLP---YTVKG---MD---IAFSG--------------------LLT 
+3EN9      GPYIEELARKGK------KLVDLP---YTVKG---MD---IAFSG--------------------LLT 
+3TTC      --------------------------------IALTLDGIGMGEN--------------------G-- 
+3TTD      --------------------------------IALTLDGIGMGEN--------------------G-- 
+3VEN      PGKLMGLAAHGT-------TVDETLSAFAFDS---DG---YRLNLIDPQARDPEDWDEYSVTERAWFA 
+3VTH      AMELESLMAES--------EEYYE---YEILKEDRYV---IDPEL--------------------ILR 
+4K25      ARE-EKFINQDINDQDFALKLE---------N---LS---FSFSA--------------------FIT 
+5JMV      GPYIEELARKGK------KLVDLP---YTVKG---MD---IAFSG--------------------LLT 
+ _consrvd
+
+ _aln.pos  480       490       500       510       520       530       540
+2IVN      EAIRKYRSGKY----------------------------RVEDLAYSFQETAF--------------- 
+2IVP      EAIRKYRSGKY----------------------------RVEDLAYSFQETAF--------------- 
+2VWB      AAMRAYDAG-E----------------------------RLEDICYSLQEYAF--------------- 
+3EN9      AAMRAYDAG-E----------------------------RLEDICYSLQEYAF--------------- 
+3TTC      --------------------------------------------------ALWGGECLRVNYRECEHL 
+3TTD      --------------------------------------------------ALWGGECLRVNYRECEHL 
+3VEN      HLERIY----RLPPNEFVRRYDPAKGRVVRDTRRD--PYEYRDLAATAQAALE--------------- 
+3VTH      QIYEDYMKGF-----------------------------EKSYISAKFHNTVV--------------- 
+4K25      ALRTNLTKLGKTEI-------------------QELPEREIRSIAYQVQESVF--------------- 
+5JMV      AAMRAYDAG-E----------------------------RLEDICYSLQEYAF--------------- 
+ _consrvd
+
+ _aln.pos    550       560       570       580       590       600       610
+2IVN      ----AALVEVTERAVAHT-----EKDEVVLVGGVAANNRLR----EMLRIM----------------- 
+2IVP      ----AALVEVTERAVAHT-----EKDEVVLVGGVAANNRLR----EMLRIM----------------- 
+2VWB      ----SMLTEITERALAHT-----NKGEVMLVGGVAANNRLR----EMLKAM----------------- 
+3EN9      ----SMLTEITERALAHT-----NKGEVMLVGGVAANNRLR----EMLKAM----------------- 
+3TTC      GGLPAVAL--------------------------PGGDLAAKQPWRNLLAQCLRFVPEWQNYPETASV 
+3TTD      GGLPAVAL--------------------------PGGDLAAKQPWRNLLAQCLRFVPEWQNYPETASV 
+3VEN      ----RAVFGLADSVLART-----GERTLFVAGGVGLNATMN----GKLLTR----------------- 
+3VTH      ----NFTYDLANLIRKET-----GINKVVLSGGSFQNRYLL----RRLIEK----------------- 
+4K25      ----DHIINKLKHVLKSQPEKFKNVREFVCSGGVSSNQRLR----TKLETE----------------- 
+5JMV      ----SMLTEITERALAHT-----NKGEVMLVGGVAANNRLR----EMLKAM----------------- 
+ _consrvd                                                *
+
+ _aln.pos      620       630       640       650       660       670       680
+2IVN      -----------------------------TEDR----GIKFFVPPYDLC------------------- 
+2IVP      -----------------------------TEDR----GIKFFVPPYDLC------------------- 
+2VWB      -----------------------------CEGQ----NVDFYVPPKEFC------------------- 
+3EN9      -----------------------------CEGQ----NVDFYVPPKEFC------------------- 
+3TTC      AAANWSVLARAIERGINAPLASSCGRLFDAVAA----ALGCAPATLSYEGEAACALEALAASCDGVTH 
+3TTD      AAANWSVLARAIERGINAPLASSCGRLFDAVAA----ALGCAPATLSYEGEAACALEALAASCDGVTH 
+3VEN      -------------------------------ST----VDKMFVP-PVAS------------------- 
+3VTH      -----------------------------LSLS----GFEVYSNSKVPC------------------- 
+4K25      -----------------------------LGTLNSTSFFNFYY------------------------- 
+5JMV      -----------------------------CEGQ----NVDFYVPPKEFC------------------- 
+ _consrvd
+
+ _aln.pos        690       700       710       720
+2IVN      ---------------RD-NGAMIAYTGLRMYKA--GISFRLEE 
+2IVP      ---------------RD-NGAMIAYTGLRMYKA--GISFRLEE 
+2VWB      ---------------GD-NGAMIAWLGLLMHKN--G------- 
+3EN9      ---------------GD-NGAMIAWLGLLMHKN--GRWMSL-- 
+3TTC      PVTMPRVDNQLDLAT---------------------------- 
+3TTD      PVTMPRVDNQLDLAT---------------------------- 
+3VEN      ---------------DIGVSLGAAAAVAVELGDRI-------- 
+3VTH      ---------------NDGGISLGQAVIAN-------------- 
+4K25      ------------------------------------------- 
+5JMV      ---------------GD-NGAMIAWLGLLMHKN--GRWMSL-- 
+ _consrvd
