@@ -1,130 +1,18 @@
 
->P1;2IVN
-structureX:2IVN_fit.pdb:   1 :A:+308 :A:::-1.00:-1.00
-----------------MLALGIEGTAHTLGIGIVS-----EDKVLANVFD--------TLTTEKGGIHPKEAAEH
-HARLMKPLLRKALSEAGVSLD------DIDVIAFSQGPGLGP------ALRVVATAARALA------VKYRKPIV
-GVN----------------------------------HCIAHVEITKMF---GVKD-PVGLYVSGG---------
------------------------------------------NTQVLALEG-GRYRVFGETLD-------------
--------------------------------------------IGIGNAIDV-----------------------
-----------------FARELGLG------FPGGPKVEKLAEKGE------KYIELP---YAVKG---MD---LS
-FSG--------------------LLTEAIRKYRSGKY----------------------------RVEDLAYSFQ
-ETAF-------------------AALVEVTERAVAHT-----EKDEVVLVGGVAANNRLR----EMLRIM-----
------------------------------------------TEDR----GIKFFVPPYDLC--------------
---------------------RD-NGAMIAYTGLRMYKA--GISFRLEE*
+>P1;1B43_0
+structureX:1B43_0_fit.pdb:   1 :B:+339 :B:::-1.00:-1.00
+GVP-IGEII--PRKEIELENLYGKKIAIDALNAIYQFLSTIRQKDGTPLMDS---KGRITSHLSGLFYRTINLME
+AGIKPVYVFDGEPPEFKK------KELEKRREAREEAEEKWREAL------------EKGEIEEARKYAQRATRV
+NEMLIEDAKKLLELMGIPIVQAPSEGEAQAAYMAAKGSVYASASQDYDSLLFGAPRLVRNLTITGKRKLPGKNVY
+VEIKPELIILEEVLKE----LKLTREKLIELAILVGTDYNPGGIKGIGLKKALEIVRHSK-----DPLAK-----
+-----FQKQSDVDLYAIKEFFLNPPVTDNY---------------------------------------------
+---------NLVWRDPDEEGILKFLCDEHDFSEERVKNGLERLKKAIKSGKQSTLESWFKR*
 
->P1;2IVP
-structureX:2IVP_fit.pdb:   1 :A:+308 :A:::-1.00:-1.00
-----------------MLALGIEGTAHTLGIGIVS-----EDKVLANVFD--------TLTTEKGGIHPKEAAEH
-HARLMKPLLRKALSEAGVSLD------DIDVIAFSQGPGLGP------ALRVVATAARALA------VKYRKPIV
-GVN----------------------------------HCIAHVEITKMF---GVKD-PVGLYVSGG---------
------------------------------------------NTQVLALEG-GRYRVFGETLD-------------
--------------------------------------------IGIGNAIDV-----------------------
-----------------FARELGLG------FPGGPKVEKLAEKGE------KYIELP---YAVKG---MD---LS
-FSG--------------------LLTEAIRKYRSGKY----------------------------RVEDLAYSFQ
-ETAF-------------------AALVEVTERAVAHT-----EKDEVVLVGGVAANNRLR----EMLRIM-----
------------------------------------------TEDR----GIKFFVPPYDLC--------------
---------------------RD-NGAMIAYTGLRMYKA--GISFRLEE*
-
->P1;2VWB
-structureX:2VWB_fit.pdb:   1 :A:+289 :A:::-1.00:-1.00
-----------------MICLGLEGTAEKTGVGIVTS----DGEVLFNKTI--------M-----------EAADH
-HAETFPKLIKEAFE--VVDKN------EIDLIAFSQGPGLGP------SLRVTATVARTLS------LTLKKPII
-GVN----------------------------------HCIAHIEIGKLTT--EAED-PLTLYVSGG---------
------------------------------------------NTQVIAYVS-KKYRVFGETLD-------------
--------------------------------------------IAVGNCLDQ-----------------------
-----------------FARYVNLP------HPGGPYIEELARKGK------KLVDLP---YTVKG---MD---IA
-FSG--------------------LLTAAMRAYDAG-E----------------------------RLEDICYSLQ
-EYAF-------------------SMLTEITERALAHT-----NKGEVMLVGGVAANNRLR----EMLKAM-----
------------------------------------------CEGQ----NVDFYVPPKEFC--------------
---------------------GD-NGAMIAWLGLLMHKN--G-------*
-
->P1;3EN9
-structureX:3EN9_fit.pdb:   4 :A:+302 :A:::-1.00:-1.00
--------------------LGLEGTAEKTGVGIVTS----DGEVLFNKTI--------MYKPPKQGINPREAADH
-HAETFPKLIKEAFE--VVDKN------EIDLIAFSQGPGLGP------SLRVTATVARTLS------LTLKKPII
-GVN----------------------------------HCIAHIEIGKLTT--EAED-PLTLYVSGG---------
------------------------------------------NTQVIAYVS-KKYRVFGETLD-------------
--------------------------------------------IAVGNCLDQ-----------------------
-----------------FARYVNLP------HPGGPYIEELARKGK------KLVDLP---YTVKG---MD---IA
-FSG--------------------LLTAAMRAYDAG-E----------------------------RLEDICYSLQ
-EYAF-------------------SMLTEITERALAHT-----NKGEVMLVGGVAANNRLR----EMLKAM-----
------------------------------------------CEGQ----NVDFYVPPKEFC--------------
---------------------GD-NGAMIAWLGLLMHKN--GRWMSL--*
-
->P1;3TTC
-structureX:3TTC_fit.pdb: 302 :A:+348 :A:::-1.00:-1.00
-PANPLQHLLLQELQCPLVMTSG------------------------NLSGK------------------------
-PPAISNEQALEDLQGIADGFLIHNRDI-----------------------VQRM-------------------DD
-SVVRESGEMLRRSRGYVPDALALPPGFKNVPPVLCLG--------------------------ADLKNTFCLVRG
-EQVVLSQHLGDLSDDGIQTQWREALRLMQNIYNFT----------------------------------------
-------------------------------------PQYVVHDA----HPGYVSCQWASEMNLPTQTVLHHHAHA
-AACLAEHQWPLDGGDV-------------------------------------------------IALTLDGIGM
-GEN--------------------G---------------------------------------------------
--ALWGGECLRVNYRECEHLGGLPAVAL--------------------------PGGDLAAKQPWRNLLAQCLRFV
-PEWQNYPETASVAAANWSVLARAIERGINAPLASSCGRLFDAVAA----ALGCAPATLSYEGEAACALEALAASC
-DGVTHPVTMPRVDNQLDLAT----------------------------*
-
->P1;3TTD
-structureX:3TTD_fit.pdb: 302 :A:+348 :A:::-1.00:-1.00
-PANPLQHLLLQELQCPLVMTSG------------------------NLSGK------------------------
-PPAISNEQALEDLQGIADGFLIHNRDI-----------------------VQRM-------------------DD
-SVVRESGEMLRRSRGYVPDALALPPGFKNVPPVLCLG--------------------------ADLKNTFCLVRG
-EQVVLSQHLGDLSDDGIQTQWREALRLMQNIYNFT----------------------------------------
-------------------------------------PQYVVHDA----HPGYVSCQWASEMNLPTQTVLHHHAHA
-AACLAEHQWPLDGGDV-------------------------------------------------IALTLDGIGM
-GEN--------------------G---------------------------------------------------
--ALWGGECLRVNYRECEHLGGLPAVAL--------------------------PGGDLAAKQPWRNLLAQCLRFV
-PEWQNYPETASVAAANWSVLARAIERGINAPLASSCGRLFDAVAA----ALGCAPATLSYEGEAACALEALAASC
-DGVTHPVTMPRVDNQLDLAT----------------------------*
-
->P1;3VEN
-structureX:3VEN_fit.pdb:  11 :A:+347 :A:::-1.00:-1.00
------------------------RDFHDASAALLVD-----GRIAAFAEEERLTRKKHGYN--------------
---TAPVQAAAFCLAQAGLTVD------DLDAVAFGWDLPAMYRERLGGWPHSDSEALDILLPRDVFPRRTDPPLH
-FVQ----------------------------------HHLAHAASAYYFS--GEDR-GAVLIVDGQG--------
---------------------------------------EEECVTLAHAEGGKITVLDTVPGA-------------
--------------------------------------------WSLGFFYEH-----------------------
-----------------VSEYTGLG------GDNPGKLMGLAAHGT-------TVDETLSAFAFDS---DG---YR
-LNLIDPQARDPEDWDEYSVTERAWFAHLERIY----RLPPNEFVRRYDPAKGRVVRDTRRD--PYEYRDLAATAQ
-AALE-------------------RAVFGLADSVLART-----GERTLFVAGGVGLNATMN----GKLLTR-----
--------------------------------------------ST----VDKMFVP-PVAS--------------
---------------------DIGVSLGAAAAVAVELGDRI--------*
-
->P1;3VTH
-structureX:3VTH_fit.pdb: 452 :A:+295 :A:::-1.00:-1.00
-----------------V----------------------------------------------------------
----------------------------DPEVVAHDMH-----------KGYLSTQYAKSL----------DLPKI
-EVQ----------------------------------HHHAHIASCMAEH--NLDEKVIGIAYDGTGYG------
------------------------------------TDGNVWGAEILVCD-LKSFERIAHLKYKPLPGNELAIKKI
-YRTALGFIFDNISFYKNFVEQVDSRELDIILKQIDRKINTAYVSSMGRFFDA-----------------------
-----------------VAALIGVRKEVLFEGQAAMELESLMAES--------EEYYE---YEILKEDRYV---ID
-PEL--------------------ILRQIYEDYMKGF-----------------------------EKSYISAKFH
-NTVV-------------------NFTYDLANLIRKET-----GINKVVLSGGSFQNRYLL----RRLIEK-----
------------------------------------------LSLS----GFEVYSNSKVPC--------------
---------------------NDGGISLGQAVIAN--------------*
-
->P1;4K25
-structureX:4K25_fit.pdb:  33 :A:+295 :A:::-1.00:-1.00
-----------------YKVLAIETSCDDTCVSVLDRFSKSAAPNVLANLK--------DTLDS------TKAHIH
-HQARIGPLTERALIE-SNARE------GIDLICVTRGPG-PG------SLSGGLDFAKGLA------VAWNKPLI
-GVH----------------------------------H-LGHLLIPRGTNGKVPQFPFVSLLVSGG---------
------------------------------------------HTTFVLSRAIDDHEILCDTID-------------
--------------------------------------------IAVGDSLDK-----------------------
-----------------CGRELGFK------GTIARE-EKFINQDINDQDFALKLE---------N---LS---FS
-FSA--------------------FITALRTNLTKLGKTEI-------------------QELPEREIRSIAYQVQ
-ESVF-------------------DHIINKLKHVLKSQPEKFKNVREFVCSGGVSSNQRLR----TKLETE-----
------------------------------------------LGTLNSTSFFNFYY--------------------
-------------------------------------------------*
-
->P1;5JMV
-structureX:5JMV_fit.pdb:   3 :A:+298 :A:::-1.00:-1.00
-------------------CLGLEGTAEKTGVGIVTS----DGEVLFNKTI--------MYKPN-----PREAADH
-HAETFPKLIKEAFE--VVDKN------EIDLIAFSQGPGLGP------SLRVTATVARTLS------LTLKKPII
-GVN----------------------------------HCIAHIEIGKLTT--EAED-PLTLYVSGG---------
------------------------------------------NTQVIAYVS-KKYRVFGETLD-------------
--------------------------------------------IAVGNCLDQ-----------------------
-----------------FARYVNLP------HPGGPYIEELARKGK------KLVDLP---YTVKG---MD---IA
-FSG--------------------LLTAAMRAYDAG-E----------------------------RLEDICYSLQ
-EYAF-------------------SMLTEITERALAHT-----NKGEVMLVGGVAANNRLR----EMLKAM-----
------------------------------------------CEGQ----NVDFYVPPKEFC--------------
---------------------GD-NGAMIAWLGLLMHKN--GRWMSL--*
+>P1;5V07_0
+structureX:5V07_0_fit.pdb:   2 :Z:+344 :Z:::-1.00:-1.00
+GIQGLLQFIKEASEPIHVRKYKGQVVAVDTYCWLHKGAI--------ACAEKLAKGEPTDRYVGFCMKFVNMLLS
+HGIKPILVFDGCTLPSKKEVERSR----------RERRQANLLKGKQLLREGKVSEARECFTRSIN--------I
+THAMAHKVIKAARSQGVDCLVAPYEADAQLAYLNKAGIVQAIITEDSALLAFGCKKVILKMDQFG----------
+---NGLEIDQARLGMCRQLGDVFTEEKFRYMCILSGCDYL-SSLRGIGLAKACKVLRLANNPDIVKVIKKIGHYL
+KMNITVPEDYINGFIRANNTFLYQLVFDPIKRKLIPLNAYEDDVDPETLSYAGQYVDDSIALQIALGNKDINTFE
+QIDDYNPDT----------------------------------------------------*
