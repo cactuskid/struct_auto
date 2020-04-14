@@ -1,1055 +1,1177 @@
-Query         snap_masked-jcf7180000221780-processed-gene-0.1-mRNA-1/1-705 protein AED:0.36 eAED:0.36 QI:0|1|0.5|1|1|1|2|0|705 [Atriophallophorus_red3]
-Match_columns 847
-No_of_seqs    30 out of 56
-Neff          2.62883
-Searched_HMMs 447
-Date          Sun Mar 29 22:17:33 2020
-Command       hhblits -cpu 8 -d /home/cactuskid13/mntpt/HHBLITsdb/pdb70/pdb70 -i ./HOG25968.realn.fasta -o ./HOG25968.hhr -n 1 -B 2000 -Z 2000 -cons -Oa3m ./HOG25968.a3m 
+Query         CCD75246.1/2-725 sequence:CCD75246.1:1    : :725  : :::-1.00:-1.00
+Match_columns 928
+No_of_seqs    28 out of 56
+Neff          2.42075
+Searched_HMMs 463
+Date          Tue Apr 14 10:24:32 2020
+Command       hhblits -cpu 8 -d /home/cactuskid13/mntpt/HHBLITsdb/pdb70/pdb70 -i ./hogalnclip.aln.fasta -o ./HOG25968.hhr -n 1 -B 2000 -Z 2000 -cons -Oa3m ./HOG25968.a3m 
 
  No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
-  1 5ZOD_A Flap endonuclease 1 (E.  99.6 4.3E-20 5.9E-24  177.1   0.0  177    2-190     1-188 (333)
-  2 1B43_B PROTEIN (FEN-1); NUCLEA  99.6 6.5E-20 8.7E-24  178.5   0.0  173    2-189     1-181 (340)
-  3 5V07_Z Exonuclease 1/DNA Compl  99.6   1E-19 1.4E-23  177.4   0.0  177    2-189     1-179 (352)
-  4 3QE9_Y Exonuclease 1 (E.C.3.1.  99.6   1E-19 1.4E-23  177.4   0.0  177    2-189     1-179 (352)
-  5 1RXW_A 5'-d(*C*pG*pA*pT*pG*pC*  99.5   2E-19 2.7E-23  173.0   0.0  172    2-189     1-180 (336)
-  6 5UM9_A Flap endonuclease 1/DNA  99.5 2.1E-19 2.9E-23  173.2   0.0  175    3-189     1-186 (341)
-  7 1RXV_B Flap structure-specific  99.5 3.4E-19 4.6E-23  171.8   0.0  172    2-189     1-180 (336)
-  8 3ORY_A flap endonuclease 1; en  99.5 3.9E-19 5.2E-23  174.8   0.0  178    1-190    10-196 (363)
-  9 1A77_A FLAP ENDONUCLEASE-1 PRO  99.5 2.9E-18 3.8E-22  165.5   0.0  170    2-189     1-181 (326)
- 10 1UL1_X Flap endonuclease-1/Pro  99.5 3.5E-18 4.5E-22  170.7   0.0  176    3-190     1-187 (379)
- 11 3Q8L_A Flap endonuclease 1 (E.  99.4 4.4E-18 5.9E-22  164.3   0.0  175    3-189     1-186 (341)
- 12 1UL1_Z Flap endonuclease-1/Pro  99.3 7.2E-17 9.2E-21  161.1   0.0  176    3-190     1-187 (379)
- 13 4Q0W_B DNA repair protein RAD2  99.3 1.5E-16 2.1E-20  155.3   0.0  171    3-188     1-199 (365)
- 14 4Q0Z_A Rad2p, dna; ba Rossmann  99.3 1.6E-16 2.2E-20  155.5   0.0  171    3-188     1-199 (365)
- 15 4WA8_A Flap endonuclease 1 (E.  99.3 2.1E-16 2.8E-20  153.9   0.0  171    2-189     8-185 (355)
- 16 5CO8_C ctGEN1/DNA Complex; Hol  99.2 1.1E-15 1.3E-19  158.8   0.0  139    3-189     1-148 (464)
- 17 5T9J_A Flap endonuclease GEN h  99.2 1.6E-15 1.9E-19  158.2   0.0  162    2-189     1-163 (506)
- 18 5CNQ_A Nuclease-like protein/D  99.2   3E-15 3.5E-19  155.8   0.0  139    3-189     1-148 (464)
- 19 5T9J_B Flap endonuclease GEN h  99.1 3.6E-15 4.4E-19  155.4   0.0  162    2-189     1-163 (506)
- 20 6GRD_A Nuclease-like protein/D  99.1 7.9E-15 8.9E-19  155.8   0.0  141    2-190     1-150 (530)
- 21 6GRB_A Nuclease-like protein/D  99.1 7.9E-15 8.9E-19  155.8   0.0  141    2-190     1-150 (530)
- 22 6GRC_A DNA resolvase/DNA Compl  99.1 1.4E-14 1.6E-18  154.1   0.0  141    2-190     1-150 (530)
- 23 1CMW_A DNA POLYMERASE I (E.C.2  98.7 1.3E-12 1.7E-16  140.5   0.0  137   21-190     8-151 (832)
- 24 2IZO_A FLAP STRUCTURE-SPECIFIC  98.7 1.9E-12 2.5E-16  125.3   0.0  157   21-189    14-178 (346)
- 25 1BGX_T TAQ DNA POLYMERASE, TP7  98.6 5.4E-12 7.1E-16  135.5   0.0  138   19-189     6-150 (832)
- 26 3ZDB_A PROTEIN XNI (E.C.3.1.-.  98.4 3.9E-11 5.2E-15  110.4   0.0  126   25-189     3-135 (251)
- 27 3ZD9_A PROTEIN XNI (E.C.3.1.-.  98.4 3.9E-11 5.2E-15  110.4   0.0  126   25-189     3-135 (251)
- 28 3ZD8_B PROTEIN XNI (E.C.3.1.-.  98.4   4E-11 5.4E-15  110.3   0.0  126   25-189     3-135 (251)
- 29 3H7I_A Ribonuclease H (E.C.3.1  97.4 1.1E-07 1.3E-11   92.3   0.0  138   22-189    10-163 (305)
- 30 2MDT_A Putative uncharacterize  51.4     1.6 0.00015   37.8   0.0   74   96-183    12-89  (119)
- 31 1O4W_A PIN AF0591; PIN (PILT N  35.4       3 0.00039   33.3   0.0   30  158-187    95-124 (147)
- 32 6A7V_E Ribonuclease VapC11 (E.  25.4     5.1 0.00076   29.2   0.0   29  159-187    99-127 (139)
- 33 6A7V_C Ribonuclease VapC11 (E.  25.4     5.1 0.00076   29.2   0.0   29  159-187    99-127 (139)
- 34 3I8O_A KH domain-containing pr  23.6       6 0.00086   29.6   0.0   31  157-187    89-119 (142)
- 35 4V00_B MONOTREME LACTATING PRO  21.6      11   0.001   37.7   0.0   27   11-37     34-60  (366)
+  1 1B43_B PROTEIN (FEN-1); NUCLEA  99.7   3E-21 4.1E-25  188.3   0.0  173    2-181     1-181 (340)
+  2 5ZOD_A Flap endonuclease 1 (E.  99.6 4.3E-21   6E-25  184.3   0.0  177    2-182     1-188 (333)
+  3 3QE9_Y Exonuclease 1 (E.C.3.1.  99.6   1E-20 1.4E-24  184.8   0.0  177    2-181     1-179 (352)
+  4 5V07_Z Exonuclease 1/DNA Compl  99.6   1E-20 1.4E-24  184.8   0.0  177    2-181     1-179 (352)
+  5 1RXW_A 5'-d(*C*pG*pA*pT*pG*pC*  99.6 1.4E-20   2E-24  181.3   0.0  173    2-182     1-181 (336)
+  6 5UM9_A Flap endonuclease 1/DNA  99.6 1.7E-20 2.4E-24  181.0   0.0  175    3-181     1-186 (341)
+  7 1RXV_B Flap structure-specific  99.6 2.3E-20 3.1E-24  180.3   0.0  173    2-182     1-181 (336)
+  8 3ORY_A flap endonuclease 1; en  99.6 2.9E-20 3.9E-24  183.2   0.0  178    1-182    10-196 (363)
+  9 1A77_A FLAP ENDONUCLEASE-1 PRO  99.5 1.7E-19 2.3E-23  174.3   0.0  171    2-182     1-182 (326)
+ 10 3Q8L_A Flap endonuclease 1 (E.  99.5 3.5E-19 4.8E-23  172.2   0.0  175    3-181     1-186 (341)
+ 11 1UL1_X Flap endonuclease-1/Pro  99.5 3.7E-19 4.8E-23  178.1   0.0  176    3-182     1-187 (379)
+ 12 1UL1_Z Flap endonuclease-1/Pro  99.4 5.1E-18 6.6E-22  169.8   0.0  176    3-182     1-187 (379)
+ 13 5T9J_A Flap endonuclease GEN h  99.4   1E-17 1.3E-21  175.2   0.0  214    2-269     1-216 (506)
+ 14 4Q0Z_A Rad2p, dna; ba Rossmann  99.4 9.8E-18 1.3E-21  164.5   0.0  171    3-180     1-199 (365)
+ 15 4Q0W_B DNA repair protein RAD2  99.4   1E-17 1.4E-21  164.1   0.0  171    3-180     1-199 (365)
+ 16 5T9J_B Flap endonuclease GEN h  99.4 2.5E-17 3.1E-21  172.3   0.0  214    2-269     1-216 (506)
+ 17 4WA8_A Flap endonuclease 1 (E.  99.4   3E-17   4E-21  160.1   0.0  171    2-181     8-185 (355)
+ 18 5CO8_C ctGEN1/DNA Complex; Hol  99.3 9.7E-17 1.2E-20  167.3   0.0  140    3-182     1-149 (464)
+ 19 5CNQ_A Nuclease-like protein/D  99.3 2.6E-16 3.1E-20  164.2   0.0  139    3-181     1-148 (464)
+ 20 6GRD_A Nuclease-like protein/D  99.2 7.3E-16 8.3E-20  164.2   0.0  141    2-182     1-150 (530)
+ 21 6GRB_A Nuclease-like protein/D  99.2 7.3E-16 8.3E-20  164.2   0.0  141    2-182     1-150 (530)
+ 22 6GRC_A DNA resolvase/DNA Compl  99.2 1.7E-15 1.9E-19  161.6   0.0  141    2-182     1-150 (530)
+ 23 2IZO_A FLAP STRUCTURE-SPECIFIC  98.9 1.1E-13 1.4E-17  134.4   0.0  157   21-181    14-178 (346)
+ 24 1CMW_A DNA POLYMERASE I (E.C.2  98.9 1.3E-13 1.8E-17  148.4   0.0  136   21-181     8-150 (832)
+ 25 1BGX_T TAQ DNA POLYMERASE, TP7  98.8 5.2E-13 6.9E-17  143.7   0.0  139   18-181     5-150 (832)
+ 26 3ZD9_A PROTEIN XNI (E.C.3.1.-.  98.7 1.4E-12 1.9E-16  120.5   0.0  124   25-181     3-135 (251)
+ 27 3ZDB_A PROTEIN XNI (E.C.3.1.-.  98.7 1.4E-12 1.9E-16  120.5   0.0  124   25-181     3-135 (251)
+ 28 3ZD8_B PROTEIN XNI (E.C.3.1.-.  98.7 1.8E-12 2.5E-16  119.7   0.0  124   25-181     3-135 (251)
+ 29 5HNK_A Exodeoxyribonuclease/DN  98.7 2.4E-12 3.2E-16  122.0   0.0  134   25-181     1-142 (272)
+ 30 5HML_B Exodeoxyribonuclease (E  98.7 2.4E-12 3.2E-16  122.0   0.0  134   25-181     1-142 (272)
+ 31 5HP4_A Exodeoxyribonuclease/DN  98.6 1.1E-11 1.4E-15  117.7   0.0  133   25-181     1-142 (272)
+ 32 3H7I_A Ribonuclease H (E.C.3.1  97.6 3.4E-08 4.2E-12   96.2   0.0  138   22-181    10-163 (305)
+ 33 2MDT_A Putative uncharacterize  48.7     1.8 0.00018   37.6   0.0   75   87-175    11-89  (119)
+ 34 1O4W_A PIN AF0591; PIN (PILT N  33.5     3.3 0.00044   33.1   0.0   30  150-179    95-124 (147)
+ 35 6A7V_E Ribonuclease VapC11 (E.  24.1     5.4 0.00083   29.1   0.0   29  151-179    99-127 (139)
+ 36 6A7V_C Ribonuclease VapC11 (E.  24.1     5.4 0.00083   29.1   0.0   29  151-179    99-127 (139)
+ 37 3I8O_A KH domain-containing pr  23.0     6.2  0.0009   29.6   0.0   31  149-179    89-119 (142)
+ 38 4V00_B MONOTREME LACTATING PRO  21.9      11 0.00098   38.0   0.0   27   11-37     34-60  (366)
 
 No 1
->5ZOD_A Flap endonuclease 1 (E.C.3.1.-.-); flap endonuclease: gap endonuclease: methylation:; 1.9A {Homo sapiens}
-Probab=99.59  E-value=4.3e-20  Score=177.10  Aligned_cols=177  Identities=21%  Similarity=0.253  Sum_probs=130.5  Template_Neff=9.800
-
-Q snap_masked-jc    1 MGVKGLSTYLQQDP----NNFSSFELHNTRVVIDAWNFINYLHRKY-----GFTKLYGGEYMDFNLCIRDFLKRLRKCRI   71 (705)
-Q Consensus         2 MGVrGLsTYiqqdp----~nFs~fELHNt~lViDAeNFi~~~YR~s-----gl~~~yGGEYm~F~~~Vr~fLk~lrkCrI   72 (847)
-                      |||+||++++....    ....-.++.+.+|+|||.+++...+...     .+....||++-.+..+++.+++.+ +++|
-T Consensus         1 MGI~gL~~~l~~~~~~~~~~~~l~~l~~~~l~ID~~~~l~~~~~~~~~~~~~~~~~~g~~~~~l~~~~~~~~~ll-~~~i   79 (333)
-T 5ZOD_A            1 MGIQGLAKLIADVAPSAIRENDIKSYFGRKVAIDASMSIYQFLIAVRQGGDVLQNEEGETTSHLMGMFYRTIRMM-ENGI   79 (333)
-T ss_pred             CCcCCcHHHccccCCccceeecHHHhCCCEEEEeHHHHHHHHHHHHHcCCCcccCCCCCCCHHHHHHHHHHHHHH-HCCC
-Confidence            99999999998753    3456678899999999999999988753     255678999999999999999887 7999
-
-
-Q snap_masked-jc   72 SPIFLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEHY-RPVPDICPSLTYETVMQILIEY  142 (705)
-Q Consensus        73 sPIFlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~-~~~pDI~P~L~~~v~~~IL~E~  151 (847)
-                      .|||+||        |++.  ..|.++..+|...|.+....+......-.+.....+ .....+.| .....+.++|++.
-T Consensus        80 ~pvfVfD--------G~~~--~~K~~~~~~r~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~l~~~L~~~  148 (333)
-T 5ZOD_A           80 KPVYVFD--------GKPP--QLKSGELAKRSERRAEAEKQLQQAQAAGAEQEVEKFTKRLVKVTK-QHNDECKHLLSLM  148 (333)
-T ss_pred             ceEEEEC--------CCCC--CcchhhHHHHHHHHHHcHHHHHHHHHcCCHHHHHHHHHhcCCCCH-HHHHHHHHHHHHc
-Confidence            9999999        8763  357777777666554433222111111000111111 11122333 3466778999999
-
-
-Q snap_masked-jc  143 KVPHLTCDGEADKSTAELAIFLD-CPVLSNDSDFFLFRSV  181 (705)
-Q Consensus       152 ~v~yltCerEAD~~vAELAifL~-CPV~SNDSDFfifR~~  190 (847)
-                      |++++.+..|||.-.|.||..-. +.|.|+||||++|...
-T Consensus       149 gi~~i~ap~EAd~~la~l~~~~~~~~vis~DsD~l~~~~~  188 (333)
-T 5ZOD_A          149 GIPYLDAPSEAEASCAALVKAGKVYAAATEDMDCLTFGSP  188 (333)
-T ss_pred             CCCEEECCCCHHHHHHHHHHCCCCeEEEcCCCCceeecCC
-Confidence            99999999999999999999877 4799999999999853
-
-
-No 2
 >1B43_B PROTEIN (FEN-1); NUCLEASE, DNA REPAIR, DNA REPLICATION; 2.0A {Pyrococcus furiosus} SCOP: c.120.1.2, a.60.7.1
-Probab=99.57  E-value=6.5e-20  Score=178.55  Aligned_cols=173  Identities=18%  Similarity=0.217  Sum_probs=128.6  Template_Neff=9.300
+Probab=99.65  E-value=3e-21  Score=188.29  Aligned_cols=173  Identities=14%  Similarity=0.118  Sum_probs=130.1  Template_Neff=9.300
 
-Q snap_masked-jc    1 MGVKGLSTYLQQDPNNFSSFELHNTRVVIDAWNFINYLHRKY------GFTKLYGGEYMDFNLCIRDFLKRLRKCRISPI   74 (705)
-Q Consensus         2 MGVrGLsTYiqqdp~nFs~fELHNt~lViDAeNFi~~~YR~s------gl~~~yGGEYm~F~~~Vr~fLk~lrkCrIsPI   75 (847)
-                      ||| ||++|+.+.+-++  .+|++.+++|||.+++...|+..      .+....||.+-.+..+++.+++ +.+|+|.||
+Q CCD75246.1/2-7    1 -GIRGLWTYIQSNSENFSPYELHNQPLVIDAENFASLCYRQA------TLRCEYGGEYLAFKRYIQLFLKKFRTCHVDPI   73 (724)
+Q Consensus         2 MGVRGLsTYiqqdP~NFs~fELHNT~lViDAeNFi~~~YR~s------gL~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPI   75 (928)
+                      ||| ||++|+.+.+-++  .+|++.+|+|||.+++..+|+..      .+...+||.+-.+..+++.+++ +.+|+|.||
 T Consensus         1 MGv-gl~~~~~~~~~~l--~~l~~~~i~ID~~~~l~~~~~~~~~~~~~~l~~~~g~~~~~l~~~l~~l~~-l~~~~i~pv   76 (340)
 T 1B43_B            1 MGV-PIGEIIPRKEIEL--ENLYGKKIAIDALNAIYQFLSTIRQKDGTPLMDSKGRITSHLSGLFYRTIN-LMEAGIKPV   76 (340)
 T ss_dssp             -CC-SGGGGCCCEECCG--GGGTTCEEEEEHHHHHHHHHHHSBCTTSCBCBCTTCCBCHHHHCCCCCHHH-HHHTTCEEE
 T ss_pred             CCC-CHHHccCCeeeCH--HHhCCCEEEEEHHHHHHHHHHHHhcCCCCccccCCCCcCHHHHHHHHHHHH-HHHCCCEEE
-Confidence            999 9999998755444  47899999999999999888753      2456789999999999988776 578999999
+Confidence            999 9999998755444  57899999999999999988753      3556789999999999988766 578999999
 
 
-Q snap_masked-jc   75 FLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVE-HYRPVPDICPSLTYETVMQILIEYKVP  145 (705)
-Q Consensus        76 FlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~-~~~~~pDI~P~L~~~v~~~IL~E~~v~  154 (847)
-                      |+||        |-...  .|..++.+|...+.+....+-......+..... ..+....+ |......+.++|++.|++
-T Consensus        77 fVFD--------G~~~~--~K~~~~~~R~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~L~~~gi~  145 (340)
-T 1B43_B           77 YVFD--------GEPPE--FKKKELEKRREAREEAEEKWREALEKGEIEEARKYAQRATRV-NEMLIEDAKKLLELMGIP  145 (340)
-T ss_dssp             EEEC--------CSCCC--CCCSSHHHHHTCGGGSSHHHHHHHHTSCHHHHHHHHHTTGGG-GHHHHHHHHHHHHHHTCC
-T ss_pred             EEEC--------CCCCh--HHHHHHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHccCC-CHHHHHHHHHHHHHCCCC
-Confidence            9999        65532  567777777766655443322111111101111 11112334 345567889999999999
+Q CCD75246.1/2-7   74 FVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLN-SLDLNIDITPRLCRHVLVEILRESSVRYIACEREA  150 (724)
+Q Consensus        76 FvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d-~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCErEA  154 (928)
+                      |||||-...  .|..++.+|...+.+....+-......+..... ..+....+ |......+.++|+..|++|+.+..||
+T Consensus        77 fVFDG~~~~--~K~~~~~~R~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~L~~~gi~~i~ap~EA  153 (340)
+T 1B43_B           77 YVFDGEPPE--FKKKELEKRREAREEAEEKWREALEKGEIEEARKYAQRATRV-NEMLIEDAKKLLELMGIPIVQAPSEG  153 (340)
+T ss_dssp             EEECCSCCC--CCCSSHHHHHTCGGGSSHHHHHHHHTSCHHHHHHHHHTTGGG-GHHHHHHHHHHHHHHTCCEEECSSCH
+T ss_pred             EEECCCCCh--HHHHHHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHccCC-CHHHHHHHHHHHHHCCCCEEECCCCH
+Confidence            999998743  677888888777655443322111111001111 11112334 34556788999999999999999999
 
 
-Q snap_masked-jc  146 HLTCDGEADKSTAELAIFLDC-PVLSNDSDFFLFRS  180 (705)
-Q Consensus       155 yltCerEAD~~vAELAifL~C-PV~SNDSDFfifR~  189 (847)
-                      |+.+..|||.-.|.|+..-.| .|.|+||||++|..
-T Consensus       146 ~i~ap~EAda~~a~l~~~~~~~~Vis~DsD~l~~g~  181 (340)
-T 1B43_B          146 IVQAPSEGEAQAAYMAAKGSVYASASQDYDSLLFGA  181 (340)
-T ss_dssp             EEECSSCHHHHHHHHHHHTSSSEEECSSSHHHHTTC
-T ss_pred             EEECCCCHHHHHHHHHHCCCCcEEECCCcchhhcCC
-Confidence            999999999999999999888 88899999999984
+Q CCD75246.1/2-7  151 DISAAELAIYLQC-PVTSGDSDFFIYRP  177 (724)
+Q Consensus       155 D~~vAELAifL~C-PV~SnDSDFfIFRp  181 (928)
+                      |.-.|.|+..-.| .|.|+||||++|..
+T Consensus       154 da~~a~l~~~~~~~~Vis~DsD~l~~g~  181 (340)
+T 1B43_B          154 EAQAAYMAAKGSVYASASQDYDSLLFGA  181 (340)
+T ss_dssp             HHHHHHHHHHTSSSEEECSSSHHHHTTC
+T ss_pred             HHHHHHHHHCCCCcEEECCCcchhhcCC
+Confidence            9999999999888 88899999999984
+
+
+No 2
+>5ZOD_A Flap endonuclease 1 (E.C.3.1.-.-); flap endonuclease: gap endonuclease: methylation:; 1.9A {Homo sapiens}
+Probab=99.64  E-value=4.3e-21  Score=184.27  Aligned_cols=177  Identities=16%  Similarity=0.171  Sum_probs=131.2  Template_Neff=9.800
+
+Q CCD75246.1/2-7    1 -GIRGLWTYIQSNS----ENFSPYELHNQPLVIDAENFASLCYRQA-----TLRCEYGGEYLAFKRYIQLFLKKFRTCHV   70 (724)
+Q Consensus         2 MGVRGLsTYiqqdP----~NFs~fELHNT~lViDAeNFi~~~YR~s-----gL~~~YGGEYmdF~~~Vr~FLK~lrkCrI   72 (928)
+                      |||+||++++....    ......++.+.+|+|||.+++..++...     .+....||++-.+..+++.+++-+ +++|
+T Consensus         1 MGI~gL~~~l~~~~~~~~~~~~l~~l~~~~l~ID~~~~l~~~~~~~~~~~~~~~~~~g~~~~~l~~~~~~~~~ll-~~~i   79 (333)
+T 5ZOD_A            1 MGIQGLAKLIADVAPSAIRENDIKSYFGRKVAIDASMSIYQFLIAVRQGGDVLQNEEGETTSHLMGMFYRTIRMM-ENGI   79 (333)
+T ss_pred             CCcCCcHHHccccCCccceeecHHHhCCCEEEEeHHHHHHHHHHHHHcCCCcccCCCCCCCHHHHHHHHHHHHHH-HCCC
+Confidence            99999999998743    3556678899999999999999988753     256678999999999999999877 7999
+
+
+Q CCD75246.1/2-7   71 DPIFVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLNSL-DLNIDITPRLCRHVLVEILRESSVRYIACE  147 (724)
+Q Consensus        73 sPIFvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~~-~~~pDI~P~L~~~v~~~IL~E~~v~yltCE  151 (928)
+                      .|||||||++.  ..|.++..+|...|......+......-.+.....+ .....+.| .....+.++|++.|++++.+.
+T Consensus        80 ~pvfVfDG~~~--~~K~~~~~~r~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~l~~~L~~~gi~~i~ap  156 (333)
+T 5ZOD_A           80 KPVYVFDGKPP--QLKSGELAKRSERRAEAEKQLQQAQAAGAEQEVEKFTKRLVKVTK-QHNDECKHLLSLMGIPYLDAP  156 (333)
+T ss_pred             ceEEEECCCCC--CcchhhHHHHHHHHHHcHHHHHHHHHcCCHHHHHHHHHhcCCCCH-HHHHHHHHHHHHcCCCEEECC
+Confidence            99999999873  467777777666554433222111111000111111 11123333 346677899999999999999
+
+
+Q CCD75246.1/2-7  148 READISAAELAIYLQ-CPVTSGDSDFFIYRPI  178 (724)
+Q Consensus       152 rEAD~~vAELAifL~-CPV~SnDSDFfIFRp~  182 (928)
+                      .|||.-.|.||..-. +.|.|+||||++|...
+T Consensus       157 ~EAd~~la~l~~~~~~~~vis~DsD~l~~~~~  188 (333)
+T 5ZOD_A          157 SEAEASCAALVKAGKVYAAATEDMDCLTFGSP  188 (333)
+T ss_pred             CCHHHHHHHHHHCCCCeEEEcCCCCceeecCC
+Confidence            999999999999877 4799999999999853
 
 
 No 3
->5V07_Z Exonuclease 1/DNA Complex; exonuclease, endonuclease, HYDROLASE-DNA complex; 2.15A {Homo sapiens}
-Probab=99.56  E-value=1e-19  Score=177.44  Aligned_cols=177  Identities=20%  Similarity=0.245  Sum_probs=135.0  Template_Neff=9.400
+>3QE9_Y Exonuclease 1 (E.C.3.1.-.-); exonuclease, HYDROLASE-DNA complex; 2.51A {Homo sapiens}
+Probab=99.62  E-value=1e-20  Score=184.84  Aligned_cols=177  Identities=20%  Similarity=0.264  Sum_probs=135.0  Template_Neff=9.400
 
-Q snap_masked-jc    1 MGVKGLSTYLQQDPNNFSSFELHNTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFLKRLRKCRISPIFLFD--   78 (705)
-Q Consensus         2 MGVrGLsTYiqqdp~nFs~fELHNt~lViDAeNFi~~~YR~sgl~~~yGGEYm~F~~~Vr~fLk~lrkCrIsPIFlFd~~   81 (847)
-                      |||+||++|+.+......--++.+..|+|||.+|+...+.........|+.+-.+..++..+++.|+.++|.|||+||  
-T Consensus         1 MGI~gL~~~l~~~~~~~~l~~~~~~~i~ID~~~~l~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~l~~~~i~pi~VFD--   78 (352)
-T 5V07_Z            1 MGIQGLLQFIKEASEPIHVRKYKGQVVAVDTYCWLHKGAIACAEKLAKGEPTDRYVGFCMKFVNMLLSHGIKPILVFD--   78 (352)
-T ss_dssp             -CCTTHHHHTGGGEEEEEGGGGTTSEEEEEHHHHHHHHHHTTHHHHHHTCCCCHHHHHHHHHHHHHHHTTCEEEEEEC--
-T ss_pred             CCccChHHHHHHhCCCccHHHcCCCEEEEehHHHHHHhHhhhHHHHHCCCCcHHHHHHHHHHHHHHHHCCCeEEEEEc--
-Confidence            999999999998766665567899999999999999998876555567888888888999999999999999999999  
-
-
-Q snap_masked-jc   79 ------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSH-VEHYRPVPDICPSLTYETVMQILIEYKVPHLTCDG  151 (705)
-Q Consensus        82 ~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd-~~~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCer  160 (847)
-                            |+...  .|..+..+|..+|.+.+..........+... .+...-..+|.|.+. ..+.++|++.||+|+.+..
-T Consensus        79 ------G~~~~--~k~~~~~~R~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~l~~~L~~~gv~~i~ap~  149 (352)
-T 5V07_Z           79 ------GCTLP--SKKEVERSRRERRQANLLKGKQLLREGKVSEARECFTRSINITHAMA-HKVIKAARSQGVDCLVAPY  149 (352)
-T ss_dssp             ------CSCCG--GGHHHHHHHHHHHHHHHHHHHHHHTTTCHHHHHHHHHTSCCCCHHHH-HHHHHHHHHTTCEEEECSS
-T ss_pred             ------CCCCh--hHHHHHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHhcCCCCHHHH-HHHHHHHHhcCCeEEECCC
-Confidence                  77533  5666677777666665554443332211111 122222345555554 5678999999999999999
+Q CCD75246.1/2-7    1 -GIRGLWTYIQSNSENFSPYELHNQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHVDPIFVFGGC   79 (724)
+Q Consensus         2 MGVRGLsTYiqqdP~NFs~fELHNT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPIFvFDGC   81 (928)
+                      |||+||++|+.+......--++.+..|+|||.+|+..++.........|+.+-.+..++..+++.|+.++|.|||||||+
+T Consensus         1 MGI~gL~~~l~~~~~~~~l~~~~~~~i~ID~~~~l~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~l~~~~i~pi~VFDG~   80 (352)
+T 3QE9_Y            1 MGIQGLLQFIKEASEPIHVRKYKGQVVAVDTYCWLHKGAIACAEKLAKGEPTDRYVGFCMKFVNMLLSHGIKPILVFDGC   80 (352)
+T ss_dssp             -CCTTHHHHTTTSEEEEEGGGGTTSEEEEETHHHHHHHHHHTHHHHHTTCCCCHHHHHHHHHHHHHHHTTCEEEEEECCS
+T ss_pred             CCccChHHHHHHhCCCccHHHcCCCEEEEehHHHHHHhHhhhHHHHHCCCCcHHHHHHHHHHHHHHHHCCCeEEEEEcCC
+Confidence            99999999999876666556789999999999999999887555556777887778899999999999999999999998
 
 
-Q snap_masked-jc  152 EADKSTAELAIF-LDCPVLSNDSDFFLFRS  180 (705)
-Q Consensus       161 EAD~~vAELAif-L~CPV~SNDSDFfifR~  189 (847)
-                      |||.-.|-|+.. .-+.|.|+||||++|..
-T Consensus       150 EAd~qla~l~~~~~~~~Vis~DsDll~~~~  179 (352)
-T 5V07_Z          150 EADAQLAYLNKAGIVQAIITEDSALLAFGC  179 (352)
-T ss_dssp             CHHHHHHHHHHTTSCSEEECSCGGGGGGTC
-T ss_pred             ccHHHHHHHHHCCCCCEEEeCChHHHHhCC
-Confidence            999999999976 55699999999999983
+Q CCD75246.1/2-7   80 HSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SN-LNSLDLNIDITPRLCRHVLVEILRESSVRYIACEREADISAAE  156 (724)
+Q Consensus        82 H~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd-~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCErEAD~~vAE  160 (928)
+                      ...  .|..+..+|..++.+.+..........+... .+...-..+|.|.+. ..+.++|++.||+++.+..|||.-.|-
+T Consensus        81 ~~~--~k~~~~~~R~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~l~~~L~~~gv~~i~ap~EAd~qla~  157 (352)
+T 3QE9_Y           81 TLP--SKKEVERSRRERRQANLLKGKQLLREGKVSEARECFTRSINITHAMA-HKVIKAARSQGVDCLVAPYEADAQLAY  157 (352)
+T ss_dssp             CCT--TTHHHHHHHHHHHHHHHHCCCCCTTSSCCHHHHHHHGGGCCCCHHHH-HHHHHHHHHTTCEEEECSSCHHHHHHH
+T ss_pred             CCh--hHHHHHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHhcCCCCHHHH-HHHHHHHHhcCCeEEECCCccHHHHHH
+Confidence            743  5666777776666655544443322211111 112222344555554 567899999999999999999999999
+
+
+Q CCD75246.1/2-7  157 LAIY-LQCPVTSGDSDFFIYRP  177 (724)
+Q Consensus       161 LAif-L~CPV~SnDSDFfIFRp  181 (928)
+                      |+.. .-+.|.|+||||++|..
+T Consensus       158 l~~~~~~~~Vis~DsDll~~~~  179 (352)
+T 3QE9_Y          158 LNKAGIVQAIITEDSALLAFGC  179 (352)
+T ss_dssp             HHHTTSCSEEECSCGGGGGGTC
+T ss_pred             HHHCCCCCEEEeCChHHHHhCC
+Confidence            9976 55699999999999983
 
 
 No 4
->3QE9_Y Exonuclease 1 (E.C.3.1.-.-); exonuclease, HYDROLASE-DNA complex; 2.51A {Homo sapiens}
-Probab=99.56  E-value=1e-19  Score=177.44  Aligned_cols=177  Identities=20%  Similarity=0.245  Sum_probs=135.0  Template_Neff=9.400
+>5V07_Z Exonuclease 1/DNA Complex; exonuclease, endonuclease, HYDROLASE-DNA complex; 2.15A {Homo sapiens}
+Probab=99.62  E-value=1e-20  Score=184.84  Aligned_cols=177  Identities=20%  Similarity=0.264  Sum_probs=135.0  Template_Neff=9.400
 
-Q snap_masked-jc    1 MGVKGLSTYLQQDPNNFSSFELHNTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFLKRLRKCRISPIFLFD--   78 (705)
-Q Consensus         2 MGVrGLsTYiqqdp~nFs~fELHNt~lViDAeNFi~~~YR~sgl~~~yGGEYm~F~~~Vr~fLk~lrkCrIsPIFlFd~~   81 (847)
-                      |||+||++|+.+......--++.+..|+|||.+|+...+.........|+.+-.+..++..+++.|+.++|.|||+||  
-T Consensus         1 MGI~gL~~~l~~~~~~~~l~~~~~~~i~ID~~~~l~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~l~~~~i~pi~VFD--   78 (352)
-T 3QE9_Y            1 MGIQGLLQFIKEASEPIHVRKYKGQVVAVDTYCWLHKGAIACAEKLAKGEPTDRYVGFCMKFVNMLLSHGIKPILVFD--   78 (352)
-T ss_dssp             -CCTTHHHHTTTSEEEEEGGGGTTSEEEEETHHHHHHHHHHTHHHHHTTCCCCHHHHHHHHHHHHHHHTTCEEEEEEC--
-T ss_pred             CCccChHHHHHHhCCCccHHHcCCCEEEEehHHHHHHhHhhhHHHHHCCCCcHHHHHHHHHHHHHHHHCCCeEEEEEc--
-Confidence            999999999998766665567899999999999999998876555567888888888999999999999999999999  
-
-
-Q snap_masked-jc   79 ------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSH-VEHYRPVPDICPSLTYETVMQILIEYKVPHLTCDG  151 (705)
-Q Consensus        82 ~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd-~~~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCer  160 (847)
-                            |+...  .|..+..+|..+|.+.+..........+... .+...-..+|.|.+. ..+.++|++.||+|+.+..
-T Consensus        79 ------G~~~~--~k~~~~~~R~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~l~~~L~~~gv~~i~ap~  149 (352)
-T 3QE9_Y           79 ------GCTLP--SKKEVERSRRERRQANLLKGKQLLREGKVSEARECFTRSINITHAMA-HKVIKAARSQGVDCLVAPY  149 (352)
-T ss_dssp             ------CSCCT--TTHHHHHHHHHHHHHHHHCCCCCTTSSCCHHHHHHHGGGCCCCHHHH-HHHHHHHHHTTCEEEECSS
-T ss_pred             ------CCCCh--hHHHHHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHhcCCCCHHHH-HHHHHHHHhcCCeEEECCC
-Confidence                  77533  5666677777666665554443332211111 122222345555554 5678999999999999999
+Q CCD75246.1/2-7    1 -GIRGLWTYIQSNSENFSPYELHNQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHVDPIFVFGGC   79 (724)
+Q Consensus         2 MGVRGLsTYiqqdP~NFs~fELHNT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPIFvFDGC   81 (928)
+                      |||+||++|+.+......--++.+..|+|||.+|+..++.........|+.+-.+..++..+++.|+.++|.|||||||+
+T Consensus         1 MGI~gL~~~l~~~~~~~~l~~~~~~~i~ID~~~~l~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~l~~~~i~pi~VFDG~   80 (352)
+T 5V07_Z            1 MGIQGLLQFIKEASEPIHVRKYKGQVVAVDTYCWLHKGAIACAEKLAKGEPTDRYVGFCMKFVNMLLSHGIKPILVFDGC   80 (352)
+T ss_dssp             -CCTTHHHHTGGGEEEEEGGGGTTSEEEEEHHHHHHHHHHTTHHHHHHTCCCCHHHHHHHHHHHHHHHTTCEEEEEECCS
+T ss_pred             CCccChHHHHHHhCCCccHHHcCCCEEEEehHHHHHHhHhhhHHHHHCCCCcHHHHHHHHHHHHHHHHCCCeEEEEEcCC
+Confidence            99999999999876666556789999999999999999887555556777887778899999999999999999999998
 
 
-Q snap_masked-jc  152 EADKSTAELAIF-LDCPVLSNDSDFFLFRS  180 (705)
-Q Consensus       161 EAD~~vAELAif-L~CPV~SNDSDFfifR~  189 (847)
-                      |||.-.|-|+.. .-+.|.|+||||++|..
-T Consensus       150 EAd~qla~l~~~~~~~~Vis~DsDll~~~~  179 (352)
-T 3QE9_Y          150 EADAQLAYLNKAGIVQAIITEDSALLAFGC  179 (352)
-T ss_dssp             CHHHHHHHHHHTTSCSEEECSCGGGGGGTC
-T ss_pred             ccHHHHHHHHHCCCCCEEEeCChHHHHhCC
-Confidence            999999999976 55699999999999983
+Q CCD75246.1/2-7   80 HSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SN-LNSLDLNIDITPRLCRHVLVEILRESSVRYIACEREADISAAE  156 (724)
+Q Consensus        82 H~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd-~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCErEAD~~vAE  160 (928)
+                      ...  .|..+..+|..++.+.+..........+... .+...-..+|.|.+. ..+.++|++.||+++.+..|||.-.|-
+T Consensus        81 ~~~--~k~~~~~~R~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~l~~~L~~~gv~~i~ap~EAd~qla~  157 (352)
+T 5V07_Z           81 TLP--SKKEVERSRRERRQANLLKGKQLLREGKVSEARECFTRSINITHAMA-HKVIKAARSQGVDCLVAPYEADAQLAY  157 (352)
+T ss_dssp             CCG--GGHHHHHHHHHHHHHHHHHHHHHHTTTCHHHHHHHHHTSCCCCHHHH-HHHHHHHHHTTCEEEECSSCHHHHHHH
+T ss_pred             CCh--hHHHHHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHhcCCCCHHHH-HHHHHHHHhcCCeEEECCCccHHHHHH
+Confidence            743  5666777776666655544443322211111 112222344555554 567899999999999999999999999
+
+
+Q CCD75246.1/2-7  157 LAIY-LQCPVTSGDSDFFIYRP  177 (724)
+Q Consensus       161 LAif-L~CPV~SnDSDFfIFRp  181 (928)
+                      |+.. .-+.|.|+||||++|..
+T Consensus       158 l~~~~~~~~Vis~DsDll~~~~  179 (352)
+T 5V07_Z          158 LNKAGIVQAIITEDSALLAFGC  179 (352)
+T ss_dssp             HHHTTSCSEEECSCGGGGGGTC
+T ss_pred             HHHCCCCCEEEeCChHHHHhCC
+Confidence            9976 55699999999999983
 
 
 No 5
 >1RXW_A 5'-d(*C*pG*pA*pT*pG*pC*pT*pA)-3'/5'-d(*T*pA*pG*pC*pA*pT*pC*pG*pG)-3'/Flap structure-specific endonuclease; helical clamp, helix-3 turn-helix, hydrophobic; 2.0A {Archaeoglobus fulgidus} SCOP: a.60.7.1, c.120.1.2
-Probab=99.54  E-value=2e-19  Score=173.02  Aligned_cols=172  Identities=17%  Similarity=0.266  Sum_probs=124.5  Template_Neff=9.700
+Probab=99.61  E-value=1.4e-20  Score=181.26  Aligned_cols=173  Identities=13%  Similarity=0.121  Sum_probs=125.3  Template_Neff=9.700
 
-Q snap_masked-jc    1 MGVKGLSTYLQQDPNNFSSFELHNTRVVIDAWNFINYLHRKY------GFTKLYGGEYMDFNLCIRDFLKRLRKCRISPI   74 (705)
-Q Consensus         2 MGVrGLsTYiqqdp~nFs~fELHNt~lViDAeNFi~~~YR~s------gl~~~yGGEYm~F~~~Vr~fLk~lrkCrIsPI   75 (847)
-                      ||| ||++|+.+.+.+.  .+|++..|+|||.+++..+|...      .+....||++..+. .+-.++.+|.+++|.||
+Q CCD75246.1/2-7    1 -GIRGLWTYIQSNSENFSPYELHNQPLVIDAENFASLCYRQA------TLRCEYGGEYLAFKRYIQLFLKKFRTCHVDPI   73 (724)
+Q Consensus         2 MGVRGLsTYiqqdP~NFs~fELHNT~lViDAeNFi~~~YR~s------gL~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPI   75 (928)
+                      ||| ||++|+.+.+.+.  .+|+++.|+|||.+++..+|...      .+....||++..+. .+-.++.+|.+++|.||
 T Consensus         1 MGV-gL~~~i~~~~~~l--~~l~~~~l~ID~~~~l~~~~~~~~~~~~~~~~~~~g~~~~~l~-~~~~~l~~l~~~~i~~v   76 (336)
 T 1RXW_A            1 MGA-DIGDLFEREEVEL--EYFSGKKIAVDAFNTLYQFISIIRQPDGTPLKDSQGRITSHLS-GILYRVSNMVEVGIRPV   76 (336)
 T ss_dssp             --C-TGGGGCCCEECCG--GGGTTCEEEEEHHHHHHHHHHHSBCTTSCBCBCTTSCBCHHHH-HCCCCCHHHHHHTCEEE
 T ss_pred             CCC-chHHHhccEeecH--HHhCCCEEEEEHHHHHHHHHHHccCCCCCCCCCCCCCcCHHHH-HHHHHHHHHHHCCCEEE
-Confidence            999 9999997655544  47899999999999999988753      35567778777776 45556778889999999
+Confidence            999 9999997655544  47899999999999999998753      35567788777776 44556778889999999
 
 
-Q snap_masked-jc   75 FLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVPH  146 (705)
-Q Consensus        76 FlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v~y  155 (847)
-                      |+||        |.+.  ..|.++..+|...|.+....+......- ......+....-..|......+.++|++.|++|
-T Consensus        77 fVFD--------G~~~--~~K~~~~~~r~~~r~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~L~~~gv~~  145 (336)
-T 1RXW_A           77 FVFD--------GEPP--EFKKAEIEERKKRRAEAEEMWIAALQAG-DKDAKKYAQAAGRVDEYIVDSAKTLLSYMGIPF  145 (336)
-T ss_dssp             EEEC--------CSCC--GGGHHHHHHHHHHHHHHHHHHHHHHHHT-CTTHHHHHHHHCCCCHHHHHHHHHHHHHTTCCE
-T ss_pred             EEEC--------CCCc--hHHHHHHHHHHHHHHHHHHHHHHHHHcC-CHHHHHHHHHcCCCCHHHHHHHHHHHHHcCCCE
-Confidence            9999        8874  3577777777777665443332221110 011111211122345566788899999999999
+Q CCD75246.1/2-7   74 FVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACEREAD  151 (724)
+Q Consensus        76 FvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCErEAD  155 (928)
+                      |||||.+.  ..|.++..+|.+.|.+....+......- ......+....-..|......+.++|++.|++|+.+.+|||
+T Consensus        77 fVFDG~~~--~~K~~~~~~r~~~r~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~L~~~gv~~i~ap~EAd  153 (336)
+T 1RXW_A           77 FVFDGEPP--EFKKAEIEERKKRRAEAEEMWIAALQAG-DKDAKKYAQAAGRVDEYIVDSAKTLLSYMGIPFVDAPSEGE  153 (336)
+T ss_dssp             EEECCSCC--GGGHHHHHHHHHHHHHHHHHHHHHHHHT-CTTHHHHHHHHCCCCHHHHHHHHHHHHHTTCCEEECSSCHH
+T ss_pred             EEECCCCc--hHHHHHHHHHHHHHHHHHHHHHHHHHcC-CHHHHHHHHHcCCCCHHHHHHHHHHHHHcCCCEEECCCcHH
+Confidence            99999984  3677777777777665443332221110 01111121112234556678889999999999999999999
 
 
-Q snap_masked-jc  147 LTCDGEADKSTAELAI--FLDCPVLSNDSDFFLFRS  180 (705)
-Q Consensus       156 ltCerEAD~~vAELAi--fL~CPV~SNDSDFfifR~  189 (847)
-                      +.+.+|||.-.|.||.  ..++ |.|+|||+++|..
-T Consensus       146 i~ap~EAd~~~A~l~~~~~v~~-v~s~DsD~l~~g~  180 (336)
-T 1RXW_A          146 VDAPSEGEAQAAYMAAKGDVEY-TGSQDYDSLLFGS  180 (336)
-T ss_dssp             EECSSCHHHHHHHHHHTTSSSE-EECSSSHHHHTTC
-T ss_pred             EECCCcHHHHHHHHHHcCCceE-EECCchHHHhcCC
-Confidence            9999999999999998  3455 9999999999985
+Q CCD75246.1/2-7  152 ISAAELAI--YLQCPVTSGDSDFFIYRPI  178 (724)
+Q Consensus       156 ~~vAELAi--fL~CPV~SnDSDFfIFRp~  182 (928)
+                      .-.|.||.  ..++ |.|+|||+++|...
+T Consensus       154 ~~~A~l~~~~~v~~-v~s~DsD~l~~g~~  181 (336)
+T 1RXW_A          154 AQAAYMAAKGDVEY-TGSQDYDSLLFGSP  181 (336)
+T ss_dssp             HHHHHHHHTTSSSE-EECSSSHHHHTTCS
+T ss_pred             HHHHHHHHcCCceE-EECCchHHHhcCCC
+Confidence            99999998  3455 99999999999853
 
 
 No 6
 >5UM9_A Flap endonuclease 1/DNA Complex; dna repair, endonuclease, 5' nuclease; 2.805A {Homo sapiens}
-Probab=99.54  E-value=2.1e-19  Score=173.18  Aligned_cols=175  Identities=19%  Similarity=0.229  Sum_probs=131.3  Template_Neff=9.700
+Probab=99.61  E-value=1.7e-20  Score=180.99  Aligned_cols=175  Identities=16%  Similarity=0.167  Sum_probs=132.4  Template_Neff=9.700
 
-Q snap_masked-jc    2 GVKGLSTYLQQDP----NNFSSFELHNTRVVIDAWNFINYLHRKY-----GFTKLYGGEYMDFNLCIRDFLKRLRKCRIS   72 (705)
-Q Consensus         3 GVrGLsTYiqqdp----~nFs~fELHNt~lViDAeNFi~~~YR~s-----gl~~~yGGEYm~F~~~Vr~fLk~lrkCrIs   73 (847)
+Q CCD75246.1/2-7    1 GIRGLWTYIQSNS----ENFSPYELHNQPLVIDAENFASLCYRQA-----TLRCEYGGEYLAFKRYIQLFLKKFRTCHVD   71 (724)
+Q Consensus         3 GVRGLsTYiqqdP----~NFs~fELHNT~lViDAeNFi~~~YR~s-----gL~~~YGGEYmdF~~~Vr~FLK~lrkCrIs   73 (928)
                       ||+||++|+.+..    ...+--+|++..|+|||.+++...+...     -+...+||++-.+..+++.+++-+ +++|.
 T Consensus         1 GI~GL~~~l~~~~~~~~~~~~l~~l~~~~l~ID~~~~l~~~~~~~~~~~~~~~~~~g~~~~~l~~~~~~~~~ll-~~~i~   79 (341)
 T 5UM9_A            1 GIQGLAKLIADVAPSAIRENDIKSYFGRKVAIDASMSIYQFLIAVRQGGDVLQNEEGETTSHLMGMFYRTIRMM-ENGIK   79 (341)
 T ss_dssp             CCTTHHHHHHHHCGGGEEECCGGGGTTEEEEEEHHHHHHHHHHHSEETTEECBCTTSCBCHHHHHHHHHHHHHH-HTTEE
 T ss_pred             CcCcHHHHHHHhcccceeecCHHHhCCCEEEEehHHHHHHHHHHHHcCCCeeeCCCCCCCHHHHHHHHHHHHHH-HCCCE
-Confidence            8999999999874    3556668899999999999999988753     345578999999999999999877 79999
+Confidence            8999999999874    4556678899999999999999998753     345578999999999999988877 79999
 
 
-Q snap_masked-jc   73 PIFLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHV-EHYRPVPDICPSLTYETVMQILIEYK  143 (705)
-Q Consensus        74 PIFlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~-~~~~~~pDI~P~L~~~v~~~IL~E~~  152 (847)
-                      |||+||        |+.  ...|.++..+|...|.+....+.+....-..... +.......+ |......+.++|++.|
-T Consensus        80 pvfVFD--------G~~--~~~K~~~~~~r~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~L~~~g  148 (341)
-T 5UM9_A           80 PVYVFN--------GKP--PQLKSGELAKRSERRAEAEKQLQQAQAAGAEQEVEKFTKRLVKV-TKQHNDECKHLLSLMG  148 (341)
-T ss_dssp             EEEEEC--------CSC--CGGGHHHHHHHHHHHHHHHTHHHHTTTTTCHHHHHHHHHHTCCC-CHHHHHHHHHHHHHHT
-T ss_pred             EEEEEC--------CCC--CccchhHHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHhccCC-CHHHHHHHHHHHHHcC
-Confidence            999999        765  3356777777766665554333221111000001 111111223 4445677899999999
+Q CCD75246.1/2-7   72 PIFVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNL-NSLDLNIDITPRLCRHVLVEILRESSVRYIACER  148 (724)
+Q Consensus        74 PIFvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~-d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCEr  152 (928)
+                      |||||||+.  ...|.++..+|...|.+....+.+....-..... +.......+ |......+.++|++.|++++.+..
+T Consensus        80 pvfVFDG~~--~~~K~~~~~~r~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~L~~~gi~~i~ap~  156 (341)
+T 5UM9_A           80 PVYVFNGKP--PQLKSGELAKRSERRAEAEKQLQQAQAAGAEQEVEKFTKRLVKV-TKQHNDECKHLLSLMGIPYLDAPS  156 (341)
+T ss_dssp             EEEEECCSC--CGGGHHHHHHHHHHHHHHHTHHHHTTTTTCHHHHHHHHHHTCCC-CHHHHHHHHHHHHHHTCCEEECSS
+T ss_pred             EEEEECCCC--CccchhHHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHhccCC-CHHHHHHHHHHHHHcCCCEEECCC
+Confidence            999999986  3467777777766666554433222111100001 111111223 444567789999999999999999
 
 
-Q snap_masked-jc  144 VPHLTCDGEADKSTAELAIFLDC-PVLSNDSDFFLFRS  180 (705)
-Q Consensus       153 v~yltCerEAD~~vAELAifL~C-PV~SNDSDFfifR~  189 (847)
-                      ++++.+..|||.-.|.||..-.+ .|.|+||||++|..
-T Consensus       149 i~~i~ap~EAd~~la~l~~~~~~~~vis~DsD~l~~g~  186 (341)
-T 5UM9_A          149 IPYLDAPSEAEASCAALVKAGKVYAAATEDMDCLTFGS  186 (341)
-T ss_dssp             CCEEECSSCHHHHHHHHHHTTSSSEEECSCGGGTTTTC
-T ss_pred             CCEEECCCcHHHHHHHHHHCCCCcEEEcCCCceEEecC
-Confidence            99999999999999999998775 79999999999985
+Q CCD75246.1/2-7  149 EADISAAELAIYLQC-PVTSGDSDFFIYRP  177 (724)
+Q Consensus       153 EAD~~vAELAifL~C-PV~SnDSDFfIFRp  181 (928)
+                      |||.-.|.||..-.| .|.|+||||++|..
+T Consensus       157 EAd~~la~l~~~~~~~~vis~DsD~l~~g~  186 (341)
+T 5UM9_A          157 EAEASCAALVKAGKVYAAATEDMDCLTFGS  186 (341)
+T ss_dssp             CHHHHHHHHHHTTSSSEEECSCGGGTTTTC
+T ss_pred             cHHHHHHHHHHCCCCcEEEcCCCceEEecC
+Confidence            999999999998775 79999999999985
 
 
 No 7
 >1RXV_B Flap structure-specific endonuclease/5'-d(*T*pA*pG*pC*pA*pT*pC*pG*pG); helical clamp, helix-3 turn-helix, 3'; 2.5A {Archaeoglobus fulgidus} SCOP: c.120.1.2, a.60.7.1
-Probab=99.53  E-value=3.4e-19  Score=171.83  Aligned_cols=172  Identities=17%  Similarity=0.266  Sum_probs=123.3  Template_Neff=9.600
+Probab=99.60  E-value=2.3e-20  Score=180.33  Aligned_cols=173  Identities=13%  Similarity=0.123  Sum_probs=124.1  Template_Neff=9.600
 
-Q snap_masked-jc    1 MGVKGLSTYLQQDPNNFSSFELHNTRVVIDAWNFINYLHRKY------GFTKLYGGEYMDFNLCIRDFLKRLRKCRISPI   74 (705)
-Q Consensus         2 MGVrGLsTYiqqdp~nFs~fELHNt~lViDAeNFi~~~YR~s------gl~~~yGGEYm~F~~~Vr~fLk~lrkCrIsPI   75 (847)
-                      ||| ||++|+.+.+.++  .+|++..|+|||.+++..+|...      .++...||++..+. .+-.++.+|.+++|.||
+Q CCD75246.1/2-7    1 -GIRGLWTYIQSNSENFSPYELHNQPLVIDAENFASLCYRQA------TLRCEYGGEYLAFKRYIQLFLKKFRTCHVDPI   73 (724)
+Q Consensus         2 MGVRGLsTYiqqdP~NFs~fELHNT~lViDAeNFi~~~YR~s------gL~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPI   75 (928)
+                      ||| ||++|+.+.+.++  .+|++..|+|||.+++..+|...      .+....||++..+. .+-.++.+|.+++|.||
 T Consensus         1 MGI-gL~~~i~~~~~~l--~~l~~~~l~ID~~~~l~~~~~~~~~~~~~~~~~~~g~~~~~l~-~~~~~l~~l~~~~i~~i   76 (336)
 T 1RXV_B            1 MGA-DIGDLFEREEVEL--EYFSGKKIAVDAFNTLYQFISIIRQPDGTPLKDSQGRITSHLS-GILYRVSNMVEVGIRPV   76 (336)
 T ss_dssp             ----CGGGGCCCEECCG--GGGTTCEEEEEHHHHHHHHHHHSBCTTSCBCBCTTSCBCHHHH-HHHHHHHHHHHTTCEEE
 T ss_pred             CCC-chHHHhccEeecH--HHhCCCEEEEEHHHHHHHHHHHccCCCCCCCccCCCCCCHHHH-HHHHHHHHHHHCCCEEE
-Confidence            999 9999997655544  47899999999999999998763      24566777777776 55556788889999999
+Confidence            999 9999997655544  47899999999999999998763      25566777777776 55556788899999999
 
 
-Q snap_masked-jc   75 FLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVPH  146 (705)
-Q Consensus        76 FlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v~y  155 (847)
-                      |+||        |.+.  ..|.++..+|...|.+....+......- ......+....-..|......+.++|++.|++|
-T Consensus        77 fVFD--------G~~~--~~K~~~~~~r~~~r~~~~~~~~~~~~~g-~~~~~~~~~~~~~~~~~~~~~~~~~L~~~gv~~  145 (336)
-T 1RXV_B           77 FVFD--------GEPP--EFKKAEIEERKKRRAEAEEMWIAALQAG-DKDAKKYAQAAGRVDEYIVDSAKTLLSYMGIPF  145 (336)
-T ss_dssp             EEEC--------CCCC--GGGHHHHHHHHHHHHHHHHHHHHHHHHT-CSTTHHHHHHTCCCCHHHHHHHHHHHHHHTCCE
-T ss_pred             EEEC--------CCCc--hHHHHHHHHHHHHHHHHHHHHHHHHHcC-CHHHHHHHHHcCCCCHHHHHHHHHHHHHcCCCE
-Confidence            9999        8774  3577777777766655433332221110 011111111122345566788899999999999
+Q CCD75246.1/2-7   74 FVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACEREAD  151 (724)
+Q Consensus        76 FvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCErEAD  155 (928)
+                      |||||.+.  ..|.++..+|.+.|......+......- ......+....-..|......+.++|++.|++|+.+..|||
+T Consensus        77 fVFDG~~~--~~K~~~~~~r~~~r~~~~~~~~~~~~~g-~~~~~~~~~~~~~~~~~~~~~~~~~L~~~gv~~i~ap~EAd  153 (336)
+T 1RXV_B           77 FVFDGEPP--EFKKAEIEERKKRRAEAEEMWIAALQAG-DKDAKKYAQAAGRVDEYIVDSAKTLLSYMGIPFVDAPSEGE  153 (336)
+T ss_dssp             EEECCCCC--GGGHHHHHHHHHHHHHHHHHHHHHHHHT-CSTTHHHHHHTCCCCHHHHHHHHHHHHHHTCCEEECSSCHH
+T ss_pred             EEECCCCc--hHHHHHHHHHHHHHHHHHHHHHHHHHcC-CHHHHHHHHHcCCCCHHHHHHHHHHHHHcCCCEEECCCcHH
+Confidence            99999984  4677777777766655433332221110 01111111112234556678889999999999999999999
 
 
-Q snap_masked-jc  147 LTCDGEADKSTAELAI--FLDCPVLSNDSDFFLFRS  180 (705)
-Q Consensus       156 ltCerEAD~~vAELAi--fL~CPV~SNDSDFfifR~  189 (847)
-                      +.+.+|||.-.|.||.  ..++ |.|+|||+++|..
-T Consensus       146 i~ap~EAd~~~A~l~~~~~v~~-v~s~DsD~l~~g~  180 (336)
-T 1RXV_B          146 VDAPSEGEAQAAYMAAKGDVEY-TGSQDYDSLLFGS  180 (336)
-T ss_dssp             EECSSCHHHHHHHHHHTTSCSE-EECSSSHHHHTTC
-T ss_pred             EECCCcHHHHHHHHHHcCCceE-EECCchHHHhcCC
-Confidence            9999999999999998  3455 9999999999985
+Q CCD75246.1/2-7  152 ISAAELAIY--LQCPVTSGDSDFFIYRPI  178 (724)
+Q Consensus       156 ~~vAELAif--L~CPV~SnDSDFfIFRp~  182 (928)
+                      .-.|.||..  .++ |.|+|||+++|...
+T Consensus       154 ~~~A~l~~~~~v~~-v~s~DsD~l~~g~~  181 (336)
+T 1RXV_B          154 AQAAYMAAKGDVEY-TGSQDYDSLLFGSP  181 (336)
+T ss_dssp             HHHHHHHHTTSCSE-EECSSSHHHHTTCS
+T ss_pred             HHHHHHHHcCCceE-EECCchHHHhcCCC
+Confidence            999999983  455 99999999999853
 
 
 No 8
 >3ORY_A flap endonuclease 1; endonuclease, HYDROLASE; HET: PO4; 2.0A {Desulfurococcus amylolyticus}
-Probab=99.52  E-value=3.9e-19  Score=174.81  Aligned_cols=178  Identities=17%  Similarity=0.211  Sum_probs=131.2  Template_Neff=9.200
+Probab=99.60  E-value=2.9e-20  Score=183.18  Aligned_cols=178  Identities=15%  Similarity=0.117  Sum_probs=132.8  Template_Neff=9.200
 
-Q snap_masked-jc    1 -MGVKGLSTYLQQDPNNF--SSFELHNTRVVIDAWNFINYLHRKYG------FTKLYGGEYMDFNLCIRDFLKRLRKCRI   71 (705)
-Q Consensus         1 ~MGVrGLsTYiqqdp~nF--s~fELHNt~lViDAeNFi~~~YR~sg------l~~~yGGEYm~F~~~Vr~fLk~lrkCrI   72 (847)
-                      +||| ||++|+.+...+.  .-.++++..|+|||.+++...|....      +....|+.+-.+..+++.+++ |.+++|
+Q CCD75246.1/2-7    1 --GIRGLWTYIQSNSENF--SPYELHNQPLVIDAENFASLCYRQAT------LRCEYGGEYLAFKRYIQLFLKKFRTCHV   70 (724)
+Q Consensus         1 ~MGVRGLsTYiqqdP~NF--s~fELHNT~lViDAeNFi~~~YR~sg------L~~~YGGEYmdF~~~Vr~FLK~lrkCrI   72 (928)
+                      +||| ||++|+.+...+.  ...++++..|+|||.+++..+|....      +....|+.+-.+..+++.+++ |.+++|
 T Consensus        10 ~MGV-gL~~~l~~~~~~~~~~l~~l~~~~i~ID~~~~l~~~~~~~~~~~~~~l~~~~g~~~~~~~~~~~~~~~-l~~~~i   87 (363)
 T 3ORY_A           10 DMGV-DLKDIIPGEAKTVIEDLRILHGKIIVIDGYNALYQFLAAIRQPDGTPLMDNNGRITSHLSGLFYRTIN-IVEAGI   87 (363)
 T ss_dssp             CCSC-CCGGGCCGGGEEECSSGGGGTTCEEEEEHHHHHHHHHHHCBCTTSCBCBCTTSCBCHHHHHHHHHHHH-HHHTTC
 T ss_pred             ccCC-chHHhCCchhcchhccHHHhCCCEEEEEHHHHHHHHHHHccCCCCCCCcCCCCCCcHHHHHHHHHHHH-HHHCCC
-Confidence            5999 9999998887666  66789999999999999999987653      455678887777777777776 778999
+Confidence            5999 9999998887676  66799999999999999999987642      455678877777777777776 778999
 
 
-Q snap_masked-jc   72 SPIFLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYK  143 (705)
-Q Consensus        73 sPIFlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~  152 (847)
-                      .|||+||        |..  .-.|..+.-+|...|.+....+.+..+.-.+.....+...+...+......+.++|+..|
-T Consensus        88 ~~i~VFD--------G~~--~~~K~~~~~~rk~~r~~~~~~~~~~~~~g~~~~~~~~~~~~~~i~~~~~~~~~~~L~~~g  157 (363)
-T 3ORY_A           88 KPVYVFD--------GKP--PELKAREIERRKAVKEEAAKKYEEAVQSGDLELARRYAMMSAKLTEEMVRDAKSLLDAMG  157 (363)
-T ss_dssp             EEEEEEC--------SSC--GGGCHHHHHHHHHHHHHHHHHHHHHHHHTCHHHHHHHTCCCCCCCHHHHHHHHHHHHHHT
-T ss_pred             EEEEEeC--------CCC--chHHHHHHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHhcCCCCHHHHHHHHHHHHHcC
-Confidence            9999999        654  246667777777666655443332111110011111111222233345567799999999
+Q CCD75246.1/2-7   71 DPIFVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACER  148 (724)
+Q Consensus        73 sPIFvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCEr  152 (928)
+                      .|||||||..  .-.|..+.-+|...|.+....+.+....-.+.....+...+..++......+.++|+..|++|+.+.+
+T Consensus        88 ~~i~VFDG~~--~~~K~~~~~~rk~~r~~~~~~~~~~~~~g~~~~~~~~~~~~~~i~~~~~~~~~~~L~~~gi~~i~ap~  165 (363)
+T 3ORY_A           88 KPVYVFDGKP--PELKAREIERRKAVKEEAAKKYEEAVQSGDLELARRYAMMSAKLTEEMVRDAKSLLDAMGIPWVQAPA  165 (363)
+T ss_dssp             EEEEEECSSC--GGGCHHHHHHHHHHHHHHHHHHHHHHHHTCHHHHHHHTCCCCCCCHHHHHHHHHHHHHHTCCEEECSS
+T ss_pred             EEEEEeCCCC--chHHHHHHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHhcCCCCHHHHHHHHHHHHHcCCCEEECCC
+Confidence            9999999986  35777777777777766554333221111011111111122223334556779999999999999999
 
 
-Q snap_masked-jc  144 VPHLTCDGEADKSTAELAIFLD-CPVLSNDSDFFLFRSV  181 (705)
-Q Consensus       153 v~yltCerEAD~~vAELAifL~-CPV~SNDSDFfifR~~  190 (847)
-                      ++|+.+.+|||.-+|.||..-. ..|.|+||||++|...
-T Consensus       158 i~~i~ap~EAD~~~a~l~~~~~~~~ViS~DsD~l~~g~~  196 (363)
-T 3ORY_A          158 IPWVQAPAEGEAQAAYIVKKGDAYASASQDYDSLLFGSP  196 (363)
-T ss_dssp             CCEEECSSCHHHHHHHHHHTTSCSEEECSSSHHHHTTCS
-T ss_pred             CCEEECCCcHHHHHHHHHHcCCCeEEEcCCcchhhcCCC
-Confidence            9999999999999999999766 4899999999999753
+Q CCD75246.1/2-7  149 EADISAAELAIYLQ-CPVTSGDSDFFIYRPI  178 (724)
+Q Consensus       153 EAD~~vAELAifL~-CPV~SnDSDFfIFRp~  182 (928)
+                      |||.-+|.|+..-. +.|.|+||||++|...
+T Consensus       166 EAD~~~a~l~~~~~~~~ViS~DsD~l~~g~~  196 (363)
+T 3ORY_A          166 EGEAQAAYIVKKGDAYASASQDYDSLLFGSP  196 (363)
+T ss_dssp             CHHHHHHHHHHTTSCSEEECSSSHHHHTTCS
+T ss_pred             cHHHHHHHHHHcCCCeEEEcCCcchhhcCCC
+Confidence            99999999999766 4899999999999753
 
 
 No 9
 >1A77_A FLAP ENDONUCLEASE-1 PROTEIN; 5'-3' EXO/ENDO NUCLEASE, DNA REPLICATION; 2.0A {Methanocaldococcus jannaschii} SCOP: a.60.7.1, c.120.1.2
-Probab=99.46  E-value=2.9e-18  Score=165.47  Aligned_cols=170  Identities=18%  Similarity=0.238  Sum_probs=124.2  Template_Neff=9.400
+Probab=99.55  E-value=1.7e-19  Score=174.34  Aligned_cols=171  Identities=18%  Similarity=0.161  Sum_probs=126.0  Template_Neff=9.400
 
-Q snap_masked-jc    1 MGVKGLSTYLQQDPNNFSSFELHNTRVVIDAWNFINYLHRKY------GFTKLYGGEYMDFNLCIRDFLKRLRKCRISPI   74 (705)
-Q Consensus         2 MGVrGLsTYiqqdp~nFs~fELHNt~lViDAeNFi~~~YR~s------gl~~~yGGEYm~F~~~Vr~fLk~lrkCrIsPI   75 (847)
-                      ||| ||++|+.+.+.+.  .++.+..|+|||.+++...|...      .+....||.+-.+..++..++ .|.+++|.||
+Q CCD75246.1/2-7    1 -GIRGLWTYIQSNSENFSPYELHNQPLVIDAENFASLCYRQA------TLRCEYGGEYLAFKRYIQLFLKKFRTCHVDPI   73 (724)
+Q Consensus         2 MGVRGLsTYiqqdP~NFs~fELHNT~lViDAeNFi~~~YR~s------gL~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPI   75 (928)
+                      ||| ||++|+.+.+.+.  .++.+..|+|||.+++...|...      .+....||.+-.+..++..++ +|.+++|.||
 T Consensus         1 MGV-gL~~~~~~~~~~l--~~~~~~~l~ID~~~~l~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~-~l~~~~i~~v   76 (326)
 T 1A77_A            1 MGV-QFGDFIPKNIISF--EDLKGKKVAIDGMNALYQFLTSIRLRDGSPLRNRKGEITSAYNGVFYKTI-HLLENDITPI   76 (326)
 T ss_pred             CCC-chhhccCCCCCCH--HHhCCCEEEEEHHHHHHHHHHHhhhcCCCCCcCCCCCCCHHHHHHHHHHH-HHHHCCCEEE
-Confidence            999 9999997765444  57899999999999999998764      355678888888888888888 5778899999
+Confidence            999 9999997765444  58899999999999999998764      356678888888888888888 5788999999
 
 
-Q snap_masked-jc   75 FLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVE----HYRPVPDICPSLTYETVMQILIEY  142 (705)
-Q Consensus        76 FlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~----~~~~~pDI~P~L~~~v~~~IL~E~  151 (847)
-                      |+||        |...  ..|.++..+|...+.+......+.   ..+.+.+    ...-..++ |....+.+.++|+..
-T Consensus        77 ~VFD--------G~~~--~~K~~~~~~R~~~~~~~~~k~~r~---~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~L~~~  142 (326)
-T 1A77_A           77 WVFD--------GEPP--KLKEKTRKVRREMKEKAELKMKEA---IKKEDFEEAAKYAKRVSYL-TPKMVENCKYLLSLM  142 (326)
-T ss_pred             EEEC--------CCCC--chhhhHHHHHHHHHHHHHHHHHHh---cCCCCHHHHHHHHHHcCCC-CHHHHHHHHHHHHHh
-Confidence            9999        7653  367777777765554422111110   0011111    11112223 334556778999999
+Q CCD75246.1/2-7   74 FVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLN----SLDLNIDITPRLCRHVLVEILRESSVRYIACE  147 (724)
+Q Consensus        76 FvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d----~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCE  151 (928)
+                      |||||...  ..|.++..+|...+.+...... +  ...+.+.+    ......++ |......+.++|+..|++|+.+.
+T Consensus        77 ~VFDG~~~--~~K~~~~~~R~~~~~~~~~k~~-r--~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~L~~~gi~~i~ap  150 (326)
+T 1A77_A           77 WVFDGEPP--KLKEKTRKVRREMKEKAELKMK-E--AIKKEDFEEAAKYAKRVSYL-TPKMVENCKYLLSLMGIPYVEAP  150 (326)
+T ss_pred             EEECCCCC--chhhhHHHHHHHHHHHHHHHHH-H--hcCCCCHHHHHHHHHHcCCC-CHHHHHHHHHHHHHhCCCEEECC
+Confidence            99999874  4777787777655544221111 1  11011111    11112223 33455677899999999999999
 
 
-Q snap_masked-jc  143 KVPHLTCDGEADKSTAELAI-FLDCPVLSNDSDFFLFRS  180 (705)
-Q Consensus       152 ~v~yltCerEAD~~vAELAi-fL~CPV~SNDSDFfifR~  189 (847)
-                      |++|+.+..|||.-+|-++. .+-+.|.|+|+||++|..
-T Consensus       143 gi~~i~ap~EAd~~~a~l~~~~~~~~viS~DsD~l~~g~  181 (326)
-T 1A77_A          143 GIPYVEAPSEGEAQASYMAKKGDVWAVVSQDYDALLYGA  181 (326)
-T ss_pred             CCCEEECCCcHHHHHHHHHHCCCCcEEEcCCCChhhcCC
-Confidence            99999999999988888773 677899999999999975
+Q CCD75246.1/2-7  148 READISAAELAI-YLQCPVTSGDSDFFIYRPI  178 (724)
+Q Consensus       152 rEAD~~vAELAi-fL~CPV~SnDSDFfIFRp~  182 (928)
+                      .|||.-+|-++. .+-+.|.|+|+||++|...
+T Consensus       151 ~EAd~~~a~l~~~~~~~~viS~DsD~l~~g~~  182 (326)
+T 1A77_A          151 SEGEAQASYMAKKGDVWAVVSQDYDALLYGAP  182 (326)
+T ss_pred             CcHHHHHHHHHHCCCCcEEEcCCCChhhcCCC
+Confidence            999988888773 6778999999999999753
 
 
 No 10
->1UL1_X Flap endonuclease-1/Proliferating cell nuclear antigen; protein complex, DNA-binding protein, Flap; 2.9A {Homo sapiens} SCOP: c.120.1.2, a.60.7.1
-Probab=99.45  E-value=3.5e-18  Score=170.72  Aligned_cols=176  Identities=20%  Similarity=0.231  Sum_probs=129.8  Template_Neff=8.700
-
-Q snap_masked-jc    2 GVKGLSTYLQQDP----NNFSSFELHNTRVVIDAWNFINYLHRKY-----GFTKLYGGEYMDFNLCIRDFLKRLRKCRIS   72 (705)
-Q Consensus         3 GVrGLsTYiqqdp----~nFs~fELHNt~lViDAeNFi~~~YR~s-----gl~~~yGGEYm~F~~~Vr~fLk~lrkCrIs   73 (847)
-                      ||+||++|+.+..    ...+-.+|++.+|+|||.+++...+...     .++...|+++-.+..++..+++-+ +++|.
-T Consensus         1 GI~GL~~~l~~~~~~~~~~~~l~~l~~~~i~ID~~~~l~~~~~~~~~~~~~l~~~~g~~~~~l~~~~~~~~~ll-~~~i~   79 (379)
-T 1UL1_X            1 GIQGLAKLIADVAPSAIRENDIKSYFGRKVAIDASMSIYQFLIAVRQGGDVLQNEEGETTSHLMGMFYRTIRMM-ENGIK   79 (379)
-T ss_dssp             CCTTHHHHHHHHCGGGEECCCGGGGTTCEEEEEHHHHHHHHHTTSCCTTSCCCSSCCCCCHHHHHHHHHHHHHH-TTTCE
-T ss_pred             CcCCHHHHHHHhCccceeecCHHHhCCCEEEEEhHHHHHHHHHHHHcCCcccccCCCCCCHHHHHHHHHHHHHH-HCCCe
-Confidence            8999999999864    3566678899999999999999888753     355668899888888888888777 79999
-
-
-Q snap_masked-jc   73 PIFLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVE-HYRPVPDICPSLTYETVMQILIEYK  143 (705)
-Q Consensus        74 PIFlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~-~~~~~pDI~P~L~~~v~~~IL~E~~  152 (847)
-                      |||+||        |..  ...|.++..+|...|.+...........-.+.... .......|.| -....+.++|+..|
-T Consensus        80 pifVFD--------G~~--~~~K~~~~~~rk~~r~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~-~~~~~~~~~L~~~g  148 (379)
-T 1UL1_X           80 PVYVFD--------GKP--PQLKSGELAKRSERRAEAEKQLQQAQAAGAEQEVEKFTKRLVKVTK-QHNDECKHLLSLMG  148 (379)
-T ss_dssp             EEEEEC--------CCC--CSCCTTTTTTTSSCTHHHHTTCCC------CTTTTTTTSTTCCCCT-TSHHHHHHHHHHHC
-T ss_pred             EEEEEC--------CCC--CCcchhHHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHhhcCCCH-HHHHHHHHHHHHcC
-Confidence            999999        754  34577777777666665543332211110000111 1111223333 34667789999999
-
-
-Q snap_masked-jc  144 VPHLTCDGEADKSTAELAIFLDC-PVLSNDSDFFLFRSV  181 (705)
-Q Consensus       153 v~yltCerEAD~~vAELAifL~C-PV~SNDSDFfifR~~  190 (847)
-                      ++|+.+..|||.-.|.||..-.| .|.|+|||+++|...
-T Consensus       149 i~~i~ap~EAda~~a~l~~~g~~~~vvs~DsD~l~~g~~  187 (379)
-T 1UL1_X          149 IPYLDAPSEAEASCAALVKAGKVYAAATEDMDCLTFGSP  187 (379)
-T ss_dssp             CCEEECSSCHHHHHHHHHHTTSSSEEECSCGGGTTTTCS
-T ss_pred             CCEEECCCcHHHHHHHHHHCCCCeEEECCCcccccccCC
-Confidence            99999999999999999998776 799999999999864
-
-
-No 11
 >3Q8L_A Flap endonuclease 1 (E.C.3.1.-.-)/DNA complex; helix-3 turn-helix, hydrophobic wedge, 3'; HET: SO4; 2.319A {Homo sapiens}
-Probab=99.44  E-value=4.4e-18  Score=164.25  Aligned_cols=175  Identities=21%  Similarity=0.242  Sum_probs=119.1  Template_Neff=9.600
+Probab=99.52  E-value=3.5e-19  Score=172.23  Aligned_cols=175  Identities=16%  Similarity=0.172  Sum_probs=119.9  Template_Neff=9.600
 
-Q snap_masked-jc    2 GVKGLSTYLQQDP----NNFSSFELHNTRVVIDAWNFINYLHRKY-----GFTKLYGGEYMDFNLCIRDFLKRLRKCRIS   72 (705)
-Q Consensus         3 GVrGLsTYiqqdp----~nFs~fELHNt~lViDAeNFi~~~YR~s-----gl~~~yGGEYm~F~~~Vr~fLk~lrkCrIs   73 (847)
-                      ||+||++|+.+..    ...+--+|++.+|+|||.+++...+...     .+...+||++-.+..+++.+++-+ +++|.
+Q CCD75246.1/2-7    1 GIRGLWTYIQSNS----ENFSPYELHNQPLVIDAENFASLCYRQA-----TLRCEYGGEYLAFKRYIQLFLKKFRTCHVD   71 (724)
+Q Consensus         3 GVRGLsTYiqqdP----~NFs~fELHNT~lViDAeNFi~~~YR~s-----gL~~~YGGEYmdF~~~Vr~FLK~lrkCrIs   73 (928)
+                      ||+||++|+.+..    ...+--++++..|+|||.+++..++...     -+...+||++-.+..++..+++-+ +++|.
 T Consensus         1 GI~gL~~~l~~~~~~~~~~~~l~~l~~~~l~ID~~~~l~~~~~~~~~~~~~~~~~~g~~~~~l~~~~~~~~~ll-~~~i~   79 (341)
 T 3Q8L_A            1 GIQGLAKLIADVAPSAIRENDIKSYFGRKVAIDASMSIYQFLIAVRQGGDVLQNEEGETTSHLMGMFYRTIRMM-ENGIK   79 (341)
 T ss_dssp             CCTTHHHHHHHHCGGGEEEE----------EEEHHHHHHHHHHHCEETTEECBCTTSCBCHHHHHHHHHHHHHH-HTTCE
 T ss_pred             CCCCcHHHHHhcCCcceeecCHHHhCCCEEEEEHHHHHHHHHHHHhcCCCcccCCCCCCCHHHHHHHHHHHHHH-HCCCe
-Confidence            8999999999863    2344557899999999999999988753     345568999999999999888877 79999
+Confidence            8999999999863    2344557899999999999999988753     345568999999989998888877 79999
 
 
-Q snap_masked-jc   73 PIFLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEH-YRPVPDICPSLTYETVMQILIEYK  143 (705)
-Q Consensus        74 PIFlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~-~~~~pDI~P~L~~~v~~~IL~E~~  152 (847)
-                      |||+||        |.+.  ..|.++..+|...|.+......+....-....... ......+ |......+.++|++.|
-T Consensus        80 pvfVFD--------G~~~--~~K~~~~~~r~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~l~~~L~~~g  148 (341)
-T 3Q8L_A           80 PVYVFD--------GKPP--QLKSGELAKRSERRAEAEKQLQQAQAAGAEQEVEKFTKRLVKV-TKQHNDECKHLLSLMG  148 (341)
-T ss_dssp             EEEEEC--------CSCC--GGGHHHHHHHHHHHHHHHHHHHHHHHTTCHHHHHHHHHHHCCC-CHHHHHHHHHHHHHHT
-T ss_pred             eEEEEC--------CCCC--CccccchHHHHHHHHHhHHHHHHHHHhCCHHHHHHHHHhcCCC-CHHHHHHHHHHHHHcC
-Confidence            999999        8763  35667666666555554332221111100000111 1111223 3334567899999999
+Q CCD75246.1/2-7   72 PIFVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLNS-LDLNIDITPRLCRHVLVEILRESSVRYIACER  148 (724)
+Q Consensus        74 PIFvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~-~~~~pDI~P~L~~~v~~~IL~E~~v~yltCEr  152 (928)
+                      |||||||..  ...|.++..+|...|.+......+....-....... ......+ |......+.++|++.|++++.+..
+T Consensus        80 pvfVFDG~~--~~~K~~~~~~r~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~l~~~L~~~gi~~i~ap~  156 (341)
+T 3Q8L_A           80 PVYVFDGKP--PQLKSGELAKRSERRAEAEKQLQQAQAAGAEQEVEKFTKRLVKV-TKQHNDECKHLLSLMGIPYLDAPS  156 (341)
+T ss_dssp             EEEEECCSC--CGGGHHHHHHHHHHHHHHHHHHHHHHHTTCHHHHHHHHHHHCCC-CHHHHHHHHHHHHHHTCCEEECSS
+T ss_pred             eEEEECCCC--CCccccchHHHHHHHHHhHHHHHHHHHhCCHHHHHHHHHhcCCC-CHHHHHHHHHHHHHcCCCEEECCC
+Confidence            999999986  345777776666655554432221111100000111 1111223 333456789999999999999999
 
 
-Q snap_masked-jc  144 VPHLTCDGEADKSTAELAIFLDC-PVLSNDSDFFLFRS  180 (705)
-Q Consensus       153 v~yltCerEAD~~vAELAifL~C-PV~SNDSDFfifR~  189 (847)
-                      ++|+.+..|||.-.|.|+..-.+ .|.|+||||++|..
-T Consensus       149 i~~i~ap~EAd~~la~l~~~~~~~~vis~DsD~l~~g~  186 (341)
-T 3Q8L_A          149 IPYLDAPSEAEASCAALVKAGKVYAAATEDMDCLTFGS  186 (341)
-T ss_dssp             CCEEECSSCHHHHHHHHHHTTSSSEEECSCTHHHHTTC
-T ss_pred             CCEEECCCCHHHHHHHHHHCCCceEEEcCCCCeeeecC
-Confidence            99999999999999999998664 79999999999984
+Q CCD75246.1/2-7  149 EADISAAELAIYLQC-PVTSGDSDFFIYRP  177 (724)
+Q Consensus       153 EAD~~vAELAifL~C-PV~SnDSDFfIFRp  181 (928)
+                      |||.-.|.|+..-.+ .|.|+||||++|..
+T Consensus       157 EAd~~la~l~~~~~~~~vis~DsD~l~~g~  186 (341)
+T 3Q8L_A          157 EAEASCAALVKAGKVYAAATEDMDCLTFGS  186 (341)
+T ss_dssp             CHHHHHHHHHHTTSSSEEECSCTHHHHTTC
+T ss_pred             CHHHHHHHHHHCCCceEEEcCCCCeeeecC
+Confidence            999999999998664 79999999999984
+
+
+No 11
+>1UL1_X Flap endonuclease-1/Proliferating cell nuclear antigen; protein complex, DNA-binding protein, Flap; 2.9A {Homo sapiens} SCOP: c.120.1.2, a.60.7.1
+Probab=99.52  E-value=3.7e-19  Score=178.11  Aligned_cols=176  Identities=16%  Similarity=0.159  Sum_probs=131.1  Template_Neff=8.700
+
+Q CCD75246.1/2-7    1 GIRGLWTYIQSNS----ENFSPYELHNQPLVIDAENFASLCYRQA-----TLRCEYGGEYLAFKRYIQLFLKKFRTCHVD   71 (724)
+Q Consensus         3 GVRGLsTYiqqdP----~NFs~fELHNT~lViDAeNFi~~~YR~s-----gL~~~YGGEYmdF~~~Vr~FLK~lrkCrIs   73 (928)
+                      ||+||++|+.+..    ...+..+|++.+|+|||.+++...+...     .+....||.+-.+..++..+++-+ +++|.
+T Consensus         1 GI~GL~~~l~~~~~~~~~~~~l~~l~~~~i~ID~~~~l~~~~~~~~~~~~~l~~~~g~~~~~l~~~~~~~~~ll-~~~i~   79 (379)
+T 1UL1_X            1 GIQGLAKLIADVAPSAIRENDIKSYFGRKVAIDASMSIYQFLIAVRQGGDVLQNEEGETTSHLMGMFYRTIRMM-ENGIK   79 (379)
+T ss_dssp             CCTTHHHHHHHHCGGGEECCCGGGGTTCEEEEEHHHHHHHHHTTSCCTTSCCCSSCCCCCHHHHHHHHHHHHHH-TTTCE
+T ss_pred             CcCCHHHHHHHhCccceeecCHHHhCCCEEEEEhHHHHHHHHHHHHcCCcccccCCCCCCHHHHHHHHHHHHHH-HCCCe
+Confidence            8999999999864    3566678899999999999999888753     355668899888888888888766 79999
+
+
+Q CCD75246.1/2-7   72 PIFVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLN-SLDLNIDITPRLCRHVLVEILRESSVRYIACER  148 (724)
+Q Consensus        74 PIFvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d-~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCEr  152 (928)
+                      |||||||..  ...|.++..+|...|.+...........-.+.... .......|.| -....+.++|+..|++|+.+..
+T Consensus        80 pifVFDG~~--~~~K~~~~~~rk~~r~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~-~~~~~~~~~L~~~gi~~i~ap~  156 (379)
+T 1UL1_X           80 PVYVFDGKP--PQLKSGELAKRSERRAEAEKQLQQAQAAGAEQEVEKFTKRLVKVTK-QHNDECKHLLSLMGIPYLDAPS  156 (379)
+T ss_dssp             EEEEECCCC--CSCCTTTTTTTSSCTHHHHTTCCC------CTTTTTTTSTTCCCCT-TSHHHHHHHHHHHCCCEEECSS
+T ss_pred             EEEEECCCC--CCcchhHHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHhhcCCCH-HHHHHHHHHHHHcCCCEEECCC
+Confidence            999999976  34688888777766665543332211111001111 1111223333 3466788999999999999999
+
+
+Q CCD75246.1/2-7  149 EADISAAELAIYLQC-PVTSGDSDFFIYRPI  178 (724)
+Q Consensus       153 EAD~~vAELAifL~C-PV~SnDSDFfIFRp~  182 (928)
+                      |||.-.|.|+..-.| .|.|+|||+++|...
+T Consensus       157 EAda~~a~l~~~g~~~~vvs~DsD~l~~g~~  187 (379)
+T 1UL1_X          157 EAEASCAALVKAGKVYAAATEDMDCLTFGSP  187 (379)
+T ss_dssp             CHHHHHHHHHHTTSSSEEECSCGGGTTTTCS
+T ss_pred             cHHHHHHHHHHCCCCeEEECCCcccccccCC
+Confidence            999999999998776 799999999999864
 
 
 No 12
 >1UL1_Z Flap endonuclease-1/Proliferating cell nuclear antigen; protein complex, DNA-binding protein, Flap; 2.9A {Homo sapiens} SCOP: c.120.1.2, a.60.7.1
-Probab=99.33  E-value=7.2e-17  Score=161.06  Aligned_cols=176  Identities=20%  Similarity=0.235  Sum_probs=126.2  Template_Neff=8.700
+Probab=99.44  E-value=5.1e-18  Score=169.75  Aligned_cols=176  Identities=16%  Similarity=0.171  Sum_probs=127.8  Template_Neff=8.700
 
-Q snap_masked-jc    2 GVKGLSTYLQQDP----NNFSSFELHNTRVVIDAWNFINYLHRKY-----GFTKLYGGEYMDFNLCIRDFLKRLRKCRIS   72 (705)
-Q Consensus         3 GVrGLsTYiqqdp----~nFs~fELHNt~lViDAeNFi~~~YR~s-----gl~~~yGGEYm~F~~~Vr~fLk~lrkCrIs   73 (847)
-                      ||+||++|+++..    ....-.++++.+|+|||.+++...+...     .+...+|+.+-.+..++..+++-+ +++|.
+Q CCD75246.1/2-7    1 GIRGLWTYIQSNS----ENFSPYELHNQPLVIDAENFASLCYRQA-----TLRCEYGGEYLAFKRYIQLFLKKFRTCHVD   71 (724)
+Q Consensus         3 GVRGLsTYiqqdP----~NFs~fELHNT~lViDAeNFi~~~YR~s-----gL~~~YGGEYmdF~~~Vr~FLK~lrkCrIs   73 (928)
+                      ||+||++|+.+..    ....-.++++.+|+|||.+++...|...     .+...+|+.+-.+..++..+++-+ .++|.
 T Consensus         1 GI~GL~~~l~~~~~~~~~~~~l~~l~g~~l~IDg~~~l~~~~~~~~~~~~~l~~~~g~~~~~l~~~~~~~~~ll-~~~i~   79 (379)
 T 1UL1_Z            1 GIQGLAKLIADVAPSAIRENDIKSYFGRKVAIDASMSIYQFLIAVRQGGDVLQNEEGETTSHLMGMFYRTIRMM-ENGIK   79 (379)
 T ss_pred             CcCChHHHHHHhCccceeecCHHHhCCCEEEEEhHHHHHHHHHHHHcCCcchhcCCCCCCHHHHHHHHHHHHHH-HCCCe
-Confidence            8999999999863    2344557899999999999999887653     245567888888888888777766 78999
+Confidence            8999999999863    2344568899999999999999887653     245567888888888888777666 79999
 
 
-Q snap_masked-jc   73 PIFLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVE-HYRPVPDICPSLTYETVMQILIEYK  143 (705)
-Q Consensus        74 PIFlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~-~~~~~pDI~P~L~~~v~~~IL~E~~  152 (847)
-                      |||+||        |..  ...|.++..+|...|.+......+....-.+.... .......|.|. ....+.++|+..|
-T Consensus        80 pifVFD--------G~~--~~~K~~~~~~rk~~r~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~-~~~~~~~lL~~~g  148 (379)
-T 1UL1_Z           80 PVYVFD--------GKP--PQLKSGELAKRSERRAEAEKQLQQAQAAGAEQEVEKFTKRLVKVTKQ-HNDECKHLLSLMG  148 (379)
-T ss_pred             EEEEEC--------CCC--CCcchhHHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHhhcCCCHH-HHHHHHHHHHHcC
-Confidence            999999        654  23566777776666655443322211111001111 11112233333 3667789999999
+Q CCD75246.1/2-7   72 PIFVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLNS-LDLNIDITPRLCRHVLVEILRESSVRYIACER  148 (724)
+Q Consensus        74 PIFvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~-~~~~pDI~P~L~~~v~~~IL~E~~v~yltCEr  152 (928)
+                      |||||||..  ...|.++..+|...|.+......+....-.+..... ......|.|. ....+.++|+..|++|+.+..
+T Consensus        80 pifVFDG~~--~~~K~~~~~~rk~~r~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~-~~~~~~~lL~~~gi~~i~ap~  156 (379)
+T 1UL1_Z           80 PVYVFDGKP--PQLKSGELAKRSERRAEAEKQLQQAQAAGAEQEVEKFTKRLVKVTKQ-HNDECKHLLSLMGIPYLDAPS  156 (379)
+T ss_pred             EEEEECCCC--CCcchhHHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHhhcCCCHH-HHHHHHHHHHHcCCCEEECCC
+Confidence            999999976  345777777776666554433222111110011111 1112233333 466778999999999999999
 
 
-Q snap_masked-jc  144 VPHLTCDGEADKSTAELAIFLDC-PVLSNDSDFFLFRSV  181 (705)
-Q Consensus       153 v~yltCerEAD~~vAELAifL~C-PV~SNDSDFfifR~~  190 (847)
-                      ++|+.+..|||.-.|.|+..-.+ .|.|+|+|+++|...
-T Consensus       149 i~~i~ap~EAda~~a~l~~~g~~~~vvS~DsD~l~~g~~  187 (379)
-T 1UL1_Z          149 IPYLDAPSEAEASCAALVKAGKVYAAATEDMDCLTFGSP  187 (379)
-T ss_pred             CCEEECCCcHHHHHHHHHHCCCcEEEECCCcccccccCC
-Confidence            99999999999999999998765 699999999999953
+Q CCD75246.1/2-7  149 EADISAAELAIYLQC-PVTSGDSDFFIYRPI  178 (724)
+Q Consensus       153 EAD~~vAELAifL~C-PV~SnDSDFfIFRp~  182 (928)
+                      |||.-.|.|+..-.| .|.|+|+|+++|...
+T Consensus       157 EAda~~a~l~~~g~~~~vvS~DsD~l~~g~~  187 (379)
+T 1UL1_Z          157 EAEASCAALVKAGKVYAAATEDMDCLTFGSP  187 (379)
+T ss_pred             cHHHHHHHHHHCCCcEEEECCCcccccccCC
+Confidence            999999999998765 699999999999864
 
 
 No 13
->4Q0W_B DNA repair protein RAD2 (E.C.3.1.-.-); ba Rossmann-like, DNA repair, TFIIH; 2.1A {Saccharomyces cerevisiae}
-Probab=99.29  E-value=1.5e-16  Score=155.34  Aligned_cols=171  Identities=23%  Similarity=0.296  Sum_probs=109.6  Template_Neff=9.400
+>5T9J_A Flap endonuclease GEN homolog 1/DNA; protein-DNA complex, Holliday junction resolvase; HET: GOL; 3.00012743215A {Homo sapiens}
+Probab=99.41  E-value=1e-17  Score=175.21  Aligned_cols=214  Identities=17%  Similarity=0.241  Sum_probs=143.0  Template_Neff=8.100
 
-Q snap_masked-jc    2 GVKGLSTYLQQDPNNFSSFELHNTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFL---KRLRKCRISPIFLFD   78 (705)
-Q Consensus         3 GVrGLsTYiqqdp~nFs~fELHNt~lViDAeNFi~~~YR~sgl~~~yGGEYm~F~~~Vr~fL---k~lrkCrIsPIFlFd   79 (847)
-                      ||+|||+++.+.-...+--+|.+.+++|||.+++..+|....-....++    ...+++.|+   .+|++|+|.|||+||
-T Consensus         1 Gv~gL~~~l~~~~~~~~l~~l~~~~i~ID~~~~l~~~~~~~~~~~~~~~----~~~~l~~~~~~l~~l~~~~i~pifVFD   76 (365)
-T 4Q0W_B            1 GVHSFWDIAGPTARPVRLESLEDKRMAVDASIWIYQFLKAVRDQEGNAV----KNSHITGFFRRICKLLYFGIRPVFVFD   76 (365)
-T ss_dssp             CCTTHHHHHGGGCEEEEGGGGTTCEEEEECTTHHHHTC----------C----CCHHHHHHHHHHHHHHHTTCEEEEEEC
-T ss_pred             CccchhHHhcccCeeecHHHhCCCEEEEEHHHHHHHHHHHHhcCCCCcc----cCHHHHHHHHHHHHHHHcCCEEEEEeC
-Confidence            8999999999877777778899999999999999998864211111111    124445555   777889999999999
-
-
-Q snap_masked-jc   79 --------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRP-SHVE---------------H--------YRPVPDI  126 (705)
-Q Consensus        80 ~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~-sd~~---------------~--------~~~~pDI  135 (847)
-                              |-..  ..|.++..+|...|......+....+.... ++..               .        .....-+
-T Consensus        77 --------G~~~--~~K~~~~~~rk~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~f~~~~~~~~~~~~~~~~~~~  146 (365)
-T 4Q0W_B           77 --------GGVP--VLKRETIRQRKERRQGKRESAKSTARKLLANTTLSTSAERNVAENAFVEDELFEQQMKDKRDSDEV  146 (365)
-T ss_dssp             --------CCCC--HHHHHHHHTTCC-----------------------------------------------CCCHHHH
-T ss_pred             --------CCCC--HHHHHHHHHHHHHHHchHHHHHHHHHHHHHhcCCCchhhhchhhhccchHHHHHHHHHHhcccCcC
-Confidence                    6542  357777777766666554443321111000 0000               0        0001112
+Q CCD75246.1/2-7    1 -GIRGLWTYIQSNSENFSPYELHNQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHVDPIFVFGGC   79 (724)
+Q Consensus         2 MGVRGLsTYiqqdP~NFs~fELHNT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPIFvFDGC   81 (928)
+                      |||+|||+|+........-.+|+++.|+||+.+++...+...   ...||.+-.....+-..+..|.+++|.|||||||.
+T Consensus         1 MGV~~L~~~l~~~~~~~~l~~L~~~~l~ID~s~~l~~~~~~~---~~~g~~~~~~l~~l~~rl~~L~~~~i~pvfVfDG~   77 (506)
+T 5T9J_A            1 MGVNDLWQILEPVKQHIPLRNLGGKTIAVNLSLWVCEAQTVK---KMMGSVMKPHLRNLFFRISYLTQMDVKLVFVMEGE   77 (506)
+T ss_dssp             -CCTTHHHHTTTTCEEEEGGGGTTCEEEEEHHHHHHHHHTCC---SCSSSCCCHHHHHHHHHHHHHHHTTCEEEEEECCC
+T ss_pred             CCccchHHHccccceecCHHHhCCCEEEEEHHHHHHHHHHHH---HHcCCCChHHHHHHHHHHHHHHhCCCEEEEEeCCC
+Confidence            999999999999888888899999999999999999988643   24676533222222245777888999999999998
 
 
-Q snap_masked-jc  127 CPSLTYETVMQILIEYKVPHLTCDGEADKSTAELAIF-LDCPVLSNDSDFFLFR  179 (705)
-Q Consensus       136 ~P~L~~~v~~~IL~E~~v~yltCerEAD~~vAELAif-L~CPV~SNDSDFfifR  188 (847)
-                      .|.+ ...+.++|++.|++++.+..|||.-.|.|+.. +.+.|.|+|||||+|.
-T Consensus       147 ~~~~-~~~~~~~L~~~gv~~~~ap~EAda~~a~l~~~~~~~~V~S~DsD~l~~g  199 (365)
-T 4Q0W_B          147 TMDM-IKEVQELLSRFGIPYITAPMEAEAQCAELLQLNLVDGIITDDSDVFLFG  199 (365)
-T ss_dssp             HHHH-HHHHHHHHHHTTCCEEECSSCHHHHHHHHHHTTSCSEEECCCTHHHHTT
-T ss_pred             CHHH-HHHHHHHHHHcCCCEEECCCcHHHHHHHHHHCCCCCEEECCCcchhccc
-Confidence            3333 45568999999999999999999999999997 7889999999999995
+Q CCD75246.1/2-7   80 HSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACEREADISAAEL  157 (724)
+Q Consensus        82 H~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCErEAD~~vAEL  161 (928)
+                      ..  ..|..+..+|+..+...........            ...++.+. ....+.++|+..|++|+...+|||.-.|.|
+T Consensus        78 ~~--~~K~~t~~~R~~~~~~~~~~~~~~~------------~~~~~~~~-~~~~~~~lL~~~Gi~~v~ap~EAda~~A~l  142 (506)
+T 5T9J_A           78 PP--KLKADVISKRNQTRYGSSGKSWSQK------------TGRSHFKS-VLRECLHMLECLGIPWVQAAGEAEAMCAYL  142 (506)
+T ss_dssp             CS--CC---------CCSSTTSSCSHHHH------------HHHHHHHH-HHHHHHHHHHHHTCCEEECSSCHHHHHHHH
+T ss_pred             Cc--hhHHHHHHHHHHHHhcccccchhhh------------hcchhHHH-HHHHHHHHHHHhCCCEEECCccHHHHHHHH
+Confidence            74  4688888888877765543322111            01123333 345678999999999999999999999999
+
+
+Q CCD75246.1/2-7  158 AIYLQCP-VTSGDSDFFIYRPIDN-----------NQVYSFIPLSSILLDCKQRSPPCSVCKLNG-APCYFISCKVLNNS  224 (724)
+Q Consensus       162 AifL~CP-V~SnDSDFfIFRp~dss~~~~~ss~~s~~~yqfIpL~sL~~~~r~r~~~C~~Ck~s~~~~Cy~m~c~lf~~s  240 (928)
+                      +..-.|. |.|+|||+|+|....              .|+-+.+.   .+    ..         .-.||.+.- +    
+T Consensus       143 ~~~~~vd~vis~DsD~~lfg~~~--------------v~~~~~~~---~~----~~---------~~~~y~~~~-i----  187 (506)
+T 5T9J_A          143 NAGGHVDGCLTNDGDTFLYGAQT--------------VYRNFTMN---TK----DP---------HVDCYTMSS-I----  187 (506)
+T ss_dssp             HHTTSCSEEECSSCCTTTTTCSE--------------EEEEEECC---SS----CC---------EEEEEEHHH-C----
+T ss_pred             HHCCCCCEEEeCCccceeecCcE--------------EEecccCC---CC----CC---------ceEEEeHHH-H----
+Confidence            9998887 999999999997332              22211111   00    00         022333321 1    
+
+
+Q CCD75246.1/2-7  225 GPFYK-LKYPMLPLFATLVGNDITS-NIHL  252 (724)
+Q Consensus       241 ~~~~~~~~ppLLPLiAvlIGNDviS-~I~~  269 (928)
+                      ...++ +.+..++.+++|.|+|.+. .|+-
+T Consensus       188 ~~~lg-l~~~~li~la~L~G~D~~~~Gv~g  216 (506)
+T 5T9J_A          188 KSKLG-LDRDALVGLAILLGCDYLPKGVPG  216 (506)
+T ss_dssp             CCCCC-CCHHHHHHHHHHHCCSSCCCCCSS
+T ss_pred             HHHHC-CCHHHHHHHHHHhCCCcCCCCCCC
+Confidence            12244 7889999999999999985 5543
 
 
 No 14
 >4Q0Z_A Rad2p, dna; ba Rossmann-like, DNA repair, TFIIH; 2.398A {Saccharomyces cerevisiae}
-Probab=99.29  E-value=1.6e-16  Score=155.54  Aligned_cols=171  Identities=23%  Similarity=0.298  Sum_probs=116.7  Template_Neff=9.300
+Probab=99.41  E-value=9.8e-18  Score=164.55  Aligned_cols=171  Identities=20%  Similarity=0.262  Sum_probs=118.4  Template_Neff=9.300
 
-Q snap_masked-jc    2 GVKGLSTYLQQDPNNFSSFELHNTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFL---KRLRKCRISPIFLFD   78 (705)
-Q Consensus         3 GVrGLsTYiqqdp~nFs~fELHNt~lViDAeNFi~~~YR~sgl~~~yGGEYm~F~~~Vr~fL---k~lrkCrIsPIFlFd   79 (847)
-                      ||+|||+++...-...+--+|.+.+++|||.+++..+|....-....++    ...+++.|+   .+|++|+|.|||+||
+Q CCD75246.1/2-7    1 GIRGLWTYIQSNSENFSPYELHNQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFL---KKFRTCHVDPIFVFG   77 (724)
+Q Consensus         3 GVRGLsTYiqqdP~NFs~fELHNT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FL---K~lrkCrIsPIFvFD   79 (928)
+                      ||+|||+++...-...+--+|.+.+++|||.+++..+|....-....++    ...+++.|+   .+|++|+|.||||||
 T Consensus         1 Gv~gL~~~l~~~~~~~~l~~l~~~~i~ID~~~~l~~~~~~~~~~~~~~~----~~~~l~~~~~~l~~l~~~~i~pvfVFD   76 (365)
 T 4Q0Z_A            1 GVHSFWDIAGPTARPVRLESLEDKRMAVDASIWIYQFLKAVRDQEGNAV----KNSHITGFFRRICKLLYFGIRPVFVFD   76 (365)
 T ss_dssp             CCTTHHHHHGGGCEEEEGGGGTTCEEEEECTTHHHHHHHHSBCSSSSBC----TTHHHHHHHHHHHHHHHTTCEEEEEEC
 T ss_pred             CccchhHHhcccCeeecHHHhCCCEEEEEHHHHHHHHHHHHHcCCCCcc----cCHHHHHHHHHHHHHHHCCCEEEEEeC
-Confidence            8999999999887777888999999999999999999864321111111    124455555   677789999999999
+Confidence            8999999999887778888999999999999999999864211110111    124455555   677789999999999
 
 
-Q snap_masked-jc   79 --------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPS-HV---------------EH--------YRPVPDI  126 (705)
-Q Consensus        80 ~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~s-d~---------------~~--------~~~~pDI  135 (847)
-                              |-.  ...|.++..+|...|......+....+....+ ..               +.        .....-+
-T Consensus        77 --------G~~--~~~K~~~~~~rk~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~f~~~~~~~~~~~~~~~~~~~  146 (365)
-T 4Q0Z_A           77 --------GGV--PVLKRETIRQRKERRQGKRESAKSTARKLLANTTLSTSAERNVAENAFVEDELFEQQMKDKRDSDEV  146 (365)
-T ss_dssp             --------CCC--CHHHHHHHHHHHHHHHTCCCSCCC----------------------------------------CCC
-T ss_pred             --------CCC--CHHHHHHHHHHHHHHHhhHHHHHHHHHHHHHhcCCCchhhhcchhhccchHHHHHHHHHHcccCccC
-Confidence                    654  23577777777666655443332211110000 00               00        0001112
+Q CCD75246.1/2-7   78 GCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--S-N---------------LNS--------LDLNIDITPRLCRHV  131 (724)
+Q Consensus        80 GCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~s-d---------------~d~--------~~~~pDI~P~L~~~v  135 (928)
+                      |-.  ...|.++..+|...|......+.........+ .               .+.        ......+.|.+ ...
+T Consensus        77 G~~--~~~K~~~~~~rk~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~f~~~~~~~~~~~~~~~~~~~~~~~-~~~  153 (365)
+T 4Q0Z_A           77 GGV--PVLKRETIRQRKERRQGKRESAKSTARKLLANTTLSTSAERNVAENAFVEDELFEQQMKDKRDSDEVTMDM-IKE  153 (365)
+T ss_dssp             CCC--CHHHHHHHHHHHHHHHTCCCSCCC----------------------------------------CCCCHHH-HHH
+T ss_pred             CCC--CHHHHHHHHHHHHHHHhhHHHHHHHHHHHHHhcCCCchhhhcchhhccchHHHHHHHHHHcccCccCCHHH-HHH
+Confidence            975  34678888777666655544332211110000 0               000        00011122333 455
 
 
-Q snap_masked-jc  127 CPSLTYETVMQILIEYKVPHLTCDGEADKSTAELAIF-LDCPVLSNDSDFFLFR  179 (705)
-Q Consensus       136 ~P~L~~~v~~~IL~E~~v~yltCerEAD~~vAELAif-L~CPV~SNDSDFfifR  188 (847)
-                      .|.+ ...+.++|++.|++|+.+..|||.-.|.|+.. +.+.|.|+|||||+|.
-T Consensus       147 ~~~~-~~~~~~lL~~~gi~~~~ap~EAd~~~a~l~~~~~~~~V~S~DsD~l~~g  199 (365)
-T 4Q0Z_A          147 TMDM-IKEVQELLSRFGIPYITAPMEAEAQCAELLQLNLVDGIITDDSDVFLFG  199 (365)
-T ss_dssp             CHHH-HHHHHHHHHHHTCCEEECSSCHHHHHHHHHHTTSCSEEECCCTHHHHTT
-T ss_pred             CHHH-HHHHHHHHHHcCCCEEECCCcHHHHHHHHHHCCCCCEEEcCCcceeeec
-Confidence            2333 45568999999999999999999999999997 7789999999999995
+Q CCD75246.1/2-7  132 LVEILRESSVRYIACEREADISAAELAIY-LQCPVTSGDSDFFIYR  176 (724)
+Q Consensus       136 ~~~IL~E~~v~yltCErEAD~~vAELAif-L~CPV~SnDSDFfIFR  180 (928)
+                      +.++|++.|++++.+..|||.-.|.|+.. +.+.|.|+|||||+|.
+T Consensus       154 ~~~lL~~~gi~~~~ap~EAd~~~a~l~~~~~~~~V~S~DsD~l~~g  199 (365)
+T 4Q0Z_A          154 VQELLSRFGIPYITAPMEAEAQCAELLQLNLVDGIITDDSDVFLFG  199 (365)
+T ss_dssp             HHHHHHHHTCCEEECSSCHHHHHHHHHHTTSCSEEECCCTHHHHTT
+T ss_pred             HHHHHHHcCCCEEECCCcHHHHHHHHHHCCCCCEEEcCCcceeeec
+Confidence            68999999999999999999999999997 7789999999999995
 
 
 No 15
->4WA8_A Flap endonuclease 1 (E.C.3.1.-.-); DNA nuclease, Nucleotide excision repair; 2.2A {Methanopyrus kandleri}
-Probab=99.28  E-value=2.1e-16  Score=153.91  Aligned_cols=171  Identities=20%  Similarity=0.266  Sum_probs=105.0  Template_Neff=9.400
+>4Q0W_B DNA repair protein RAD2 (E.C.3.1.-.-); ba Rossmann-like, DNA repair, TFIIH; 2.1A {Saccharomyces cerevisiae}
+Probab=99.41  E-value=1e-17  Score=164.07  Aligned_cols=171  Identities=20%  Similarity=0.276  Sum_probs=111.2  Template_Neff=9.400
 
-Q snap_masked-jc    1 MGVKGLSTYLQQDPNNFSSFELHNTRVVIDAWNFINYLHRKYG-----FTKLYGGEYMDFNLCIRDFLKRLRKCRISPIF   75 (705)
-Q Consensus         2 MGVrGLsTYiqqdp~nFs~fELHNt~lViDAeNFi~~~YR~sg-----l~~~yGGEYm~F~~~Vr~fLk~lrkCrIsPIF   76 (847)
+Q CCD75246.1/2-7    1 GIRGLWTYIQSNSENFSPYELHNQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFL---KKFRTCHVDPIFVFG   77 (724)
+Q Consensus         3 GVRGLsTYiqqdP~NFs~fELHNT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FL---K~lrkCrIsPIFvFD   79 (928)
+                      ||+|||.++.+.-...+--+|.+.+++|||.+++..+|....-....++    ...+++.|+   .+|++|+|.||||||
+T Consensus         1 Gv~gL~~~l~~~~~~~~l~~l~~~~i~ID~~~~l~~~~~~~~~~~~~~~----~~~~l~~~~~~l~~l~~~~i~pifVFD   76 (365)
+T 4Q0W_B            1 GVHSFWDIAGPTARPVRLESLEDKRMAVDASIWIYQFLKAVRDQEGNAV----KNSHITGFFRRICKLLYFGIRPVFVFD   76 (365)
+T ss_dssp             CCTTHHHHHGGGCEEEEGGGGTTCEEEEECTTHHHHTC----------C----CCHHHHHHHHHHHHHHHTTCEEEEEEC
+T ss_pred             CccchhHHhcccCeeecHHHhCCCEEEEEHHHHHHHHHHHHhcCCCCcc----cCHHHHHHHHHHHHHHHcCCEEEEEeC
+Confidence            8999999999877777788899999999999999999864211111111    124445555   777889999999999
+
+
+Q CCD75246.1/2-7   78 GCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI---SNL---------------NS--------LDLNIDITPRLCRHV  131 (724)
+Q Consensus        80 GCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~-sd~---------------d~--------~~~~pDI~P~L~~~v  135 (928)
+                      |-.  ...|.++..+|...|......+......... ++.               +.        .....-+.|.+ ...
+T Consensus        77 G~~--~~~K~~~~~~rk~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~f~~~~~~~~~~~~~~~~~~~~~~~-~~~  153 (365)
+T 4Q0W_B           77 GGV--PVLKRETIRQRKERRQGKRESAKSTARKLLANTTLSTSAERNVAENAFVEDELFEQQMKDKRDSDEVTMDM-IKE  153 (365)
+T ss_dssp             CCC--CHHHHHHHHTTCC-----------------------------------------------CCCHHHHHHHH-HHH
+T ss_pred             CCC--CHHHHHHHHHHHHHHHchHHHHHHHHHHHHHhcCCCchhhhchhhhccchHHHHHHHHHHhcccCcCCHHH-HHH
+Confidence            985  3467888887766666555443321111000 000               00        00011123333 455
+
+
+Q CCD75246.1/2-7  132 LVEILRESSVRYIACEREADISAAELAIY-LQCPVTSGDSDFFIYR  176 (724)
+Q Consensus       136 ~~~IL~E~~v~yltCErEAD~~vAELAif-L~CPV~SnDSDFfIFR  180 (928)
+                      +.++|++.|++++.+..|||.-.|.|+.. +.+.|.|+|||||+|.
+T Consensus       154 ~~~~L~~~gv~~~~ap~EAda~~a~l~~~~~~~~V~S~DsD~l~~g  199 (365)
+T 4Q0W_B          154 VQELLSRFGIPYITAPMEAEAQCAELLQLNLVDGIITDDSDVFLFG  199 (365)
+T ss_dssp             HHHHHHHTTCCEEECSSCHHHHHHHHHHTTSCSEEECCCTHHHHTT
+T ss_pred             HHHHHHHcCCCEEECCCcHHHHHHHHHHCCCCCEEECCCcchhccc
+Confidence            68999999999999999999999999997 7889999999999995
+
+
+No 16
+>5T9J_B Flap endonuclease GEN homolog 1/DNA; protein-DNA complex, Holliday junction resolvase; HET: GOL; 3.00012743215A {Homo sapiens}
+Probab=99.38  E-value=2.5e-17  Score=172.31  Aligned_cols=214  Identities=16%  Similarity=0.226  Sum_probs=140.7  Template_Neff=8.100
+
+Q CCD75246.1/2-7    1 -GIRGLWTYIQSNSENFSPYELHNQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHVDPIFVFGGC   79 (724)
+Q Consensus         2 MGVRGLsTYiqqdP~NFs~fELHNT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPIFvFDGC   81 (928)
+                      |||+|||+|+........-.+|.+..|+||+.+++...+...   ...||..-.+...+-..+..|.+++|.|||||||.
+T Consensus         1 MGV~~L~~~l~~~~~~~~l~~l~~~~l~ID~s~~l~~~~~~~---~~~g~~~~~~l~~l~~rl~~L~~~~i~pvfVfDG~   77 (506)
+T 5T9J_B            1 MGVNDLWQILEPVKQHIPLRNLGGKTIAVNLSLWVCEAQTVK---KMMGSVMKPHLRNLFFRISYLTQMDVKLVFVMEGE   77 (506)
+T ss_dssp             -CCTTHHHHTTTTCEEEEGGGGTTCEEEEEHHHHHHHHHTCC---SCCSCSSCHHHHHHHHHHHHHHHTTCEEEEEECCC
+T ss_pred             CCccchHHhCcccCEecCHHHhCCCEEEEEHHHHHHHHHHHH---HHcCCCChHHHHHHHHHHHHHHhCCCEEEEEeCCC
+Confidence            999999999999888888899999999999999999888643   24666532222222245777888999999999998
+
+
+Q CCD75246.1/2-7   80 HSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACEREADISAAEL  157 (724)
+Q Consensus        82 H~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCErEAD~~vAEL  161 (928)
+                      ..  ..|..+..+|+..+...........            ...++.+. ....+.++|++.|++++...+|||.-.|.|
+T Consensus        78 ~~--~~K~~~~~~R~~~~~~~~~~~~~~~------------~~~~~~~~-~~~~~~~lL~~~Gi~~~~ap~EAda~~A~l  142 (506)
+T 5T9J_B           78 PP--KLKADVISKRNQTRYGSSGKSWSQK------------TGRSHFKS-VLRECLHMLECLGIPWVQAAGEAEAMCAYL  142 (506)
+T ss_dssp             CC--CC-----------CCSSCCCCHHHH------------HHHHHHHH-HHHHHHHHHHHHTCCEEECSSCHHHHHHHH
+T ss_pred             Cc--hhHHHHHHHHHHHHhccccchhhhh------------hcchhHHH-HHHHHHHHHHHhCCCEEECCccHHHHHHHH
+Confidence            74  5778888888877765543322110            11122333 345678999999999999999999999999
+
+
+Q CCD75246.1/2-7  158 AIYLQCP-VTSGDSDFFIYRPIDN-----------NQVYSFIPLSSILLDCKQRSPPCSVCKLNG-APCYFISCKVLNNS  224 (724)
+Q Consensus       162 AifL~CP-V~SnDSDFfIFRp~dss~~~~~ss~~s~~~yqfIpL~sL~~~~r~r~~~C~~Ck~s~~~~Cy~m~c~lf~~s  240 (928)
+                      +..-.|. |.|+|||+|+|....              .|+-+.+.   .+    .         ..-.||.+.- +.   
+T Consensus       143 ~~~g~vd~vis~DsD~llfg~~~--------------v~~~~~~~---~~----~---------~~~~~y~~~~-i~---  188 (506)
+T 5T9J_B          143 NAGGHVDGCLTNDGDTFLYGAQT--------------VYRNFTMN---TK----D---------PHVDCYTMSS-IK---  188 (506)
+T ss_dssp             HHTTSCSEEECSSCCTTTTTCSE--------------EEEEEECC---SS----C---------CEEEEEEHHH-CC---
+T ss_pred             HHCCCCCEEEeCCccceeecCcE--------------EEecccCC---CC----C---------CceEEEeHHH-HH---
+Confidence            9988887 999999999997432              22211111   00    0         0122333321 11   
+
+
+Q CCD75246.1/2-7  225 GPFYK-LKYPMLPLFATLVGNDITS-NIHL  252 (724)
+Q Consensus       241 ~~~~~~~~ppLLPLiAvlIGNDviS-~I~~  269 (928)
+                       ..++ +.+..++.+++|.|+|.+. .|+-
+T Consensus       189 -~~lg-l~~~~li~l~~L~G~D~~~~Gv~g  216 (506)
+T 5T9J_B          189 -SKLG-LDRDALVGLAILLGCDYLPKGVPG  216 (506)
+T ss_dssp             -CCCC-CCHHHHHHHHHHHCCTTCCCCCSC
+T ss_pred             -HHHC-CCHHHHHHHHHHhCCCcCCCCCCC
+Confidence             2244 7889999999999999985 5543
+
+
+No 17
+>4WA8_A Flap endonuclease 1 (E.C.3.1.-.-); DNA nuclease, Nucleotide excision repair; 2.2A {Methanopyrus kandleri}
+Probab=99.37  E-value=3e-17  Score=160.09  Aligned_cols=171  Identities=15%  Similarity=0.170  Sum_probs=106.3  Template_Neff=9.400
+
+Q CCD75246.1/2-7    1 -GIRGLWTYIQSNSENFSPYELHNQPLVIDAENFASLCYRQAT-----LRCEYGGEYLAFKRYIQLFLKKFRTCHVDPIF   74 (724)
+Q Consensus         2 MGVRGLsTYiqqdP~NFs~fELHNT~lViDAeNFi~~~YR~sg-----L~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPIF   76 (928)
                       |||+||++|+...+.+++  ++.+.+|+|||.+++..+|....     +....||..-....+++. +..|.+++|.|||
 T Consensus         8 MGI~gL~~~l~~~~~~l~--~l~~~~l~IDg~~~l~~~~~~~~~~~~~l~~~~g~~~~~~~~~~~~-l~~l~~~~i~~v~   84 (355)
 T 4WA8_A            8 MGLAELRELIEPEETDLR--ALAGREIAIDAFNALYQFLTTIMKDGRPLMDSRGRITSHLNGLLYR-TVNLVEEGIKPVY   84 (355)
 T ss_dssp             CCGGGGHHHHCCEECCGG--GGTTCEEEEEHHHHHHHHHHHCEETTEECBCTTSCBCHHHHHHHHH-HHHHHHTTCEEEE
 T ss_pred             cChhhHHHHhcccccCHH--HhCCCEEEEeHHHHHHHHHHHHHcCCCcccCCCCCccHHHHHHHHH-HHHHHHCCCEEEE
-Confidence            999999999988776665  57899999999999999887642     334455554444444433 4446778999999
+Confidence            999999999988766665  57899999999999999987642     344455554444444433 4457788999999
 
 
-Q snap_masked-jc   76 LFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVPHL  147 (705)
-Q Consensus        77 lFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v~yl  156 (847)
-                      +||        |-..  -.|.++.-+|...|.+....+-+ ..  .+.....+....-..|......+.++|+..|++|+
-T Consensus        85 VFD--------G~~~--~~K~~~~~~r~~~r~~~~~k~~~-~~--~~~~~~~~~~~~~~~~~~~~~~~~~lL~~~gv~~i  151 (355)
-T 4WA8_A           85 VFD--------GEPP--DLKRETLERRRERKEEAMEKLRR-AK--TKEEREKYARQVARLDESLVEDAKRLLDLMGIPWV  151 (355)
-T ss_dssp             EEC--------CSCC--TTC---------------------------------------CCHHHHHHHHHHHHHHTCCEE
-T ss_pred             EeC--------CCCc--chhHHHHHHHHHHHHHHHHHHHH-cC--CHHHHHHHHHHhccCCHHHHHHHHHHHHHcCCCEE
-Confidence            999        6542  24666666666555544332211 11  01111111111122456667888999999999999
+Q CCD75246.1/2-7   75 VFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACEREADI  152 (724)
+Q Consensus        77 vFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCErEAD~  156 (928)
+                      ||||-..  -.|.++.-+|...|.+....+-+. .  .+.+...+....-..|......+.++|+..|++|+.+..|||.
+T Consensus        85 VFDG~~~--~~K~~~~~~r~~~r~~~~~k~~~~-~--~~~~~~~~~~~~~~~~~~~~~~~~~lL~~~gv~~i~ap~EAda  159 (355)
+T 4WA8_A           85 VFDGEPP--DLKRETLERRRERKEEAMEKLRRA-K--TKEEREKYARQVARLDESLVEDAKRLLDLMGIPWVQAPSEGEA  159 (355)
+T ss_dssp             EECCSCC--TTC---------------------------------------CCHHHHHHHHHHHHHHTCCEEECSSCHHH
+T ss_pred             EeCCCCc--chhHHHHHHHHHHHHHHHHHHHHc-C--CHHHHHHHHHHhccCCHHHHHHHHHHHHHcCCCEEECCCcHHH
+Confidence            9999763  357777777766665544322111 1  0111111111112245667788899999999999999999999
 
 
-Q snap_masked-jc  148 TCDGEADKSTAELAIF--LDCPVLSNDSDFFLFRS  180 (705)
-Q Consensus       157 tCerEAD~~vAELAif--L~CPV~SNDSDFfifR~  189 (847)
-                      .+..|||.-.|.|+..  .++ |.|+|+|+++|..
-T Consensus       152 ~ap~EAda~~a~l~~~g~v~~-v~s~DsD~l~~g~  185 (355)
-T 4WA8_A          152 QAPSEGEAQCAYMARCGDVWA-TGSQDYDSLLFGS  185 (355)
-T ss_dssp             ECSSCHHHHHHHHHHTTSSSE-EECSSSHHHHTTC
-T ss_pred             ECCCcHHHHHHHHHHcCCceE-EECCCchhhccCC
-Confidence            9999999999988863  233 8999999999963
+Q CCD75246.1/2-7  153 SAAELAIY--LQCPVTSGDSDFFIYRP  177 (724)
+Q Consensus       157 ~vAELAif--L~CPV~SnDSDFfIFRp  181 (928)
+                      ..|.|+..  .++ |.|+|||+++|..
+T Consensus       160 ~~a~l~~~g~v~~-v~s~DsD~l~~g~  185 (355)
+T 4WA8_A          160 QCAYMARCGDVWA-TGSQDYDSLLFGS  185 (355)
+T ss_dssp             HHHHHHHTTSSSE-EECSSSHHHHTTC
+T ss_pred             HHHHHHHcCCceE-EECCCchhhccCC
+Confidence            99988863  233 8999999999963
 
 
-No 16
+No 18
 >5CO8_C ctGEN1/DNA Complex; Holiday junction, resolvase, Complex, DNA; HET: MSE; 2.4A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
-Probab=99.20  E-value=1.1e-15  Score=158.84  Aligned_cols=139  Identities=24%  Similarity=0.314  Sum_probs=106.8  Template_Neff=7.700
+Probab=99.32  E-value=9.7e-17  Score=167.26  Aligned_cols=140  Identities=21%  Similarity=0.261  Sum_probs=107.8  Template_Neff=7.700
 
-Q snap_masked-jc    2 GVKGLSTYLQQD-PNNFSSFE-------LHNTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFLKRLRKCRISP   73 (705)
-Q Consensus         3 GVrGLsTYiqqd-p~nFs~fE-------LHNt~lViDAeNFi~~~YR~sgl~~~yGGEYm~F~~~Vr~fLk~lrkCrIsP   74 (847)
-                      ||+|||+|+... +-++..+.       ..+.+|+||+.+++.++|..      .||++-....++..+++ |.+++|.|
+Q CCD75246.1/2-7    1 GIRGLWTYIQSN-SENFSPYE-------LHNQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHVDP   72 (724)
+Q Consensus         3 GVRGLsTYiqqd-P~NFs~fE-------LHNT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrIsP   74 (928)
+                      ||+|||+|+... +-++..+.       ..+.+|+||+.+++.++|..      .||++-....++..+.+ |.+++|.|
 T Consensus         1 GI~gL~~~l~~~~~~sl~~la~~~~~~~~r~~~I~ID~s~~l~~~~~~------~gg~~~~l~~~~~rl~~-Ll~~~i~p   73 (464)
 T 5CO8_C            1 GIKGIYKEIGSGERISLCKLAIDHLEQHNRPLRLAIDMAIWQFQIQAA------RGGSNPAIRTLFYRFVR-LLSLGIHP   73 (464)
 T ss_dssp             CCTTTHHHHCSCEEEEHHHHHHHHHHHHSSCCEEEEEGGGHHHHHSCC------CCSSCHHHHHHHHHHHH-HHHHTCEE
 T ss_pred             CcCChHHHhcCCCeeeHHHHHHHHHHHcCCCcEEEEEHHHHHHHHHHH------cCCCCHHHHHHHHHHHH-HHhcCCEE
-Confidence            899999999853 45666554       34779999999999988763      68888887777777666 88899999
+Confidence            899999999853 45666654       34779999999999998863      68888887777777666 88899999
 
 
-Q snap_masked-jc   74 IFLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVP  145 (705)
-Q Consensus        75 IFlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v~  154 (847)
-                      |||||        |.+...       .||++.+ .          .     .          +.+....+.++|++.|++
-T Consensus        74 vfVFD--------G~~~p~-------~Kr~~r~-~----------~-----~----------~~~~~~~~k~lL~~~G~~  112 (464)
-T 5CO8_C           74 IFVFD--------GPNKPI-------FKRNRRS-G----------T-----G----------NGVSTAMAKRLIRLFGFT  112 (464)
-T ss_dssp             EEEEC--------CSCCC--------------------------------------------CCCCHHHHHHHHHHTTCE
-T ss_pred             EEEeC--------CCCCcc-------hhccccc-C----------C-----C----------CCccHHHHHHHHHHhCCc
-Confidence            99999        776432       1333211 0          0     0          112346788999999999
+Q CCD75246.1/2-7   73 IFVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACEREA  150 (724)
+Q Consensus        75 IFvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCErEA  154 (928)
+                      ||||||++...       .||++.. .          .     .          +.+....+.++|++.|++|+.+.+||
+T Consensus        74 vfVFDG~~~p~-------~Kr~~r~-~----------~-----~----------~~~~~~~~k~lL~~~G~~~~~ApgEA  120 (464)
+T 5CO8_C           74 IFVFDGPNKPI-------FKRNRRS-G----------T-----G----------NGVSTAMAKRLIRLFGFTAHDAPGEA  120 (464)
+T ss_dssp             EEEECCSCCC--------------------------------------------CCCCHHHHHHHHHHTTCEEEECSSCH
+T ss_pred             EEEeCCCCCcc-------hhccccc-C----------C-----C----------CCccHHHHHHHHHHhCCcEEeCCCcH
+Confidence            99999987442       1333211 0          0     0          11234678899999999999999999
 
 
-Q snap_masked-jc  146 HLTCDGEADKSTAELAIFLDC-PVLSNDSDFFLFRS  180 (705)
-Q Consensus       155 yltCerEAD~~vAELAifL~C-PV~SNDSDFfifR~  189 (847)
-                      |+.+.+|||.-.|.|+..-.| .|.|+|+|||+|..
-T Consensus       113 ~~~ApgEAdae~A~L~~~g~vdaVlS~DsD~l~fg~  148 (464)
-T 5CO8_C          113 AHDAPGEAEAECAYLEQQGIVDAVLSEDVDTIMFGS  148 (464)
-T ss_dssp             EEECSSCHHHHHHHHHHTTSCSEEECSSSHHHHTTC
-T ss_pred             EEeCCCcHHHHHHHHHHCCCCCEEEcCCcCeEEeCC
-Confidence            999999999999999999888 99999999999975
+Q CCD75246.1/2-7  151 DISAAELAIYLQC-PVTSGDSDFFIYRPI  178 (724)
+Q Consensus       155 D~~vAELAifL~C-PV~SnDSDFfIFRp~  182 (928)
+                      |.-.|.|+..-.| .|.|+|+|||+|...
+T Consensus       121 dae~A~L~~~g~vdaVlS~DsD~l~fg~~  149 (464)
+T 5CO8_C          121 EAECAYLEQQGIVDAVLSEDVDTIMFGSR  149 (464)
+T ss_dssp             HHHHHHHHHTTSCSEEECSSSHHHHTTCS
+T ss_pred             HHHHHHHHHCCCCCEEEcCCcCeEEeCCe
+Confidence            9999999999888 999999999999753
 
 
-No 17
->5T9J_A Flap endonuclease GEN homolog 1/DNA; protein-DNA complex, Holliday junction resolvase; HET: GOL; 3.00012743215A {Homo sapiens}
-Probab=99.18  E-value=1.6e-15  Score=158.18  Aligned_cols=162  Identities=19%  Similarity=0.204  Sum_probs=116.5  Template_Neff=8.100
-
-Q snap_masked-jc    1 MGVKGLSTYLQQDPNNFSSFELHNTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFLKRLRKCRISPIFLFD--   78 (705)
-Q Consensus         2 MGVrGLsTYiqqdp~nFs~fELHNt~lViDAeNFi~~~YR~sgl~~~yGGEYm~F~~~Vr~fLk~lrkCrIsPIFlFd~~   81 (847)
-                      |||+|||+|+........-.+|++..|+||+.+++...+...   ...||.+-.....+-..+..|.+++|.|||+||  
-T Consensus         1 MGV~~L~~~l~~~~~~~~l~~L~~~~l~ID~s~~l~~~~~~~---~~~g~~~~~~l~~l~~rl~~L~~~~i~pvfVfD--   75 (506)
-T 5T9J_A            1 MGVNDLWQILEPVKQHIPLRNLGGKTIAVNLSLWVCEAQTVK---KMMGSVMKPHLRNLFFRISYLTQMDVKLVFVME--   75 (506)
-T ss_dssp             -CCTTHHHHTTTTCEEEEGGGGTTCEEEEEHHHHHHHHHTCC---SCSSSCCCHHHHHHHHHHHHHHHTTCEEEEEEC--
-T ss_pred             CCccchHHHccccceecCHHHhCCCEEEEEHHHHHHHHHHHH---HHcCCCChHHHHHHHHHHHHHHhCCCEEEEEeC--
-Confidence            999999999999888888889999999999999999888643   346665333222222457778889999999999  
-
-
-Q snap_masked-jc   79 ------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVPHLTCDGE  152 (705)
-Q Consensus        82 ~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCerE  161 (847)
-                            |...  ..|..+..+|+..+.........+.            ...++.+. ....+.++|+..|++|+...+|
-T Consensus        76 ------G~~~--~~K~~t~~~R~~~~~~~~~~~~~~~------------~~~~~~~~-~~~~~~~lL~~~Gi~~v~ap~E  134 (506)
-T 5T9J_A           76 ------GEPP--KLKADVISKRNQTRYGSSGKSWSQK------------TGRSHFKS-VLRECLHMLECLGIPWVQAAGE  134 (506)
-T ss_dssp             ------CCCS--CC---------CCSSTTSSCSHHHH------------HHHHHHHH-HHHHHHHHHHHHTCCEEECSSC
-T ss_pred             ------CCCc--hhHHHHHHHHHHHHhcccccchhhh------------hcchhHHH-HHHHHHHHHHHhCCCEEECCcc
-Confidence                  7653  4677888888877765543322111            11123333 3456789999999999999999
-
-
-Q snap_masked-jc  153 ADKSTAELAIFLDCP-VLSNDSDFFLFRS  180 (705)
-Q Consensus       162 AD~~vAELAifL~CP-V~SNDSDFfifR~  189 (847)
-                      ||.-.|.|+..-.|. |.|+|||+|+|..
-T Consensus       135 Ada~~A~l~~~~~vd~vis~DsD~~lfg~  163 (506)
-T 5T9J_A          135 AEAMCAYLNAGGHVDGCLTNDGDTFLYGA  163 (506)
-T ss_dssp             HHHHHHHHHHTTSCSEEECSSCCTTTTTC
-T ss_pred             HHHHHHHHHHCCCCCEEEeCCccceeecC
-Confidence            999999999998887 9999999999973
-
-
-No 18
+No 19
 >5CNQ_A Nuclease-like protein/DNA Complex; GEN1, 4-way Holiday junction, resolvase; HET: MSE; 2.602A {Chaetomium thermophilum}
-Probab=99.15  E-value=3e-15  Score=155.81  Aligned_cols=139  Identities=24%  Similarity=0.328  Sum_probs=105.7  Template_Neff=7.600
+Probab=99.28  E-value=2.6e-16  Score=164.23  Aligned_cols=139  Identities=22%  Similarity=0.282  Sum_probs=106.6  Template_Neff=7.600
 
-Q snap_masked-jc    2 GVKGLSTYLQQD-PNNFSSFEL-------HNTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFLKRLRKCRISP   73 (705)
-Q Consensus         3 GVrGLsTYiqqd-p~nFs~fEL-------HNt~lViDAeNFi~~~YR~sgl~~~yGGEYm~F~~~Vr~fLk~lrkCrIsP   74 (847)
+Q CCD75246.1/2-7    1 GIRGLWTYIQSN-SENFSPYEL-------HNQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHVDP   72 (724)
+Q Consensus         3 GVRGLsTYiqqd-P~NFs~fEL-------HNT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrIsP   74 (928)
                       ||+|||+||... +-++..+.+       .+.+|+||+.+++.++|..      .||++-....++..+.+ |.+++|.|
 T Consensus         1 GI~gL~~~l~~~~~~sl~~la~~~~~~~~r~~~I~ID~~~wl~~~~~~------~gg~~~~l~~~~~rl~~-L~~~~i~p   73 (464)
 T 5CNQ_A            1 GIKGIYKEIGSGERISLCKLAIDHLEQHNRPLRLAIDMAIWQFQIQAA------RGGSNPAIRTLFYRFVR-LLSLGIHP   73 (464)
 T ss_dssp             CCTTGGGTSCSCEEEEHHHHHHHHHHHHSSCCEEEEEGGGGGGTTTTC------CSSSCHHHHHHHHHHHH-HHHHTCEE
 T ss_pred             CcCChHHHhcCCCeeeHHHHHHHHHHHcCCCcEEEEEHHHHHHHHHHH------cCCCCHHHHHHHHHHHH-HHHcCCEE
-Confidence            899999999843 455665543       3679999999999998863      68888887777777665 88899999
+Confidence            899999999843 455665543       3679999999999999873      68898887777777665 88899999
 
 
-Q snap_masked-jc   74 IFLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVP  145 (705)
-Q Consensus        75 IFlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v~  154 (847)
-                      |||||        |-+...       .||++.. .          .     .          +.+....+.++|+..|++
-T Consensus        74 ifVFD--------G~~~p~-------~Kr~~r~-~----------~-----~----------~~~~~~~~k~lL~~~G~~  112 (464)
-T 5CNQ_A           74 IFVFD--------GPNKPI-------FKRNRRS-G----------T-----G----------NGVSTAMAKRLIRLFGFT  112 (464)
-T ss_dssp             EEEEC--------CSCCC---------------------------------------------CCCHHHHHHHHHHTTCE
-T ss_pred             EEEeC--------CCCccc-------hhccccc-C----------C-----C----------CCccHHHHHHHHHHhCCc
-Confidence            99999        655321       1333211 0          0     0          112346788999999999
+Q CCD75246.1/2-7   73 IFVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACEREA  150 (724)
+Q Consensus        75 IFvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCErEA  154 (928)
+                      ||||||.+...       .||++.. .          .     .          +.+....+.++|+..|++|+.+..||
+T Consensus        74 ifVFDG~~~p~-------~Kr~~r~-~----------~-----~----------~~~~~~~~k~lL~~~G~~~~~ApgEA  120 (464)
+T 5CNQ_A           74 IFVFDGPNKPI-------FKRNRRS-G----------T-----G----------NGVSTAMAKRLIRLFGFTAHDAPGEA  120 (464)
+T ss_dssp             EEEECCSCCC---------------------------------------------CCCHHHHHHHHHHTTCEEEECSSCH
+T ss_pred             EEEeCCCCccc-------hhccccc-C----------C-----C----------CCccHHHHHHHHHHhCCcEEeCCCcH
+Confidence            99999986431       1233211 0          0     0          11234678899999999999999999
 
 
-Q snap_masked-jc  146 HLTCDGEADKSTAELAIFLDC-PVLSNDSDFFLFRS  180 (705)
-Q Consensus       155 yltCerEAD~~vAELAifL~C-PV~SNDSDFfifR~  189 (847)
-                      |+.+..|||.-.|.|+..-.| .|.|+|+|||+|..
-T Consensus       113 ~~~ApgEAdae~A~L~~~g~vdaVlS~DsD~l~fG~  148 (464)
-T 5CNQ_A          113 AHDAPGEAEAECAYLEQQGIVDAVLSEDVDTIMFGS  148 (464)
-T ss_dssp             EEECSSCHHHHHHHHHHTTSCSEEECSSSHHHHTTC
-T ss_pred             EEeCCCcHHHHHHHHHHCCCCCEEEcCCcceEEeCC
-Confidence            999999999999999999888 99999999999975
-
-
-No 19
->5T9J_B Flap endonuclease GEN homolog 1/DNA; protein-DNA complex, Holliday junction resolvase; HET: GOL; 3.00012743215A {Homo sapiens}
-Probab=99.14  E-value=3.6e-15  Score=155.42  Aligned_cols=162  Identities=19%  Similarity=0.202  Sum_probs=113.9  Template_Neff=8.100
-
-Q snap_masked-jc    1 MGVKGLSTYLQQDPNNFSSFELHNTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFLKRLRKCRISPIFLFD--   78 (705)
-Q Consensus         2 MGVrGLsTYiqqdp~nFs~fELHNt~lViDAeNFi~~~YR~sgl~~~yGGEYm~F~~~Vr~fLk~lrkCrIsPIFlFd~~   81 (847)
-                      |||+|||+|+........-.+|.+..|+||+.+++...+...   ...||..-.....+-..+..|.+++|.|||+||  
-T Consensus         1 MGV~~L~~~l~~~~~~~~l~~l~~~~l~ID~s~~l~~~~~~~---~~~g~~~~~~l~~l~~rl~~L~~~~i~pvfVfD--   75 (506)
-T 5T9J_B            1 MGVNDLWQILEPVKQHIPLRNLGGKTIAVNLSLWVCEAQTVK---KMMGSVMKPHLRNLFFRISYLTQMDVKLVFVME--   75 (506)
-T ss_dssp             -CCTTHHHHTTTTCEEEEGGGGTTCEEEEEHHHHHHHHHTCC---SCCSCSSCHHHHHHHHHHHHHHHTTCEEEEEEC--
-T ss_pred             CCccchHHhCcccCEecCHHHhCCCEEEEEHHHHHHHHHHHH---HHcCCCChHHHHHHHHHHHHHHhCCCEEEEEeC--
-Confidence            999999999999888888889999999999999999888643   246665322222222457778889999999999  
-
-
-Q snap_masked-jc   79 ------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVPHLTCDGE  152 (705)
-Q Consensus        82 ~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCerE  161 (847)
-                            |..  ...|..++.+|+..+.........+.            ...++.+. ....+.++|++.|++|+...+|
-T Consensus        76 ------G~~--~~~K~~~~~~R~~~~~~~~~~~~~~~------------~~~~~~~~-~~~~~~~lL~~~Gi~~~~ap~E  134 (506)
-T 5T9J_B           76 ------GEP--PKLKADVISKRNQTRYGSSGKSWSQK------------TGRSHFKS-VLRECLHMLECLGIPWVQAAGE  134 (506)
-T ss_dssp             ------CCC--CCC-----------CCSSCCCCHHHH------------HHHHHHHH-HHHHHHHHHHHHTCCEEECSSC
-T ss_pred             ------CCC--chhHHHHHHHHHHHHhccccchhhhh------------hcchhHHH-HHHHHHHHHHHhCCCEEECCcc
-Confidence                  765  34677788888877765543222111            11123333 3456789999999999999999
-
-
-Q snap_masked-jc  153 ADKSTAELAIFLDCP-VLSNDSDFFLFRS  180 (705)
-Q Consensus       162 AD~~vAELAifL~CP-V~SNDSDFfifR~  189 (847)
-                      ||.-.|.|+..-.+. |.|+|||+|+|..
-T Consensus       135 Ada~~A~l~~~g~vd~vis~DsD~llfg~  163 (506)
-T 5T9J_B          135 AEAMCAYLNAGGHVDGCLTNDGDTFLYGA  163 (506)
-T ss_dssp             HHHHHHHHHHTTSCSEEECSSCCTTTTTC
-T ss_pred             HHHHHHHHHHCCCCCEEEeCCccceeecC
-Confidence            999999999988887 9999999999973
+Q CCD75246.1/2-7  151 DISAAELAIYLQC-PVTSGDSDFFIYRP  177 (724)
+Q Consensus       155 D~~vAELAifL~C-PV~SnDSDFfIFRp  181 (928)
+                      |.-.|.|+..-.| .|.|+|+|||+|..
+T Consensus       121 dae~A~L~~~g~vdaVlS~DsD~l~fG~  148 (464)
+T 5CNQ_A          121 EAECAYLEQQGIVDAVLSEDVDTIMFGS  148 (464)
+T ss_dssp             HHHHHHHHHTTSCSEEECSSSHHHHTTC
+T ss_pred             HHHHHHHHHCCCCCEEEcCCcceEEeCC
+Confidence            9999999999888 99999999999975
 
 
 No 20
 >6GRD_A Nuclease-like protein/DNA Complex; 4-way Holiday Junction, Resolvase, DNA; HET: MSE; 2.66A {Chaetomium thermophilum}
-Probab=99.10  E-value=7.9e-15  Score=155.83  Aligned_cols=141  Identities=26%  Similarity=0.329  Sum_probs=97.4  Template_Neff=7.100
+Probab=99.23  E-value=7.3e-16  Score=164.25  Aligned_cols=141  Identities=22%  Similarity=0.269  Sum_probs=98.2  Template_Neff=7.100
 
-Q snap_masked-jc    1 MGVKGLSTYLQQD-PNNFSSF-----E--LHNTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFLKRLRKCRIS   72 (705)
-Q Consensus         2 MGVrGLsTYiqqd-p~nFs~f-----E--LHNt~lViDAeNFi~~~YR~sgl~~~yGGEYm~F~~~Vr~fLk~lrkCrIs   73 (847)
-                      |||+|||+||... +.++..+     +  ..+.+|+||+.+++.+.+.      .+||++-.+..++..+ .+|.+|+|.
+Q CCD75246.1/2-7    1 -GIRGLWTYIQSN-SENFSPY-----E--LHNQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHVD   71 (724)
+Q Consensus         2 MGVRGLsTYiqqd-P~NFs~f-----E--LHNT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrIs   73 (928)
+                      |||+|||+||... +.++..+     +  ..+.+|+||+.+++.+++.      .+||++-.+..++..+ .+|.+|+|.
 T Consensus         1 MGI~gL~~~L~~~~~~sl~~la~~~~~~~~r~~~I~ID~s~wl~~~~~------~~gg~~~~l~~lf~rl-~~Ll~~~i~   73 (530)
 T 6GRD_A            1 MGIKGIYKEIGSGERISLCKLAIDHLEQHNRPLRLAIDMAIWQFQIQA------ARGGSNPAIRTLFYRF-VRLLSLGIH   73 (530)
 T ss_dssp             -CCTTTHHHHCCCEEEEHHHHHHHHHHHHSSCCEEEEETHHHHTTSTT------CCSSSCHHHHHHHHHH-HHHHHTTCE
 T ss_pred             CCcCCHHHHccCCCcccHHHHhHHHHHHcCCCcEEEEeHHHHHHHHHH------HcCCCCHHHHHHHHHH-HHHHhCCCE
-Confidence            9999999999864 3344443     2  2466999999999987764      3588887776666664 458889999
+Confidence            9999999999864 3344443     2  2467999999999988764      3688887766666554 458889999
 
 
-Q snap_masked-jc   73 PIFLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKV  144 (705)
-Q Consensus        74 PIFlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v  153 (847)
-                      ||||||        |.+...       .||++..           ..     .          +.+....+.++|++.|+
-T Consensus        74 pvfVFD--------G~~~p~-------~KR~kr~-----------~~-----~----------~~~~~~~~k~lL~~~G~  112 (530)
-T 6GRD_A           74 PIFVFD--------GPNKPI-------FKRNRRS-----------GT-----G----------NGVSTAMAKRLIRLFGF  112 (530)
-T ss_dssp             EEEEEC--------CCCCCC-------HHHHHH----------------------------------------HHHHTTC
-T ss_pred             EEEEEC--------CCCCch-------hhccccC-----------CC-----C----------hhHHHHHHHHHHHHhCC
-Confidence            999999        765331       1233211           00     0          01235678899999999
+Q CCD75246.1/2-7   72 PIFVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACERE  149 (724)
+Q Consensus        74 PIFvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCErE  153 (928)
+                      |||||||.+... .      ||++.. .          .  +             +.+....+.++|++.|++|+.+..|
+T Consensus        74 pvfVFDG~~~p~-~------KR~kr~-~----------~--~-------------~~~~~~~~k~lL~~~G~~~~~APgE  120 (530)
+T 6GRD_A           74 PIFVFDGPNKPI-F------KRNRRS-G----------T--G-------------NGVSTAMAKRLIRLFGFTAHDAPGE  120 (530)
+T ss_dssp             EEEEECCCCCCC-H------HHHHH----------------------------------------HHHHTTCEEEECSSC
+T ss_pred             EEEEECCCCCch-h------hccccC-C----------C--C-------------hhHHHHHHHHHHHHhCCCEEeCCCc
+Confidence            999999986432 1      233211 0          0  0             0123567889999999999999999
 
 
-Q snap_masked-jc  145 PHLTCDGEADKSTAELAIF-LDCPVLSNDSDFFLFRSV  181 (705)
-Q Consensus       154 ~yltCerEAD~~vAELAif-L~CPV~SNDSDFfifR~~  190 (847)
-                      +|+.+.+|||.-.|.|+.. +-+.|.|+|+|||+|...
-T Consensus       113 ~~~~APgEAEae~A~L~~~g~vdaVlS~DsD~llFG~~  150 (530)
-T 6GRD_A          113 TAHDAPGEAEAECAYLEQQGIVDAVLSEDVDTIMFGSR  150 (530)
-T ss_dssp             EEEECSSCHHHHHHHHHTTTSCSEEEESSTHHHHTTC-
-T ss_pred             CEEeCCCcHHHHHHHHHHCCCCCEEEeCCcChhhcCCC
-Confidence            9999999999999999975 556999999999999863
+Q CCD75246.1/2-7  150 ADISAAELAIY-LQCPVTSGDSDFFIYRPI  178 (724)
+Q Consensus       154 AD~~vAELAif-L~CPV~SnDSDFfIFRp~  182 (928)
+                      ||.-.|.|+.. +-+.|.|+|+|||+|...
+T Consensus       121 AEae~A~L~~~g~vdaVlS~DsD~llFG~~  150 (530)
+T 6GRD_A          121 AEAECAYLEQQGIVDAVLSEDVDTIMFGSR  150 (530)
+T ss_dssp             HHHHHHHHHTTTSCSEEEESSTHHHHTTC-
+T ss_pred             HHHHHHHHHHCCCCCEEEeCCcChhhcCCC
+Confidence            99999999975 556999999999999863
 
 
 No 21
 >6GRB_A Nuclease-like protein/DNA Complex; 4-way Holiday Junction, Resolvase, DNA; 2.4A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
-Probab=99.10  E-value=7.9e-15  Score=155.83  Aligned_cols=141  Identities=26%  Similarity=0.329  Sum_probs=95.8  Template_Neff=7.100
+Probab=99.23  E-value=7.3e-16  Score=164.25  Aligned_cols=141  Identities=22%  Similarity=0.269  Sum_probs=96.5  Template_Neff=7.100
 
-Q snap_masked-jc    1 MGVKGLSTYLQQD-PNNFSSF-----E--LHNTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFLKRLRKCRIS   72 (705)
-Q Consensus         2 MGVrGLsTYiqqd-p~nFs~f-----E--LHNt~lViDAeNFi~~~YR~sgl~~~yGGEYm~F~~~Vr~fLk~lrkCrIs   73 (847)
-                      |||+|||+||... +.++..+     +  ..+.+|+||+.+++.+.+.      .+||++-.+..++..+ .+|.+|+|.
+Q CCD75246.1/2-7    1 -GIRGLWTYIQSN-SENFSPY-----E--LHNQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHVD   71 (724)
+Q Consensus         2 MGVRGLsTYiqqd-P~NFs~f-----E--LHNT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrIs   73 (928)
+                      |||+|||+||... +.++..+     +  ..+.+|+||+.+++.+++.      .+||++-.+..++..+ .+|.+|+|.
 T Consensus         1 MGI~gL~~~L~~~~~~sl~~la~~~~~~~~r~~~I~ID~s~wl~~~~~------~~gg~~~~l~~lf~rl-~~Ll~~~i~   73 (530)
 T 6GRB_A            1 MGIKGIYKEIGSGERISLCKLAIDHLEQHNRPLRLAIDMAIWQFQIQA------ARGGSNPAIRTLFYRF-VRLLSLGIH   73 (530)
 T ss_dssp             -CCTTHHHHHCSCEEEEHHHHHHHHHHHHSSCCEEEEEGGGHHHHHTT------CCSSSCHHHHHHHHHH-HHHHHHTCE
 T ss_pred             CCcCCHHHHccCCCcccHHHHhHHHHHHcCCCcEEEEeHHHHHHHHHH------HcCCCCHHHHHHHHHH-HHHHhCCCE
-Confidence            9999999999864 3344443     2  2466999999999987764      3588887776666664 458889999
+Confidence            9999999999864 3344443     2  2467999999999988764      3688887766666554 458889999
 
 
-Q snap_masked-jc   73 PIFLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKV  144 (705)
-Q Consensus        74 PIFlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v  153 (847)
-                      ||||||        |.+...       .||++..           ..     .          +.+....+.++|++.|+
-T Consensus        74 pvfVFD--------G~~~p~-------~KR~kr~-----------~~-----~----------~~~~~~~~k~lL~~~G~  112 (530)
-T 6GRB_A           74 PIFVFD--------GPNKPI-------FKRNRRS-----------GT-----G----------NGVSTAMAKRLIRLFGF  112 (530)
-T ss_dssp             EEEEEC--------CSC----------CHH-------------------------------------------HHHHTTC
-T ss_pred             EEEEEC--------CCCCch-------hhccccC-----------CC-----C----------hhHHHHHHHHHHHHhCC
-Confidence            999999        765331       1233211           00     0          01235678899999999
+Q CCD75246.1/2-7   72 PIFVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACERE  149 (724)
+Q Consensus        74 PIFvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCErE  153 (928)
+                      |||||||.+... .      ||++.. .          .  +             +.+....+.++|++.|++|+.+..|
+T Consensus        74 pvfVFDG~~~p~-~------KR~kr~-~----------~--~-------------~~~~~~~~k~lL~~~G~~~~~APgE  120 (530)
+T 6GRB_A           74 PIFVFDGPNKPI-F------KRNRRS-G----------T--G-------------NGVSTAMAKRLIRLFGFTAHDAPGE  120 (530)
+T ss_dssp             EEEEECCSC----C------HH-------------------------------------------HHHHTTCEEEECSSC
+T ss_pred             EEEEECCCCCch-h------hccccC-C----------C--C-------------hhHHHHHHHHHHHHhCCCEEeCCCc
+Confidence            999999986432 1      233211 0          0  0             0123567889999999999999999
 
 
-Q snap_masked-jc  145 PHLTCDGEADKSTAELAIF-LDCPVLSNDSDFFLFRSV  181 (705)
-Q Consensus       154 ~yltCerEAD~~vAELAif-L~CPV~SNDSDFfifR~~  190 (847)
-                      +|+.+.+|||.-.|.|+.. +-+.|.|+|+|||+|...
-T Consensus       113 ~~~~APgEAEae~A~L~~~g~vdaVlS~DsD~llFG~~  150 (530)
-T 6GRB_A          113 TAHDAPGEAEAECAYLEQQGIVDAVLSEDVDTIMFGSR  150 (530)
-T ss_dssp             EEEECSSCHHHHHHHHHHTTSCSEEECSSTHHHHTTC-
-T ss_pred             CEEeCCCcHHHHHHHHHHCCCCCEEEeCCcChhhcCCC
-Confidence            9999999999999999975 556999999999999863
+Q CCD75246.1/2-7  150 ADISAAELAIY-LQCPVTSGDSDFFIYRPI  178 (724)
+Q Consensus       154 AD~~vAELAif-L~CPV~SnDSDFfIFRp~  182 (928)
+                      ||.-.|.|+.. +-+.|.|+|+|||+|...
+T Consensus       121 AEae~A~L~~~g~vdaVlS~DsD~llFG~~  150 (530)
+T 6GRB_A          121 AEAECAYLEQQGIVDAVLSEDVDTIMFGSR  150 (530)
+T ss_dssp             HHHHHHHHHHTTSCSEEECSSTHHHHTTC-
+T ss_pred             HHHHHHHHHHCCCCCEEEeCCcChhhcCCC
+Confidence            99999999975 556999999999999863
 
 
 No 22
 >6GRC_A DNA resolvase/DNA Complex; 4-way Holiday Junction, Resolvase, DNA; HET: MSE; 2.452A {Thermofilum carboxyditrophus}
-Probab=99.07  E-value=1.4e-14  Score=154.06  Aligned_cols=141  Identities=26%  Similarity=0.330  Sum_probs=100.5  Template_Neff=7.000
+Probab=99.19  E-value=1.7e-15  Score=161.57  Aligned_cols=141  Identities=22%  Similarity=0.269  Sum_probs=101.2  Template_Neff=7.000
 
-Q snap_masked-jc    1 MGVKGLSTYLQQD-PNNFSSF-----E--LHNTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFLKRLRKCRIS   72 (705)
-Q Consensus         2 MGVrGLsTYiqqd-p~nFs~f-----E--LHNt~lViDAeNFi~~~YR~sgl~~~yGGEYm~F~~~Vr~fLk~lrkCrIs   73 (847)
-                      |||+|||+||... +-++..+     +  ..+.+|+||+.+++...+.      ..||++-.+..++..+ .+|.+++|.
+Q CCD75246.1/2-7    1 -GIRGLWTYIQSN-SENFSPY-----E--LHNQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHVD   71 (724)
+Q Consensus         2 MGVRGLsTYiqqd-P~NFs~f-----E--LHNT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrIs   73 (928)
+                      |||+|||+||... +-++..+     +  ..+.+|+||+.+++.+++.      .+||++-.+..++..+ .+|.+++|.
 T Consensus         1 MGI~gL~~~L~~~~~~sl~~la~~~~~~~~r~~~I~ID~s~wl~~~~~------~~gg~~~~l~~lf~rl-~~Ll~~~i~   73 (530)
 T 6GRC_A            1 MGIKGIYKEIGSGERISLCKLAIDHLEQHNRPLRLAIDMAIWQFQIQA------ARGGSNPAIRTLFYRF-VRLLSLGIH   73 (530)
 T ss_dssp             -CCTTHHHHHCSCEEEEHHHHHHHHHHHHSSCCEEEEEGGGGTTTSTT------CCSSSCHHHHHHHHHH-HHHHHHTCE
 T ss_pred             CCcCchHHHHcCCCccchhHhhHHHHHHcCCCcEEEEeHHHHHHHHHH------HcCCCCHHHHHHHHHH-HHHHhcCCE
-Confidence            9999999999864 2333433     2  3467999999999988764      2588887776666664 458889999
+Confidence            9999999999864 3334433     2  3467999999999998764      2588887766666654 458889999
 
 
-Q snap_masked-jc   73 PIFLFD--------GCHSKEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKV  144 (705)
-Q Consensus        74 PIFlFd~~~~~~~~GCH~keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v  153 (847)
-                      ||||||        |.+...       .||++.. .          .     .          +.+....+.++|+..|+
-T Consensus        74 pvfVFD--------G~~~p~-------~KR~kr~-~----------~-----~----------~~~~~~~~k~lL~~~G~  112 (530)
-T 6GRC_A           74 PIFVFD--------GPNKPI-------FKRNRRS-G----------T-----G----------NGVSTAMAKRLIRLFGF  112 (530)
-T ss_dssp             EEEEEC--------CCC-----------------------------------------------CCCHHHHHHHHHHTTC
-T ss_pred             EEEEEc--------CCCcch-------hhhcccc-C----------C-----C----------CCCcHHHHHHHHHHHCC
-Confidence            999999        765431       1233111 0          0     0          01235678899999999
+Q CCD75246.1/2-7   72 PIFVFGGCHSKEGSKLDTLLKRNLENFNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACERE  149 (724)
+Q Consensus        74 PIFvFDGCH~keG~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCErE  153 (928)
+                      |||||||.+... .      ||++.. .          .  +             +.+....+.++|+..|++|+.+.+|
+T Consensus        74 pvfVFDG~~~p~-~------KR~kr~-~----------~--~-------------~~~~~~~~k~lL~~~G~~~~~APgE  120 (530)
+T 6GRC_A           74 PIFVFDGPNKPI-F------KRNRRS-G----------T--G-------------NGVSTAMAKRLIRLFGFTAHDAPGE  120 (530)
+T ss_dssp             EEEEECCCC-----------------------------------------------CCCHHHHHHHHHHTTCEEEECSSC
+T ss_pred             EEEEEcCCCcch-h------hhcccc-C----------C--C-------------CCCcHHHHHHHHHHHCCCeeeCCcc
+Confidence            999999986432 1      233111 0          0  0             0123567889999999999999999
 
 
-Q snap_masked-jc  145 PHLTCDGEADKSTAELAIF-LDCPVLSNDSDFFLFRSV  181 (705)
-Q Consensus       154 ~yltCerEAD~~vAELAif-L~CPV~SNDSDFfifR~~  190 (847)
-                      +|+.+.+|||.-.|.|+.. +-+.|.|+|+|||+|...
-T Consensus       113 ~~~~APgEADae~A~L~~~g~vDaVlS~DsD~llFG~~  150 (530)
-T 6GRC_A          113 TAHDAPGEAEAECAYLEQQGIVDAVLSEDVDTIMFGSR  150 (530)
-T ss_dssp             EEEECSSCHHHHHHHHHHTTSCSEEECSSSGGGTTTCS
-T ss_pred             CeeeCCccHHHHHHHHHHCCCCCEEEcCCcccEEecCc
-Confidence            9999999999999999875 556999999999999863
+Q CCD75246.1/2-7  150 ADISAAELAIY-LQCPVTSGDSDFFIYRPI  178 (724)
+Q Consensus       154 AD~~vAELAif-L~CPV~SnDSDFfIFRp~  182 (928)
+                      ||.-.|.|+.. +-+.|.|+|+|||+|...
+T Consensus       121 ADae~A~L~~~g~vDaVlS~DsD~llFG~~  150 (530)
+T 6GRC_A          121 AEAECAYLEQQGIVDAVLSEDVDTIMFGSR  150 (530)
+T ss_dssp             HHHHHHHHHHTTSCSEEECSSSGGGTTTCS
+T ss_pred             HHHHHHHHHHCCCCCEEEcCCcccEEecCc
+Confidence            99999999874 556999999999999864
 
 
 No 23
->1CMW_A DNA POLYMERASE I (E.C.2.7.7); DNA POLYMERASE, DNA REPAIR, TRANSFERASE; 2.6A {Thermus aquaticus} SCOP: a.60.7.1, c.55.3.5, c.120.1.2, e.8.1.1
-Probab=98.74  E-value=1.3e-12  Score=140.55  Aligned_cols=137  Identities=20%  Similarity=0.224  Sum_probs=105.5  Template_Neff=9.200
+>2IZO_A FLAP STRUCTURE-SPECIFIC ENDONUCLEASE (E.C.3.1.-.-), DNA; HYDROLASE, DNA REPAIR, DNA-BINDING, ENDONUCLEASE; 2.9A {SULFOLOBUS SOLFATARICUS}
+Probab=98.92  E-value=1.1e-13  Score=134.43  Aligned_cols=157  Identities=18%  Similarity=0.144  Sum_probs=88.8  Template_Neff=9.300
 
-Q snap_masked-jc   20 FELHNTRVVIDAWNFINYLHRKYG-FTKLYGGEYMDFNLCIRDFLKRLRKCRISPIFLFD--------GCHSKEGTKLGN   90 (705)
-Q Consensus        21 fELHNt~lViDAeNFi~~~YR~sg-l~~~yGGEYm~F~~~Vr~fLk~lrkCrIsPIFlFd~~~~~~~~GCH~keG~KL~t   99 (847)
-                      .++.++.++||+.+|+...|.... +....||++-.+..+++.+++.+++|.+.|||+||        |.+...-.++..
-T Consensus         8 ~~~~~~~l~IDg~~~l~r~~~~~~~~~~~~g~~~~~~~~~~~~~~~~l~~~~~~~i~vfD--------g~~~~~r~~~~~   79 (832)
-T 1CMW_A            8 FEPKGRVLLVDGHHLAYRTFHALKGLTTSRGEPVQAVYGFAKSLLKALKEDGDAVIVVFD--------AKAPSFRHEAYG   79 (832)
-T ss_dssp             --CCEEEEEEETTHHHHHHHTSSTTCBCTTSCBCHHHHHHHHHHHHHHHHCCSEEEEECC--------CSSSCTTGGGGS
-T ss_pred             CCCCCeEEEEEcHHHHHHHHHhhhcccCCCCcchHHHHHHHHHHHHHHHHhCCEEEEEEc--------CCCcchHHHHCh
-Confidence            355899999999999999987654 77889999999999999999999999999999999        644322222222
-
-
-Q snap_masked-jc   91 LLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVPHLTCDG-EADKSTAELAIF-----L  164 (705)
-Q Consensus       100 LLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCer-EAD~~vAELAif-----L  173 (847)
-                      --|.|+...                        ++.++. ....+.++|++.|++++.+++ |||.-+|.||..     .
-T Consensus        80 ~yk~~r~~~------------------------~~~~~~-~~~~~~~~l~~~gi~~i~~~~~EADd~ia~la~~~~~~~~  134 (832)
-T 1CMW_A           80 GYKAGRAPT------------------------PEDFPR-QLALIKELVDLLGLARLEVPGYEADDVLASLAKKAEKEGY  134 (832)
-T ss_dssp             TTTSCCCCC------------------------CSSHHH-HHHHHHHHHHHTTCEEECCTTSCHHHHHHHHHHHHHHTTE
-T ss_pred             hHHhcCCCC------------------------CchhHH-HHHHHHHHHHHhCCCEEecCCchHHHHHHHHHHHHHHCCC
-Confidence            222222210                        111121 445778899999999999999 999999999996     5
+Q CCD75246.1/2-7   19 YELHNQPLVIDAENFASLCYRQAT------LRCEYGGEYLAFKRYIQLFLKKFRTCHVDPIFVFGGCHSKEGSKLDTLLK   92 (724)
+Q Consensus        21 fELHNT~lViDAeNFi~~~YR~sg------L~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPIFvFDGCH~keG~KL~tLLK   94 (928)
+                      -++.+..|+|||.+++..+|....      +....||.+-....++..+.+ +.+++|.|||||||.+..  .|.++.-+
+T Consensus        14 ~~~~~~~l~IDg~~~l~r~~~~~~~~~~~~l~~~~g~~~~~~~~~l~~~~~-l~~~~i~~v~VfDG~~~~--~K~~~~~~   90 (346)
+T 2IZO_A           14 SELKGKRVSIDGYNALYQFLAAIRQPDGTPLMDSQGRVTSHLSGLFYRTIN-ILEEGVIPIYVFDGKPPE--QKSEELER   90 (346)
+T ss_dssp             HHHTTEEEEEEHHHHHHHHHHSCCCC---CCBCSSSCBCHHHHHHHHHHHH-HHHHTEEEEEEECC--------------
+T ss_pred             HHhCCCEEEEEHHHHHHHHHHHhcCCCCCCCccCCCCCchHHHHHHHHHHH-HHHcCCEEEEEECCCCch--HhHHHHHH
+Confidence            467899999999999999887543      345567776555555555555 345799999999997653  46666666
 
 
-Q snap_masked-jc  165 DCPVLSNDSDFFLFRSV  181 (705)
-Q Consensus       174 ~CPV~SNDSDFfifR~~  190 (847)
-                      .|+|.|+|+||+.|...
-T Consensus       135 ~~~ivS~D~D~~ql~~~  151 (832)
-T 1CMW_A          135 EVRILTADKDLYQLLSD  151 (832)
-T ss_dssp             EEEEECSSGGGGGSCCS
-T ss_pred             cEEEEeCCcCHHHHhcC
-Confidence            79999999999999753
+Q CCD75246.1/2-7   93 RNLENFNKLSSALRDVNSI--SNLNS-LDLNIDITPRLCRHVLVEILRESSVRYIACEREADISAAELAI-YLQCPVTSG  168 (724)
+Q Consensus        95 RNreri~sLs~~L~~~~~~~~sd~d~-~~~~pDI~P~L~~~v~~~IL~E~~v~yltCErEAD~~vAELAi-fL~CPV~Sn  172 (928)
+                      |..++.+......+....-.+.+... .+-...|.|. ....+.++|+..|++++.+..|||.-.|-|+. .+-+-|.|+
+T Consensus        91 R~~~~~~~~~k~~r~~~~g~~~~~~~~~~~~~~~~~~-~~~~~~~~L~~~gi~~i~ap~Eaea~~a~l~~~~~~~~v~S~  169 (346)
+T 2IZO_A           91 RRKAKEEAERKLERAKSEGKIEELRKYSQAILRLSNI-MVEESKKLLRAMGIPIVQAPSEGEAEAAYLNKLGLSWAAASQ  169 (346)
+T ss_dssp             ----------------------------------CHH-HHHHHHHHHHHHTCCEEECSSCHHHHHHHHHHTTSSSEEECS
+T ss_pred             HHHHHHHHHHHHHHHHHcCCHHHHHHHHHHhccCCHH-HHHHHHHHHHHCCCCEEECCCcHHHHHHHHHHcCCCeEEEcC
+Confidence            66555433222211111000111111 1222334443 45567899999999999999999988999986 356789999
+
+
+Q CCD75246.1/2-7  169 DSDFFIYRP  177 (724)
+Q Consensus       173 DSDFfIFRp  181 (928)
+                      |||+++|..
+T Consensus       170 DsD~l~~g~  178 (346)
+T 2IZO_A          170 DYDAILFGA  178 (346)
+T ss_dssp             SSHHHHTTC
+T ss_pred             CCceEeecC
+Confidence            999999853
 
 
 No 24
->2IZO_A FLAP STRUCTURE-SPECIFIC ENDONUCLEASE (E.C.3.1.-.-), DNA; HYDROLASE, DNA REPAIR, DNA-BINDING, ENDONUCLEASE; 2.9A {SULFOLOBUS SOLFATARICUS}
-Probab=98.70  E-value=1.9e-12  Score=125.29  Aligned_cols=157  Identities=19%  Similarity=0.229  Sum_probs=88.7  Template_Neff=9.300
+>1CMW_A DNA POLYMERASE I (E.C.2.7.7); DNA POLYMERASE, DNA REPAIR, TRANSFERASE; 2.6A {Thermus aquaticus} SCOP: a.60.7.1, c.55.3.5, c.120.1.2, e.8.1.1
+Probab=98.91  E-value=1.3e-13  Score=148.36  Aligned_cols=136  Identities=18%  Similarity=0.172  Sum_probs=106.2  Template_Neff=9.200
 
-Q snap_masked-jc   20 FELHNTRVVIDAWNFINYLHRKYG------FTKLYGGEYMDFNLCIRDFLKRLRKCRISPIFLFD--------GCHSKEG   85 (705)
-Q Consensus        21 fELHNt~lViDAeNFi~~~YR~sg------l~~~yGGEYm~F~~~Vr~fLk~lrkCrIsPIFlFd~~~~~~~~GCH~keG   94 (847)
-                      -++.+.+|+|||.+++...|....      +....||.+-....++..+.+-+ +++|.|||+||        |.+..  
-T Consensus        14 ~~~~~~~l~IDg~~~l~r~~~~~~~~~~~~l~~~~g~~~~~~~~~l~~~~~l~-~~~i~~v~VfD--------G~~~~--   82 (346)
-T 2IZO_A           14 SELKGKRVSIDGYNALYQFLAAIRQPDGTPLMDSQGRVTSHLSGLFYRTINIL-EEGVIPIYVFD--------GKPPE--   82 (346)
-T ss_dssp             HHHTTEEEEEEHHHHHHHHHHSCCCC---CCBCSSSCBCHHHHHHHHHHHHHH-HHTEEEEEEEC--------C------
-T ss_pred             HHhCCCEEEEEHHHHHHHHHHHhcCCCCCCCccCCCCCchHHHHHHHHHHHHH-HcCCEEEEEEC--------CCCch--
-Confidence            367899999999999998887543      34556777766666666665533 56899999999        75543  
-
-
-Q snap_masked-jc   86 TKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEH-YRPVPDICPSLTYETVMQILIEYKVPHLTCDGEADKSTAELAI-F  163 (705)
-Q Consensus        95 ~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~-~~~~pDI~P~L~~~v~~~IL~E~~v~yltCerEAD~~vAELAi-f  172 (847)
-                      .|-++.-+|..++.+....+.+....-.+..... ++-...|.|. ....+.++|+..||+++.+..|||.-+|-|+. .
-T Consensus        83 ~K~~~~~~R~~~~~~~~~k~~r~~~~g~~~~~~~~~~~~~~~~~~-~~~~~~~~L~~~gi~~i~ap~Eaea~~a~l~~~~  161 (346)
-T 2IZO_A           83 QKSEELERRRKAKEEAERKLERAKSEGKIEELRKYSQAILRLSNI-MVEESKKLLRAMGIPIVQAPSEGEAEAAYLNKLG  161 (346)
-T ss_dssp             ------------------------------------------CHH-HHHHHHHHHHHHTCCEEECSSCHHHHHHHHHHTT
-T ss_pred             HhHHHHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHhccCCHH-HHHHHHHHHHHCCCCEEECCCcHHHHHHHHHHcC
-Confidence            4555666665554433222211111000111111 1122334443 45567899999999999999999988999985 3
+Q CCD75246.1/2-7   19 YELHNQPLVIDAENFASLCYRQAT-LRCEYGGEYLAFKRYIQLFLKKFRTCHVDPIFVFGGCHSKEGSKLDTLLKRNLEN   97 (724)
+Q Consensus        21 fELHNT~lViDAeNFi~~~YR~sg-L~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPIFvFDGCH~keG~KL~tLLKRNrer   99 (928)
+                      .++.++.|+||+.+|+...|.... +....||++-.+..+++.+++.+++|++.|||||||.+...-.++..--|.||..
+T Consensus         8 ~~~~~~~l~IDg~~~l~r~~~~~~~~~~~~g~~~~~~~~~~~~~~~~l~~~~~~~i~vfDg~~~~~r~~~~~~yk~~r~~   87 (832)
+T 1CMW_A            8 FEPKGRVLLVDGHHLAYRTFHALKGLTTSRGEPVQAVYGFAKSLLKALKEDGDAVIVVFDAKAPSFRHEAYGGYKAGRAP   87 (832)
+T ss_dssp             --CCEEEEEEETTHHHHHHHTSSTTCBCTTSCBCHHHHHHHHHHHHHHHHCCSEEEEECCCSSSCTTGGGGSTTTSCCCC
+T ss_pred             CCCCCeEEEEEcHHHHHHHHHhhhcccCCCCcchHHHHHHHHHHHHHHHHhCCEEEEEEcCCCcchHHHHChhHHhcCCC
+Confidence            455899999999999999987654 7888999999999999999999999999999999996543322222222222221
 
 
-Q snap_masked-jc  164 LDCPVLSNDSDFFLFRS  180 (705)
-Q Consensus       173 L~CPV~SNDSDFfifR~  189 (847)
-                      +-+-|.|+|||+++|..
-T Consensus       162 ~~~~v~S~DsD~l~~g~  178 (346)
-T 2IZO_A          162 LSWAAASQDYDAILFGA  178 (346)
-T ss_dssp             SSSEEECSSSHHHHTTC
-T ss_pred             CCeEEEcCCCceEeecC
-Confidence            56789999999999853
+Q CCD75246.1/2-7   98 FNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACER-EADISAAELAIY-----LQCPVTSGD  169 (724)
+Q Consensus       100 i~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCEr-EAD~~vAELAif-----L~CPV~SnD  173 (928)
+                      .                        ++.++. ....+.++|++.|++++.+++ |||.-+|.||..     ..|+|.|+|
+T Consensus        88 ~------------------------~~~~~~-~~~~~~~~l~~~gi~~i~~~~~EADd~ia~la~~~~~~~~~~~ivS~D  142 (832)
+T 1CMW_A           88 T------------------------PEDFPR-QLALIKELVDLLGLARLEVPGYEADDVLASLAKKAEKEGYEVRILTAD  142 (832)
+T ss_dssp             C------------------------CSSHHH-HHHHHHHHHHHTTCEEECCTTSCHHHHHHHHHHHHHHTTEEEEEECSS
+T ss_pred             C------------------------CchhHH-HHHHHHHHHHHhCCCEEecCCchHHHHHHHHHHHHHHCCCcEEEEeCC
+Confidence            1                        111121 445778899999999999999 999999999996     579999999
+
+
+Q CCD75246.1/2-7  170 SDFFIYRP  177 (724)
+Q Consensus       174 SDFfIFRp  181 (928)
+                      +||+.|..
+T Consensus       143 ~D~~ql~~  150 (832)
+T 1CMW_A          143 KDLYQLLS  150 (832)
+T ss_dssp             GGGGGSCC
+T ss_pred             cCHHHHhc
+Confidence            99999975
 
 
 No 25
 >1BGX_T TAQ DNA POLYMERASE, TP7 MAB; DNA POLYMERASE, FAB, PCR, INHIBITION; 2.3A {Thermus aquaticus} SCOP: c.55.3.5, c.120.1.2, e.8.1.1, a.60.7.1
-Probab=98.61  E-value=5.4e-12  Score=135.54  Aligned_cols=138  Identities=20%  Similarity=0.220  Sum_probs=106.9  Template_Neff=9.200
+Probab=98.81  E-value=5.2e-13  Score=143.71  Aligned_cols=139  Identities=17%  Similarity=0.152  Sum_probs=108.4  Template_Neff=9.200
 
-Q snap_masked-jc   18 SSFELHNTRVVIDAWNFINYLHRKYG-FTKLYGGEYMDFNLCIRDFLKRLRKCRISPIFLFD--------GCHSKEGTKL   88 (705)
-Q Consensus        19 s~fELHNt~lViDAeNFi~~~YR~sg-l~~~yGGEYm~F~~~Vr~fLk~lrkCrIsPIFlFd~~~~~~~~GCH~keG~KL   97 (847)
-                      .-.++.++.|+||+.+|+...|-... +....||.+-.+..+++.+++.++++.+.|||+||        |.+...-.++
-T Consensus         6 ~l~~~~~~~l~IDg~~~l~r~~~~~~~~~~~~g~~~~~~~~~~~~~~~~l~~~~~~~i~vfD--------g~~~~~r~~~   77 (832)
-T 1BGX_T            6 PLFEPKGRVLLVDGHHLAYRTFHALKGLTTSRGEPVQAVYGFAKSLLKALKEDGDAVIVVFD--------AKAPSFRHEA   77 (832)
-T ss_dssp             CCCCCCTTSCCCCCSTHHHHTTSSCTTCBCSSSCBCSSSTTHHHHHHHGGGTCCSCCCCCCC--------CSSSCSSSGG
-T ss_pred             cccccCCeEEEEEhHHHHHHHHHcCCcccCCCCCchHHHHHHHHHHHHHHHHCCCeeEEEeC--------CCCCcHHHHH
-Confidence            44567899999999999999887654 77889999999999999999999999999999999        6433222222
-
-
-Q snap_masked-jc   89 GNLLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVPHLTCDG-EADKSTAELAIF----  163 (705)
-Q Consensus        98 ~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCer-EAD~~vAELAif----  172 (847)
-                      ..--|.|+...                        ++-+| -....+.++|++.|++++.+++ |||--+|.||..    
-T Consensus        78 ~~~yk~~r~~~------------------------~~~~~-~~~~~~~~~l~~~gi~~i~~~~~EADd~ia~la~~~~~~  132 (832)
-T 1BGX_T           78 YGGYKAGRAPT------------------------PEDFP-RQLALIKELVDLLGLARLEVPGYEADDVLASLAKKAEKE  132 (832)
-T ss_dssp             GGTTTSCCCCC------------------------CTTST-TGGGTHHHHHHHTTCCCCCCSSSCHHHHHHHHHHHHHHH
-T ss_pred             HHHHHHccccC------------------------ChhHH-HHHHHHHHHHHHcCCCEEeCCCCCHHHHHHHHHHHhccC
-Confidence            22223332211                        11112 1445778899999999999999 999999999985    
+Q CCD75246.1/2-7   16 FSPYELHNQPLVIDAENFASLCYRQAT-LRCEYGGEYLAFKRYIQLFLKKFRTCHVDPIFVFGGCHSKEGSKLDTLLKRN   94 (724)
+Q Consensus        18 Fs~fELHNT~lViDAeNFi~~~YR~sg-L~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPIFvFDGCH~keG~KL~tLLKRN   96 (928)
+                      +...++.++.|+||+.+|+...|-... +....||.+-.+..+++.+++.++++.+.|||||||.....-.++..--|.|
+T Consensus         5 ~~l~~~~~~~l~IDg~~~l~r~~~~~~~~~~~~g~~~~~~~~~~~~~~~~l~~~~~~~i~vfDg~~~~~r~~~~~~yk~~   84 (832)
+T 1BGX_T            5 LPLFEPKGRVLLVDGHHLAYRTFHALKGLTTSRGEPVQAVYGFAKSLLKALKEDGDAVIVVFDAKAPSFRHEAYGGYKAG   84 (832)
+T ss_dssp             SCCCCCCTTSCCCCCSTHHHHTTSSCTTCBCSSSCBCSSSTTHHHHHHHGGGTCCSCCCCCCCCSSSCSSSGGGGTTTSC
+T ss_pred             CcccccCCeEEEEEhHHHHHHHHHcCCcccCCCCCchHHHHHHHHHHHHHHHHCCCeeEEEeCCCCCcHHHHHHHHHHHc
+Confidence            344567899999999999999887654 7788999999999999999999999999999999996543322222222333
 
 
-Q snap_masked-jc  164 -LDCPVLSNDSDFFLFRS  180 (705)
-Q Consensus       173 -L~CPV~SNDSDFfifR~  189 (847)
-                       ..|.|.|+|+||+.|..
-T Consensus       133 ~~~~~ivs~D~D~~ql~~  150 (832)
-T 1BGX_T          133 GYEVRILTADKDLYQLLS  150 (832)
-T ss_dssp             TCCBCCCCSSTTCCTTCC
-T ss_pred             CCcEEEEeCCCcHHHhcC
-Confidence             56999999999999975
+Q CCD75246.1/2-7   95 LENFNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACER-EADISAAELAIY-----LQCPVT  166 (724)
+Q Consensus        97 reri~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCEr-EAD~~vAELAif-----L~CPV~  170 (928)
+                      |...                        ++-+| -....+.++|++.|++++.+.+ |||--+|.||..     ..|.|.
+T Consensus        85 r~~~------------------------~~~~~-~~~~~~~~~l~~~gi~~i~~~~~EADd~ia~la~~~~~~~~~~~iv  139 (832)
+T 1BGX_T           85 RAPT------------------------PEDFP-RQLALIKELVDLLGLARLEVPGYEADDVLASLAKKAEKEGYEVRIL  139 (832)
+T ss_dssp             CCCC------------------------CTTST-TGGGTHHHHHHHTTCCCCCCSSSCHHHHHHHHHHHHHHHTCCBCCC
+T ss_pred             cccC------------------------ChhHH-HHHHHHHHHHHHcCCCEEeCCCCCHHHHHHHHHHHhccCCCcEEEE
+Confidence            3211                        11111 1445778899999999999999 999999999985     579999
+
+
+Q CCD75246.1/2-7  167 SGDSDFFIYRP  177 (724)
+Q Consensus       171 SnDSDFfIFRp  181 (928)
+                      |+|+||+.|..
+T Consensus       140 s~D~D~~ql~~  150 (832)
+T 1BGX_T          140 TADKDLYQLLS  150 (832)
+T ss_dssp             CSSTTCCTTCC
+T ss_pred             eCCCcHHHhcC
+Confidence            99999999975
 
 
 No 26
->3ZDB_A PROTEIN XNI (E.C.3.1.-.-); HYDROLASE-DNA COMPLEX, FLAP ENDONUCLEASE, DNA; 1.47A {ESCHERICHIA COLI}
-Probab=98.42  E-value=3.9e-11  Score=110.43  Aligned_cols=126  Identities=20%  Similarity=0.250  Sum_probs=83.2  Template_Neff=9.500
+>3ZD9_A PROTEIN XNI (E.C.3.1.-.-); HYDROLASE, FLAP ENDONUCLEASE, DNA BINDING; 2.0A {ESCHERICHIA COLI}
+Probab=98.73  E-value=1.4e-12  Score=120.52  Aligned_cols=124  Identities=17%  Similarity=0.068  Sum_probs=84.7  Template_Neff=9.500
 
-Q snap_masked-jc   24 NTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFLKRLRKCRI-SPIFLFD--------GCHSKEGTKLGNLLKK   94 (705)
-Q Consensus        25 Nt~lViDAeNFi~~~YR~sgl~~~yGGEYm~F~~~Vr~fLk~lrkCrI-sPIFlFd~~~~~~~~GCH~keG~KL~tLLKR  103 (847)
-                      ++.++|||.|++...|..       +|+.. ...+++.+.+-++++++ .|||+|||..      +....-.++..--|+
-T Consensus         3 ~~~l~IDg~~~l~~~~~~-------~g~~~-~~~~~~~~~~~~~~~~~~~~v~vfDG~~------~~~~~R~~~~~~yk~   68 (251)
-T 3ZDB_A            3 VHLLIVDALNLIRRIHAV-------QGSPC-VETCQHALDQLIMHSQPTHAVAVFDDEN------RSSGWRHQRLPDYKA   68 (251)
-T ss_dssp             CEEEEEEHHHHHHHHHHH-------HCSCC-HHHHHHHHHHHHHHHCCSEEEEEEEC---------CCSHHHHHSTTTTT
-T ss_pred             CeEEEEEchHHHHHHHhc-------CCCCh-HHHHHHHHHHHHHHhCCCeEEEEEeCCC------CCCcchhhccHhHHc
-Confidence            678999999999876543       23322 44466666677777777 8999999211      111111111111122
-
-
-Q snap_masked-jc   95 NRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVPHLTCDG-EADKSTAELAIFL-----DCPV  168 (705)
-Q Consensus       104 N~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCer-EAD~~vAELAifL-----~CPV  177 (847)
-                      |+...                        ++.+. -....+.++|++.|++++.+.+ |||.-+|.+|...     .+.|
-T Consensus        69 ~r~~~------------------------~~~~~-~~~~~~~~~l~~~gi~~~~a~~~EADd~ia~l~~~~~~~~~~~~v  123 (251)
-T 3ZDB_A           69 GRPPM------------------------PEELH-DEMPALRAAFEQRGVPCWSTSGNEADDLAATLAVKVTQAGHQATI  123 (251)
-T ss_dssp             TCCCC------------------------CHHHH-HHHHHHHHHHHHHTCCEEEESSSCHHHHHHHHHHHHHHTTCEEEE
-T ss_pred             CCCCC------------------------CHHHH-HHHHHHHHHHHHhCCCEEeCCCCCHHHHHHHHHHHHHHCCCCEEE
-Confidence            22110                        11111 2245778999999999999997 9999999999864     7899
+Q CCD75246.1/2-7   23 NQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHV-DPIFVFGG--CHSKEGSKLDTLLKRNLENFN   99 (724)
+Q Consensus        25 NT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrI-sPIFvFDG--CH~keG~KL~tLLKRNreri~  101 (928)
+                      ++.++|||.|++...|-.       +|+.. ...+++.+.+-++++++ .|||||||  +....-.++..--|+||... 
+T Consensus         3 ~~~l~IDg~~~l~~~~~~-------~g~~~-~~~~~~~~~~~~~~~~~~~~v~vfDG~~~~~~~R~~~~~~yk~~r~~~-   73 (251)
+T 3ZD9_A            3 VHLLIVDALNLIRRIHAV-------QGSPC-VETCQHALDQLIMHSQPTHAVAVFDDENRSSGWRHQRLPDYKAGRPPM-   73 (251)
+T ss_dssp             CEEEEEEHHHHHHHHHHH-------HCSCC-HHHHHHHHHHHHHHHCCSEEEEEECCSCTTCSHHHHHCTTTTTTCCCC-
+T ss_pred             CeEEEEEchHHHHHHHhc-------CCCCh-HHHHHHHHHHHHHHhCCCeEEEEEeCCCCCCcchhhccHhHHcCCCCC-
+Confidence            678999999999886543       23322 44466666666777777 89999999  32222111211122222110 
 
 
-Q snap_masked-jc  169 LSNDSDFFLFRS  180 (705)
-Q Consensus       178 ~SNDSDFfifR~  189 (847)
-                      .|+|+|++.|..
-T Consensus       124 iS~D~D~~~~~~  135 (251)
-T 3ZDB_A          124 VSTDKGYCQLLS  135 (251)
-T ss_dssp             ECSCGGGGGGCB
-T ss_pred             EECCccHHhhcC
-Confidence            999999999964
+Q CCD75246.1/2-7  100 KLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACER-EADISAAELAIYL-----QCPVTSGDSD  171 (724)
+Q Consensus       102 sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCEr-EAD~~vAELAifL-----~CPV~SnDSD  175 (928)
+                                             ++.+. -....+.++|++.|++++.+.+ |||.-+|.+|...     .+.|.|+|+|
+T Consensus        74 -----------------------~~~~~-~~~~~~~~~l~~~gi~~~~a~~~EADd~ia~l~~~~~~~~~~~~viS~D~D  129 (251)
+T 3ZD9_A           74 -----------------------PEELH-DEMPALRAAFEQRGVPCWSTSGNEADDLAATLAVKVTQAGHQATIVSTDKG  129 (251)
+T ss_dssp             -----------------------CHHHH-HHHHHHHHHHHHTTCCEEECTTSCHHHHHHHHHHHHHHTTCEEEEECSCGG
+T ss_pred             -----------------------CHHHH-HHHHHHHHHHHHhCCCEEeCCCCCHHHHHHHHHHHHHHCCCCEEEEECCcc
+Confidence                                   11111 2245678999999999999997 9999999999864     7899999999
+
+
+Q CCD75246.1/2-7  172 FFIYRP  177 (724)
+Q Consensus       176 FfIFRp  181 (928)
+                      ++.|..
+T Consensus       130 ~~~~~~  135 (251)
+T 3ZD9_A          130 YCQLLS  135 (251)
+T ss_dssp             GGGGCC
+T ss_pred             HHhhcC
+Confidence            999964
 
 
 No 27
->3ZD9_A PROTEIN XNI (E.C.3.1.-.-); HYDROLASE, FLAP ENDONUCLEASE, DNA BINDING; 2.0A {ESCHERICHIA COLI}
-Probab=98.42  E-value=3.9e-11  Score=110.43  Aligned_cols=126  Identities=20%  Similarity=0.250  Sum_probs=83.7  Template_Neff=9.500
+>3ZDB_A PROTEIN XNI (E.C.3.1.-.-); HYDROLASE-DNA COMPLEX, FLAP ENDONUCLEASE, DNA; 1.47A {ESCHERICHIA COLI}
+Probab=98.73  E-value=1.4e-12  Score=120.52  Aligned_cols=124  Identities=17%  Similarity=0.068  Sum_probs=84.3  Template_Neff=9.500
 
-Q snap_masked-jc   24 NTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFLKRLRKCRI-SPIFLFD--------GCHSKEGTKLGNLLKK   94 (705)
-Q Consensus        25 Nt~lViDAeNFi~~~YR~sgl~~~yGGEYm~F~~~Vr~fLk~lrkCrI-sPIFlFd~~~~~~~~GCH~keG~KL~tLLKR  103 (847)
-                      ++.++|||.|++...|..       +|+.. ...+++.+.+-++++++ .|||+|||..      +....-.++..--|+
-T Consensus         3 ~~~l~IDg~~~l~~~~~~-------~g~~~-~~~~~~~~~~~~~~~~~~~~v~vfDG~~------~~~~~R~~~~~~yk~   68 (251)
-T 3ZD9_A            3 VHLLIVDALNLIRRIHAV-------QGSPC-VETCQHALDQLIMHSQPTHAVAVFDDEN------RSSGWRHQRLPDYKA   68 (251)
-T ss_dssp             CEEEEEEHHHHHHHHHHH-------HCSCC-HHHHHHHHHHHHHHHCCSEEEEEECCSC------TTCSHHHHHCTTTTT
-T ss_pred             CeEEEEEchHHHHHHHhc-------CCCCh-HHHHHHHHHHHHHHhCCCeEEEEEeCCC------CCCcchhhccHhHHc
-Confidence            678999999999876543       23322 44466666677777777 8999999211      111111111111122
-
-
-Q snap_masked-jc   95 NRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVPHLTCDG-EADKSTAELAIFL-----DCPV  168 (705)
-Q Consensus       104 N~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCer-EAD~~vAELAifL-----~CPV  177 (847)
-                      |+...                        ++.+. -....+.++|++.|++++.+.+ |||.-+|.+|...     .+.|
-T Consensus        69 ~r~~~------------------------~~~~~-~~~~~~~~~l~~~gi~~~~a~~~EADd~ia~l~~~~~~~~~~~~v  123 (251)
-T 3ZD9_A           69 GRPPM------------------------PEELH-DEMPALRAAFEQRGVPCWSTSGNEADDLAATLAVKVTQAGHQATI  123 (251)
-T ss_dssp             TCCCC------------------------CHHHH-HHHHHHHHHHHHTTCCEEECTTSCHHHHHHHHHHHHHHTTCEEEE
-T ss_pred             CCCCC------------------------CHHHH-HHHHHHHHHHHHhCCCEEeCCCCCHHHHHHHHHHHHHHCCCCEEE
-Confidence            22110                        11111 2245778999999999999997 9999999999864     7899
+Q CCD75246.1/2-7   23 NQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHV-DPIFVFGG--CHSKEGSKLDTLLKRNLENFN   99 (724)
+Q Consensus        25 NT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrI-sPIFvFDG--CH~keG~KL~tLLKRNreri~  101 (928)
+                      ++.++|||.|++...|-.       +|+.. ...+++.+.+-++++++ .|||||||  +....-.++..--|+||... 
+T Consensus         3 ~~~l~IDg~~~l~~~~~~-------~g~~~-~~~~~~~~~~~~~~~~~~~~v~vfDG~~~~~~~R~~~~~~yk~~r~~~-   73 (251)
+T 3ZDB_A            3 VHLLIVDALNLIRRIHAV-------QGSPC-VETCQHALDQLIMHSQPTHAVAVFDDENRSSGWRHQRLPDYKAGRPPM-   73 (251)
+T ss_dssp             CEEEEEEHHHHHHHHHHH-------HCSCC-HHHHHHHHHHHHHHHCCSEEEEEEEC---CCSHHHHHSTTTTTTCCCC-
+T ss_pred             CeEEEEEchHHHHHHHhc-------CCCCh-HHHHHHHHHHHHHHhCCCeEEEEEeCCCCCCcchhhccHhHHcCCCCC-
+Confidence            678999999999886543       23322 44466666666777777 89999999  32222111211122222110 
 
 
-Q snap_masked-jc  169 LSNDSDFFLFRS  180 (705)
-Q Consensus       178 ~SNDSDFfifR~  189 (847)
-                      .|+|+|++.|..
-T Consensus       124 iS~D~D~~~~~~  135 (251)
-T 3ZD9_A          124 VSTDKGYCQLLS  135 (251)
-T ss_dssp             ECSCGGGGGGCC
-T ss_pred             EECCccHHhhcC
-Confidence            999999999964
+Q CCD75246.1/2-7  100 KLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACER-EADISAAELAIYL-----QCPVTSGDSD  171 (724)
+Q Consensus       102 sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCEr-EAD~~vAELAifL-----~CPV~SnDSD  175 (928)
+                                             ++.+. -....+.++|++.|++++.+.+ |||.-+|.+|...     .+.|.|+|+|
+T Consensus        74 -----------------------~~~~~-~~~~~~~~~l~~~gi~~~~a~~~EADd~ia~l~~~~~~~~~~~~viS~D~D  129 (251)
+T 3ZDB_A           74 -----------------------PEELH-DEMPALRAAFEQRGVPCWSTSGNEADDLAATLAVKVTQAGHQATIVSTDKG  129 (251)
+T ss_dssp             -----------------------CHHHH-HHHHHHHHHHHHHTCCEEEESSSCHHHHHHHHHHHHHHTTCEEEEECSCGG
+T ss_pred             -----------------------CHHHH-HHHHHHHHHHHHhCCCEEeCCCCCHHHHHHHHHHHHHHCCCCEEEEECCcc
+Confidence                                   11111 2245678999999999999997 9999999999864     7899999999
+
+
+Q CCD75246.1/2-7  172 FFIYRP  177 (724)
+Q Consensus       176 FfIFRp  181 (928)
+                      ++.|..
+T Consensus       130 ~~~~~~  135 (251)
+T 3ZDB_A          130 YCQLLS  135 (251)
+T ss_dssp             GGGGCB
+T ss_pred             HHhhcC
+Confidence            999964
 
 
 No 28
 >3ZD8_B PROTEIN XNI (E.C.3.1.-.-); HYDROLASE, FLAP ENDONUCLEASE, DNA BINDING; 2.0A {ESCHERICHIA COLI}
-Probab=98.42  E-value=4e-11  Score=110.35  Aligned_cols=126  Identities=20%  Similarity=0.250  Sum_probs=79.2  Template_Neff=9.500
+Probab=98.71  E-value=1.8e-12  Score=119.68  Aligned_cols=124  Identities=17%  Similarity=0.065  Sum_probs=80.3  Template_Neff=9.500
 
-Q snap_masked-jc   24 NTRVVIDAWNFINYLHRKYGFTKLYGGEYMDFNLCIRDFLKRLRKCRI-SPIFLFD--------GCHSKEGTKLGNLLKK   94 (705)
-Q Consensus        25 Nt~lViDAeNFi~~~YR~sgl~~~yGGEYm~F~~~Vr~fLk~lrkCrI-sPIFlFd~~~~~~~~GCH~keG~KL~tLLKR  103 (847)
-                      +..++|||.|++...|...       |+.- ...+.+.+.+-++++++ .|||+|||..      +....-.++..--|+
-T Consensus         3 ~~~l~ID~~~~l~~~~~~~-------g~~~-~~~~~~~~~~~~~~~~~~~~v~vfDG~~------~~~~~R~~~~~~yk~   68 (251)
-T 3ZD8_B            3 VHLLIVDALNLIRRIHAVQ-------GSPC-VETCQHALDQLIMHSQPTHAVAVFDDEN------RSSGWRHQRLPDYKA   68 (251)
-T ss_dssp             CEEEEEEHHHHHHHHHHHH-------CSCC-HHHHHHHHHHHHHHHCCSEEEEECCC-----------CHHHHHCTTTTT
-T ss_pred             CeEEEEEchHHHHHHHhcC-------CCch-HHHHHHHHHHHHHhhCCCeEEEEEeCCC------CCCchhHhccHHHHc
-Confidence            6789999999998876442       3322 33455666666677777 8999999211      111111122222223
-
-
-Q snap_masked-jc   95 NRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVPHLTCDG-EADKSTAELAIFL-----DCPV  168 (705)
-Q Consensus       104 N~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCer-EAD~~vAELAifL-----~CPV  177 (847)
-                      |+...                        ++.+ .-....+.++|++.|++++.+.+ |||.-+|.+|...     .+.|
-T Consensus        69 ~r~~~------------------------~~~~-~~~~~~~~~~l~~~gi~~~~a~~~EADd~ia~l~~~~~~~~~~~~v  123 (251)
-T 3ZD8_B           69 GRPPM------------------------PEEL-HDEMPALRAAFEQRGVPCWSTSGNEADDLAATLAVKVTQAGHQATI  123 (251)
-T ss_dssp             TCCCC------------------------CHHH-HHHHHHHHHHHHHTTCCEEC-----CHHHHHHHHHHHHHTTCEEEE
-T ss_pred             cCCCC------------------------CHHH-HhHHHHHHHHHHHcCCCEEECCCCCHHHHHHHHHHHHHHCCCcEEE
-Confidence            32211                        1111 12346778999999999999997 9999999999864     7899
+Q CCD75246.1/2-7   23 NQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHV-DPIFVFGG--CHSKEGSKLDTLLKRNLENFN   99 (724)
+Q Consensus        25 NT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrI-sPIFvFDG--CH~keG~KL~tLLKRNreri~  101 (928)
+                      +..++|||.|++...|...       |+.- ...+.+.+.+-++++++ .|||||||  +....-.++..--|+||... 
+T Consensus         3 ~~~l~ID~~~~l~~~~~~~-------g~~~-~~~~~~~~~~~~~~~~~~~~v~vfDG~~~~~~~R~~~~~~yk~~r~~~-   73 (251)
+T 3ZD8_B            3 VHLLIVDALNLIRRIHAVQ-------GSPC-VETCQHALDQLIMHSQPTHAVAVFDDENRSSGWRHQRLPDYKAGRPPM-   73 (251)
+T ss_dssp             CEEEEEEHHHHHHHHHHHH-------CSCC-HHHHHHHHHHHHHHHCCSEEEEECCC-----CHHHHHCTTTTTTCCCC-
+T ss_pred             CeEEEEEchHHHHHHHhcC-------CCch-HHHHHHHHHHHHHhhCCCeEEEEEeCCCCCCchhHhccHHHHccCCCC-
+Confidence            6789999999998876442       3322 33455566666677777 89999999  32222222222223333211 
 
 
-Q snap_masked-jc  169 LSNDSDFFLFRS  180 (705)
-Q Consensus       178 ~SNDSDFfifR~  189 (847)
-                      .|+|+||+.|-.
-T Consensus       124 vS~D~D~~~~~~  135 (251)
-T 3ZD8_B          124 VSTDKGYCQLLS  135 (251)
-T ss_dssp             ECSCGGGGGGCC
-T ss_pred             EECCccHHHhcC
-Confidence            999999999953
+Q CCD75246.1/2-7  100 KLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACER-EADISAAELAIY-----LQCPVTSGDSD  171 (724)
+Q Consensus       102 sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCEr-EAD~~vAELAif-----L~CPV~SnDSD  175 (928)
+                                             ++.+ .-....+.++|++.|++++.+.+ |||.-+|.+|..     ..+.|.|+|+|
+T Consensus        74 -----------------------~~~~-~~~~~~~~~~l~~~gi~~~~a~~~EADd~ia~l~~~~~~~~~~~~vvS~D~D  129 (251)
+T 3ZD8_B           74 -----------------------PEEL-HDEMPALRAAFEQRGVPCWSTSGNEADDLAATLAVKVTQAGHQATIVSTDKG  129 (251)
+T ss_dssp             -----------------------CHHH-HHHHHHHHHHHHHTTCCEEC-----CHHHHHHHHHHHHHTTCEEEEECSCGG
+T ss_pred             -----------------------CHHH-HhHHHHHHHHHHHcCCCEEECCCCCHHHHHHHHHHHHHHCCCcEEEEECCcc
+Confidence                                   1111 12346778999999999999997 999999999986     47899999999
+
+
+Q CCD75246.1/2-7  172 FFIYRP  177 (724)
+Q Consensus       176 FfIFRp  181 (928)
+                      |+.|-.
+T Consensus       130 ~~~~~~  135 (251)
+T 3ZD8_B          130 YCQLLS  135 (251)
+T ss_dssp             GGGGCC
+T ss_pred             HHHhcC
+Confidence            999953
 
 
 No 29
->3H7I_A Ribonuclease H (E.C.3.1.26.4); BPT4 RNase H, 5'-3' exonuclease; HET: SO4; 1.502A {Enterobacteria phage T4}
-Probab=97.38  E-value=1.1e-07  Score=92.35  Aligned_cols=138  Identities=16%  Similarity=0.109  Sum_probs=92.4  Template_Neff=8.000
+>5HNK_A Exodeoxyribonuclease/DNA Complex; Hydrolase, enzyme-DNA complex, flap endonuclease; 2.22A {Escherichia phage T5}
+Probab=98.68  E-value=2.4e-12  Score=122.05  Aligned_cols=134  Identities=13%  Similarity=0.002  Sum_probs=90.4  Template_Neff=8.900
 
-Q snap_masked-jc   21 ELHNTRVVIDAWNFIN-YLHRKYGFTKLYGGEYMD---F----NLCIRDFLKRLRKCRISPIF-LFD--------GCH-S   82 (705)
-Q Consensus        22 ELHNt~lViDAeNFi~-~~YR~sgl~~~yGGEYm~---F----~~~Vr~fLk~lrkCrIsPIF-lFd~~~~~~~~GCH-~   91 (847)
-                      .++.+.++||+.|++. ..|-...-     |+...   +    ..+++.+++.+++++.+||+ +||        |-+ .
-T Consensus        10 ~~~~~~llIDg~~l~~~~~~~~~~~-----g~~~~~~~~r~~i~~~l~~l~~~~~~~~~~~iiv~fD--------~~~~~   76 (305)
-T 3H7I_A           10 DYKEGICLIDFSQIALSTALVNFPD-----KEKINLSMVRHLILNSIKFNVKKAKTLGYTKIVLCID--------NAKSG   76 (305)
-T ss_dssp             CSSCCEEEEEHHHHHHHHHHHHSCS-----SSCCCHHHHHHHHHHHHHHHHHHHHHTTCCEEEEECC--------CCTTC
-T ss_pred             CcCCcEEEEeCcHHHHHHHHhcCCC-----CCCCCHHHHHHHHHHHHHHHHHHHHHhCCCEEEEEEe--------CCCCC
-Confidence            4688999999999998 55533221     33323   2    44677777777889999966 599        432 2
-
-
-Q snap_masked-jc   83 KEGTKLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVPHLTCD-GEADKSTAELA  161 (705)
-Q Consensus        92 keG~KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCe-rEAD~~vAELA  170 (847)
-                      ....++..--|.||.....                +.......+.|. ....+.++|++.|++++.++ .|||--+|-||
-T Consensus        77 ~~R~~~~p~YK~nR~~~~~----------------~~~~~~~~~~~~-~~~~~~~~l~~~gi~~i~~~~~EADD~Ia~la  139 (305)
-T 3H7I_A           77 YWRRDFAYYYKKNRGKARE----------------ESTWDWEGYFES-SHKVIDELKAYMPYIVMDIDKYEANDHIAVLV  139 (305)
-T ss_dssp             CHHHHHSTTTTHHHHHHHH----------------HCSSCHHHHHHH-HHHHHHHHHHHSSSEEECCTTCCHHHHHHHHH
-T ss_pred             ccHHHchHHHHhhccCCch----------------hcccCchhccch-hHHHHHHHHHhCCCeEEECCCCCHHHHHHHHH
-Confidence            2233333334555543210                000011234444 45778899999999999865 59999999999
+Q CCD75246.1/2-7   23 NQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHVDPIFVFGGCHSKEGSKLDTLLKRNLENFNKLS  102 (724)
+Q Consensus        25 NT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPIFvFDGCH~keG~KL~tLLKRNreri~sLs  104 (928)
+                      |+.+|||+.|++..+|....    .+|.+..|...++.++++++.+  .|||+|||-....-.++..--|+||...... 
+T Consensus         1 ~~~llIDg~~ll~r~~~~~~----~~g~~~~f~~~l~~l~~~~~~~--~~i~vfDg~~~~~R~~~~~~YK~~R~~~~~~-   73 (272)
+T 5HNK_A            1 RNLMIVDGTNLGFRFKHNNS----KKPFASSYVSTIQSLAKSYSAR--TTIVLGDKGKSVFRLEHLPEYKGNRDEKYAQ-   73 (272)
+T ss_dssp             CEEEEEEHHHHHGGGCCSSC----CSCCHHHHHHHHHHHHHHTTEE--EEEEECCCSSCHHHHHHCTTTTTTHHHHHHT-
+T ss_pred             CeEEEEEccHHHHHHHhhCC----CCchHHHHHHHHHHHHHHcCCC--EEEEEecCCCccHHHHhhHHHHccChhhHhc-
+Confidence            57899999999999985422    2566666777777777776543  4999999965433333333333343221110 
 
 
-Q snap_masked-jc  162 IFL-----DCPVLSNDSDFFLFRS  180 (705)
-Q Consensus       171 ifL-----~CPV~SNDSDFfifR~  189 (847)
-                      ...     .|.|+|+|+||+.+-.
-T Consensus       140 ~~~~~~~~~v~IvS~DkD~~ql~~  163 (305)
-T 3H7I_A          140 KKFSLEGHKILIISSDGDFTQLHK  163 (305)
-T ss_dssp             HHHHHTTCCEEEECSSCCCGGGGG
-T ss_pred             HHHHhCCCeEEEEECCCChHHhcc
-Confidence            985     7999999999998875
+Q CCD75246.1/2-7  103 SALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRES--SVRYIACER-EADISAAELAIYL-----QCPVTSGDSDF  172 (724)
+Q Consensus       105 ~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~--~v~yltCEr-EAD~~vAELAifL-----~CPV~SnDSDF  176 (928)
+                                      ..+.++.+.......+.++|++.  |++++.+.+ |||--+|.||..+     .+.|.|+|+||
+T Consensus        74 ----------------~~~~~~~l~~~~~~~~~~~l~~~~~gi~~~~~~g~EADd~ia~la~~~~~~~~~~~IvS~D~D~  137 (272)
+T 5HNK_A           74 ----------------RTEEEKALDEQFFEYLKDAFELCKTTFPTFTIRGVEADDMAAYIVKLIGHLYDHVWLISTKGDW  137 (272)
+T ss_dssp             ----------------CCHHHHHHHHHHHHHHHHHHHHHHTTSCEECBTTBCHHHHHHHHHHHHGGGSSCEEEECSCGGG
+T ss_pred             ----------------CCHHHHHHHHHHHHHHHHHHHHcccCCCEEEeCCccHHHHHHHHHHHHhccCCeEEEEECCCCH
+Confidence                            01111112222234578889888  999999997 9999999999986     48999999999
+
+
+Q CCD75246.1/2-7  173 FIYRP  177 (724)
+Q Consensus       177 fIFRp  181 (928)
+                      +.|..
+T Consensus       138 ~ql~~  142 (272)
+T 5HNK_A          138 DTLLT  142 (272)
+T ss_dssp             GGGCB
+T ss_pred             HHhcC
+Confidence            99954
 
 
 No 30
->2MDT_A Putative uncharacterized protein; hypothetical protein, UNKNOWN FUNCTION; NMR {Sulfolobus solfataricus}
-Probab=51.36  E-value=1.6  Score=37.81  Aligned_cols=74  Identities=16%  Similarity=0.131  Sum_probs=45.3  Template_Neff=4.800
+>5HML_B Exodeoxyribonuclease (E.C.3.1.11.3); Metal ion complex, flap endonuclease; HET: CL, B3P; 1.482A {Escherichia phage T5}
+Probab=98.68  E-value=2.4e-12  Score=122.05  Aligned_cols=134  Identities=13%  Similarity=0.002  Sum_probs=90.4  Template_Neff=8.900
 
-Q snap_masked-jc   87 KLGNLLKKNRRRIEPLNRLINQVRLLRPSHVEHYRPVPDICPSLTYETVMQILIEYKVPHLTCD----GEADKSTAELAI  162 (705)
-Q Consensus        96 KL~tLLKRN~eri~~Ls~~L~~~~~~~~sd~~~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCe----rEAD~~vAELAi  171 (847)
-                      ||..+++++++.-         +..-+++..+..+...||-..|...  ++|+..   .+-+.|    .++|..+-+||.
-T Consensus        12 ~~~~~~~~~~~~~---------~iitTn~vi~eik~~idl~~~L~~g--l~v~~~---a~k~gDl~~LS~~D~~llalA~   77 (119)
-T 2MDT_A           12 KLKEILGSNKNYK---------FVITTLGVSFAIKSGIDIDSALDRG--VIVRAF---SHKPPKVGNLPQYESEAIMVAF   77 (119)
-T ss_dssp             CHHHHHHHTCSSE---------EEECHHHHHHHHHHTCCCHHHHHHT--CEECCC---SCCCCCCSSSCHHHHHHHHHHH
-T ss_pred             HHHHHHhcCCCCE---------EEEECHHHHHHHHcCCChHHHHHhC--CeEEee---cCCCCCcccCCHHHHHHHHHHH
-Confidence            6777777655431         2222223344444446666666554  444431   122223    789999999999
+Q CCD75246.1/2-7   23 NQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHVDPIFVFGGCHSKEGSKLDTLLKRNLENFNKLS  102 (724)
+Q Consensus        25 NT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPIFvFDGCH~keG~KL~tLLKRNreri~sLs  104 (928)
+                      |+.+|||+.|++..+|....    .+|.+..|...++.++++++.+  .|||+|||-....-.++..--|+||...... 
+T Consensus         1 ~~~llIDg~~ll~r~~~~~~----~~g~~~~f~~~l~~l~~~~~~~--~~i~vfDg~~~~~R~~~~~~YK~~R~~~~~~-   73 (272)
+T 5HML_B            1 RNLMIVDGTNLGFRFKHNNS----KKPFASSYVSTIQSLAKSYSAR--TTIVLGDKGKSVFRLEHLPEYKGNRDEKYAQ-   73 (272)
+T ss_dssp             CEEEEEEHHHHHHHHHTTCC----CSCCHHHHHHHHHHHHHHTTEE--EEEEEECBSCCHHHHHHCTTTTCCCTTTSCC-
+T ss_pred             CeEEEEEccHHHHHHHhhCC----CCchHHHHHHHHHHHHHHcCCC--EEEEEecCCCccHHHHhhHHHHccChhhHhc-
+Confidence            57899999999999985422    2566666777777777776543  4999999965433333333333343221110 
 
 
-Q snap_masked-jc  163 FLDCPVLSNDSD  174 (705)
-Q Consensus       172 fL~CPV~SNDSD  183 (847)
-                      .|+|.|++||-.
-T Consensus        78 el~a~lvTdD~~   89 (119)
-T 2MDT_A           78 ELNALLIAEDKD   89 (119)
-T ss_dssp             HHTCEEECCSHH
-T ss_pred             HcCCEEEeCCHH
-Confidence            999999999854
+Q CCD75246.1/2-7  103 SALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRES--SVRYIACER-EADISAAELAIYL-----QCPVTSGDSDF  172 (724)
+Q Consensus       105 ~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~--~v~yltCEr-EAD~~vAELAifL-----~CPV~SnDSDF  176 (928)
+                                      ..+.++.+.......+.++|++.  |++++.+.+ |||--+|.||..+     .+.|.|+|+||
+T Consensus        74 ----------------~~~~~~~l~~~~~~~~~~~l~~~~~gi~~~~~~g~EADd~ia~la~~~~~~~~~~~IvS~D~D~  137 (272)
+T 5HML_B           74 ----------------RTEEEKALDEQFFEYLKDAFELCKTTFPTFTIRGVEADDMAAYIVKLIGHLYDHVWLISTKGDW  137 (272)
+T ss_dssp             ----------------CCHHHHHHHHHHHHHHHHHHHHHHTTSCEEECTTBCHHHHHHHHHHHHGGGSSCEEEECSCGGG
+T ss_pred             ----------------CCHHHHHHHHHHHHHHHHHHHHcccCCCEEEeCCccHHHHHHHHHHHHhccCCeEEEEECCCCH
+Confidence                            01111112222234578889888  999999997 9999999999986     48999999999
+
+
+Q CCD75246.1/2-7  173 FIYRP  177 (724)
+Q Consensus       177 fIFRp  181 (928)
+                      +.|..
+T Consensus       138 ~ql~~  142 (272)
+T 5HML_B          138 DTLLT  142 (272)
+T ss_dssp             GGGCB
+T ss_pred             HHhcC
+Confidence            99954
 
 
 No 31
->1O4W_A PIN AF0591; PIN (PILT N-TERMINUS) DOMAIN, STRUCTURAL; 1.9A {Archaeoglobus fulgidus} SCOP: c.120.1.1
-Probab=35.36  E-value=3  Score=33.26  Aligned_cols=30  Identities=27%  Similarity=0.327  Sum_probs=26.8  Template_Neff=9.000
+>5HP4_A Exodeoxyribonuclease/DNA Complex; Enzyme-substrate-complex, flap endonuclease, metalloenzyme, hydrolase; 1.86A {Escherichia phage T5}
+Probab=98.55  E-value=1.1e-11  Score=117.72  Aligned_cols=133  Identities=13%  Similarity=0.018  Sum_probs=87.9  Template_Neff=8.800
 
-Q snap_masked-jc  149 CDGEADKSTAELAIFLDCPVLSNDSDFFLF  178 (705)
-Q Consensus       158 CerEAD~~vAELAifL~CPV~SNDSDFfif  187 (847)
+Q CCD75246.1/2-7   23 NQPLVIDAENFASLCYRQATLRCEYGGEYLAFKRYIQLFLKKFRTCHVDPIFVFGGCHSKEGSKLDTLLKRNLENFNKLS  102 (724)
+Q Consensus        25 NT~lViDAeNFi~~~YR~sgL~~~YGGEYmdF~~~Vr~FLK~lrkCrIsPIFvFDGCH~keG~KL~tLLKRNreri~sLs  104 (928)
+                      |+.++||+.|++..+|....    .+|.+..|...++.++++++.++  |||+|||-....-.++..--|.||...... 
+T Consensus         1 ~~~llIDg~~ll~r~~~~~~----~~~~~~~f~~~i~~l~~~~~~~~--~i~vfDg~~~~~R~~~~~~YK~~R~~~~~~-   73 (272)
+T 5HP4_A            1 RNLMIVDGTNLGFRFKHNNS----KKPFASSYVSTIQSLAKSYSART--TIVLGDKGKSVFRLEHLPEYKGNRDEKYAQ-   73 (272)
+T ss_pred             CeEEEEEhHHHHHHHHHcCC----CCCcchHHHHHHHHHHHHHCCCc--eEEEECCCChhhHhhhcHHHHHcCCCCCCC-
+Confidence            57899999999999986432    25666666666666666654333  999999964333233333333344321110 
+
+
+Q CCD75246.1/2-7  103 SALRDVNSI--SNLNSLDLNI-DITPRLCRHVLVEILRES--SVRYIACER-EADISAAELAIYL-----QCPVTSGDSD  171 (724)
+Q Consensus       105 ~~L~~~~~~~~sd~d~~~~~p-DI~P~L~~~v~~~IL~E~--~v~yltCEr-EAD~~vAELAifL-----~CPV~SnDSD  175 (928)
+                                      ..+.+ ++.+. ....+.++|++.  |++++.|.+ |||--+|.+|..+     .+.|.|+|+|
+T Consensus        74 ----------------~~~~~~~l~~~-~~~~~~~~l~~~~~gi~~~~~~g~EADD~ia~la~~~~~~~~~~~IvS~D~D  136 (272)
+T 5HP4_A           74 ----------------RTEEEKALDEQ-FFEYLKDAFELCKTTFPTFTIRGVEADDMAAYIVKLIGHLYDHVWLISTDGK  136 (272)
+T ss_pred             ----------------CCCCchHhHhh-hHHHHHHHHHHHhcCCCEEECCCCCHHHHHHHHHHHHhcCCCeEEEEeCCCc
+Confidence                            00001 11111 123467888887  999999997 9999999999984     5899999999
+
+
+Q CCD75246.1/2-7  172 FFIYRP  177 (724)
+Q Consensus       176 FfIFRp  181 (928)
+                      |+.|..
+T Consensus       137 ~lql~~  142 (272)
+T 5HP4_A          137 WDTLLT  142 (272)
+T ss_pred             hHhhcC
+Confidence            999955
+
+
+No 32
+>3H7I_A Ribonuclease H (E.C.3.1.26.4); BPT4 RNase H, 5'-3' exonuclease; HET: SO4; 1.502A {Enterobacteria phage T4}
+Probab=97.57  E-value=3.4e-08  Score=96.23  Aligned_cols=138  Identities=16%  Similarity=0.061  Sum_probs=93.3  Template_Neff=8.000
+
+Q CCD75246.1/2-7   20 ELHNQPLVIDAENFAS-LCYRQATLRCEYGGEYLA---F----KRYIQLFLKKFRTCHVDPIF-VFGGCH-SKEGSKLDT   89 (724)
+Q Consensus        22 ELHNT~lViDAeNFi~-~~YR~sgL~~~YGGEYmd---F----~~~Vr~FLK~lrkCrIsPIF-vFDGCH-~keG~KL~t   91 (928)
+                      .++.+.++||+.|++. ..|-...-     |+...   +    ..+++.+++.+++++.+||+ +|||-+ +....++..
+T Consensus        10 ~~~~~~llIDg~~l~~~~~~~~~~~-----g~~~~~~~~r~~i~~~l~~l~~~~~~~~~~~iiv~fD~~~~~~~R~~~~p   84 (305)
+T 3H7I_A           10 DYKEGICLIDFSQIALSTALVNFPD-----KEKINLSMVRHLILNSIKFNVKKAKTLGYTKIVLCIDNAKSGYWRRDFAY   84 (305)
+T ss_dssp             CSSCCEEEEEHHHHHHHHHHHHSCS-----SSCCCHHHHHHHHHHHHHHHHHHHHHTTCCEEEEECCCCTTCCHHHHHST
+T ss_pred             CcCCcEEEEeCcHHHHHHHHhcCCC-----CCCCCHHHHHHHHHHHHHHHHHHHHHhCCCEEEEEEeCCCCCccHHHchH
+Confidence            4688999999999998 55533221     33333   2    34567777777889999966 599853 222333333
+
+
+Q CCD75246.1/2-7   90 LLKRNLENFNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACE-READISAAELAIYL-----  161 (724)
+Q Consensus        92 LLKRNreri~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCE-rEAD~~vAELAifL-----  165 (928)
+                      --|.||.....                +.......+.|. ....+.++|++.|++++.++ .|||--+|-||...     
+T Consensus        85 ~YK~nR~~~~~----------------~~~~~~~~~~~~-~~~~~~~~l~~~gi~~i~~~~~EADD~Ia~la~~~~~~~~  147 (305)
+T 3H7I_A           85 YYKKNRGKARE----------------ESTWDWEGYFES-SHKVIDELKAYMPYIVMDIDKYEANDHIAVLVKKFSLEGH  147 (305)
+T ss_dssp             TTTHHHHHHHH----------------HCSSCHHHHHHH-HHHHHHHHHHHSSSEEECCTTCCHHHHHHHHHHHHHHTTC
+T ss_pred             HHHhhccCCch----------------hcccCchhccch-hHHHHHHHHHhCCCeEEECCCCCHHHHHHHHHHHHHhCCC
+Confidence            34555543210                000011234444 45778899999999999865 59999999999985     
+
+
+Q CCD75246.1/2-7  162 QCPVTSGDSDFFIYRP  177 (724)
+Q Consensus       166 ~CPV~SnDSDFfIFRp  181 (928)
+                      .|.|+|+|+||+.+-.
+T Consensus       148 ~v~IvS~DkD~~ql~~  163 (305)
+T 3H7I_A          148 KILIISSDGDFTQLHK  163 (305)
+T ss_dssp             CEEEECSSCCCGGGGG
+T ss_pred             eEEEEECCCChHHhcc
+Confidence            7999999999999876
+
+
+No 33
+>2MDT_A Putative uncharacterized protein; hypothetical protein, UNKNOWN FUNCTION; NMR {Sulfolobus solfataricus}
+Probab=48.73  E-value=1.8  Score=37.59  Aligned_cols=75  Identities=20%  Similarity=0.152  Sum_probs=44.5  Template_Neff=4.800
+
+Q CCD75246.1/2-7   85 SKLDTLLKRNLENFNKLSSALRDVNSI--SNLNSLDLNIDITPRLCRHVLVEILRESSVRYIACE----READISAAELA  158 (724)
+Q Consensus        87 ~KL~tLLKRNreri~sLs~~L~~~~~~~~sd~d~~~~~pDI~P~L~~~v~~~IL~E~~v~yltCE----rEAD~~vAELA  162 (928)
+                      .||..+++++++.         .+....++..+..+...||-..|...  ++|+.   ..+-+.|    .++|..+-+||
+T Consensus        11 ~~~~~~~~~~~~~---------~~iitTn~vi~eik~~idl~~~L~~g--l~v~~---~a~k~gDl~~LS~~D~~llalA   76 (119)
+T 2MDT_A           11 GKLKEILGSNKNY---------KFVITTLGVSFAIKSGIDIDSALDRG--VIVRA---FSHKPPKVGNLPQYESEAIMVA   76 (119)
+T ss_dssp             TCHHHHHHHTCSS---------EEEECHHHHHHHHHHTCCCHHHHHHT--CEECC---CSCCCCCCSSSCHHHHHHHHHH
+T ss_pred             HHHHHHHhcCCCC---------EEEEECHHHHHHHHcCCChHHHHHhC--CeEEe---ecCCCCCcccCCHHHHHHHHHH
+Confidence            3666666665442         11222233344444445655555544  33333   1122223    78999999999
+
+
+Q CCD75246.1/2-7  159 IYLQCPVTSGDSD  171 (724)
+Q Consensus       163 ifL~CPV~SnDSD  175 (928)
+                      ..|+|.|++||-.
+T Consensus        77 ~el~a~lvTdD~~   89 (119)
+T 2MDT_A           77 FELNALLIAEDKD   89 (119)
+T ss_dssp             HHHTCEEECCSHH
+T ss_pred             HHcCCEEEeCCHH
+Confidence            9999999999854
+
+
+No 34
+>1O4W_A PIN AF0591; PIN (PILT N-TERMINUS) DOMAIN, STRUCTURAL; 1.9A {Archaeoglobus fulgidus} SCOP: c.120.1.1
+Probab=33.50  E-value=3.3  Score=33.06  Aligned_cols=30  Identities=27%  Similarity=0.246  Sum_probs=26.8  Template_Neff=9.000
+
+Q CCD75246.1/2-7  146 CEREADISAAELAIYLQCPVTSGDSDFFIY  175 (724)
+Q Consensus       150 CErEAD~~vAELAifL~CPV~SnDSDFfIF  179 (928)
                       |...+|..++.+|...+|+++|+|.+|--+
 T Consensus        95 ~~~~~D~~i~a~A~~~~~~LvT~D~~~~~~  124 (147)
 T 1O4W_A           95 TESEGDPSLIEAAEKYGCILITNDKELKRK  124 (147)
@@ -1058,13 +1180,13 @@ T ss_pred             CCCCCcHHHHHHHHHhCCEEEeCCHHHHHH
 Confidence            567899999999999999999999998653
 
 
-No 32
+No 35
 >6A7V_E Ribonuclease VapC11 (E.C.3.1.-.-), Antitoxin VapB11; VapBC, Endoribonuclease, tRNase, Rv1560-Rv1561, TOXIN; HET: 1PE, SO4; 1.67A {Mycobacterium tuberculosis H37Rv}
-Probab=25.36  E-value=5.1  Score=29.21  Aligned_cols=29  Identities=28%  Similarity=0.283  Sum_probs=25.3  Template_Neff=10.900
+Probab=24.11  E-value=5.4  Score=29.06  Aligned_cols=29  Identities=28%  Similarity=0.265  Sum_probs=25.2  Template_Neff=10.900
 
-Q snap_masked-jc  150 DGEADKSTAELAIFLDCPVLSNDSDFFLF  178 (705)
-Q Consensus       159 erEAD~~vAELAifL~CPV~SNDSDFfif  187 (847)
-                      -+..|...+..|...||++.|+|.||--+
+Q CCD75246.1/2-7  147 EREADISAAELAIYLQCPVTSGDSDFFIY  175 (724)
+Q Consensus       151 ErEAD~~vAELAifL~CPV~SnDSDFfIF  179 (928)
+                      -+..|...+..|...+|++.|+|.||--+
 T Consensus        99 ~~~~D~~~~a~A~~~~~~l~T~D~~~~~~  127 (139)
 T 6A7V_E           99 RSINDCLIAALAIRHGARIVHRDADFDVI  127 (139)
 T ss_dssp             SCHHHHHHHHHHHHHTCEEEECCHHHHHH
@@ -1072,13 +1194,13 @@ T ss_pred             CChhHHHHHHHHHHcCCEEEEcchhHHHH
 Confidence            36789999999999999999999998543
 
 
-No 33
+No 36
 >6A7V_C Ribonuclease VapC11 (E.C.3.1.-.-), Antitoxin VapB11; VapBC, Endoribonuclease, tRNase, Rv1560-Rv1561, TOXIN; HET: 1PE, SO4; 1.67A {Mycobacterium tuberculosis H37Rv}
-Probab=25.36  E-value=5.1  Score=29.21  Aligned_cols=29  Identities=28%  Similarity=0.283  Sum_probs=25.3  Template_Neff=10.900
+Probab=24.11  E-value=5.4  Score=29.06  Aligned_cols=29  Identities=28%  Similarity=0.265  Sum_probs=25.2  Template_Neff=10.900
 
-Q snap_masked-jc  150 DGEADKSTAELAIFLDCPVLSNDSDFFLF  178 (705)
-Q Consensus       159 erEAD~~vAELAifL~CPV~SNDSDFfif  187 (847)
-                      -+..|...+..|...||++.|+|.||--+
+Q CCD75246.1/2-7  147 EREADISAAELAIYLQCPVTSGDSDFFIY  175 (724)
+Q Consensus       151 ErEAD~~vAELAifL~CPV~SnDSDFfIF  179 (928)
+                      -+..|...+..|...+|++.|+|.||--+
 T Consensus        99 ~~~~D~~~~a~A~~~~~~l~T~D~~~~~~  127 (139)
 T 6A7V_C           99 RSINDCLIAALAIRHGARIVHRDADFDVI  127 (139)
 T ss_dssp             SCHHHHHHHHHHHHHTCEEEECCHHHHHH
@@ -1086,27 +1208,27 @@ T ss_pred             CChhHHHHHHHHHHcCCEEEEcchhHHHH
 Confidence            36789999999999999999999998543
 
 
-No 34
+No 37
 >3I8O_A KH domain-containing protein MJ1533; APC89320.5, Methanocaldococcus jannaschii DSM 2661; 2.638A {Methanocaldococcus jannaschii}
-Probab=23.57  E-value=6  Score=29.62  Aligned_cols=31  Identities=19%  Similarity=0.158  Sum_probs=27.4  Template_Neff=10.300
+Probab=22.99  E-value=6.2  Score=29.60  Aligned_cols=31  Identities=16%  Similarity=0.001  Sum_probs=27.4  Template_Neff=10.300
 
-Q snap_masked-jc  148 TCDGEADKSTAELAIFLDCPVLSNDSDFFLF  178 (705)
-Q Consensus       157 tCerEAD~~vAELAifL~CPV~SNDSDFfif  187 (847)
+Q CCD75246.1/2-7  145 ACEREADISAAELAIYLQCPVTSGDSDFFIY  175 (724)
+Q Consensus       149 tCErEAD~~vAELAifL~CPV~SnDSDFfIF  179 (928)
                       .+-...|...+.+|..+++++.|+|.||.-.
 T Consensus        89 ~~~~~~D~~i~a~A~~~~~~lvT~D~~~~~~  119 (142)
 T 3I8O_A           89 AKSGEIDAMIRKVAKETNSILLTSDWIQYNL  119 (142)
 T ss_dssp             CCSSSHHHHHHHHHHHTTCEEEESCHHHHHH
 T ss_pred             hcccchhHHHHHHHHHcCCEEEeCCHHHHHH
-Confidence            4667899999999999999999999998644
+Confidence            4667899999999999999999999998654
 
 
-No 35
+No 38
 >4V00_B MONOTREME LACTATING PROTEIN; ANTIMICROBIAL PROTEIN, NOVEL FOLD, MILK; HET: NAG, GOL; 1.82A {ORNITHORHYNCHUS ANATINUS}
-Probab=21.56  E-value=11  Score=37.73  Aligned_cols=27  Identities=7%  Similarity=0.457  Sum_probs=24.2  Template_Neff=4.300
+Probab=21.86  E-value=11  Score=38.01  Aligned_cols=27  Identities=4%  Similarity=0.224  Sum_probs=23.8  Template_Neff=4.300
 
-Q snap_masked-jc   10 LQQDPNNFSSFELHNTRVVIDAWNFIN   36 (705)
-Q Consensus        11 iqqdp~nFs~fELHNt~lViDAeNFi~   37 (847)
-                      -.+-|++|+.|-.+|+.+|||+|||-.
+Q CCD75246.1/2-7    9 IQSNSENFSPYELHNQPLVIDAENFAS   35 (724)
+Q Consensus        11 iqqdP~NFs~fELHNT~lViDAeNFi~   37 (928)
+                      -.+-|++|+.|-.+|..+|||+|||..
 T Consensus        34 W~~ap~~lsd~~v~~~~~iinpW~Y~e   60 (366)
 T 4V00_B           34 WDNAASTLDQLNGTDTTIILNGFNYLD   60 (366)
 T ss_dssp             GGGSCSSGGGSSBCSSEEEECTTBHHH
